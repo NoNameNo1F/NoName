@@ -61,7 +61,6 @@ public:
     void printCardShuffling(int deck[SUITS][FACES]){   
         stringstream writer; 
         for (auto num = 0; num < 52; num++){
-            int i = 0, j = 0; // i and j is stand for SUITS and FACES respectively
             for (auto i = 0; i < SUITS; i++){
                 for (auto j = 0; j < FACES; j++){
                     if (deck[i][j] = num) {
@@ -72,7 +71,7 @@ public:
         }
         cout << writer.str();
     }
-    
+
     int** dealingForHand(int deck[SUITS][FACES]){
         
     }  
