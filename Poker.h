@@ -1,8 +1,11 @@
 
+#ifndef _POKER_H_
+#define _POKER_H_
 void ChooseMenu();
 int Menu();
 void LoadingMenu();
 
+// Game play for one Player
 void printCardsShuffling(int deck[][], char* suits[], char* faces[]);
 
 int** dealingForHand(int deck[SUITS][FACES]);
@@ -51,3 +54,4 @@ three cards or not.
 
 5.???? Replace the decision making algorithm of the dealer to have different
 game levels(easy, medium and hard)*/
+#endif
