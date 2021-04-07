@@ -10,8 +10,6 @@ using namespace std;
 #define SUITS 4
 #define FACES 13
 
-
-
 class Random{
 private:
     Random(){
@@ -36,12 +34,12 @@ private:
     int win;
 public:
     Player() : hand(NULL), win(0) {}
-    virtual ~Player(){
-        for (int i = 0; i < 5; i++){
-            delete[] (hand + i);
-        }
-        delete[] hand;
-    };
+    // ~Player(){ // for later fix
+    //     for (int i = 0; i < 5; i++){
+    //         delete[] hand[i];
+    //     }
+    //     delete[] hand;
+    // };
 
     void setHand(int** hand){ this->hand = hand;}
     int** Hand(){return hand;}
@@ -51,28 +49,28 @@ public:
 
 class Dealer : public Player { //dealer also a player
 private:
-    Random shuffleBoard;
-    const char* Suits[SUITS] = {"Hearts", "Diamonds", "Clubs", "Spades"};
-    const char* Ranks[FACES] = { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen" "King" };
-    int deck[SUITS][FACES]; // deck[SUITS][FACES]= {};
+    int deck[SUITS][FACES];
 public:
-    Dealer() : shuffleBoard(Random::instance()), deck({}) {} // generate array fill with zero
-    ~Dealer(){
-        delete[] Suits;
-        delete[] Ranks;
+    Random shuffleBoard;
+public:
+    Dealer() : shuffleBoard(Random::instance()){
+        for (int i = 0; i < SUITS; i++){ // generate array fill with zero
+            for (int j = 0; j < FACES; j++){
+                deck[i][j] = -1;
+            }
+        }
     }
+    virtual ~Dealer(){}
 
     void shuffleCards(int (&deck)[SUITS][FACES]){
-        set<int> storeDealtCards;
-        for (auto i = 0; i < SUITS; i++){
-            for (auto j = 0; j < FACES; j++){
-                int pos = 0;
-                while (storeDealtCards.find(pos) != storeDealtCards.end()){
-                    pos = shuffleBoard.next(1, 52);
-                }
-                deck[i][j] = pos;
-                storeDealtCards.insert(pos);
+        for(auto i = 1; i <= 52; i++){
+            int ranSuits, ranFaces;
+            do{
+            ranSuits = shuffleBoard.next(0, 4);
+            ranFaces = shuffleBoard.next(0, 12);
             }
+            while(deck[ranSuits][ranFaces] != -1);
+            deck[ranSuits][ranFaces] = i;
         }
     }
 
@@ -90,6 +88,8 @@ public:
     }
 
     void printCardShuffling(int deck[SUITS][FACES]){   
+        string Suits[SUITS] = {"Hearts", "Diamonds", "Clubs", "Spades"};
+        string Ranks[FACES] = { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
         stringstream writer; 
         for (int num = 0; num < 52; num++){
             pair <int, int> cardName = searchCardPos(deck, num); 
@@ -119,23 +119,27 @@ public:
     }
 
     int*** dealingForHands(int deck[SUITS][FACES], int numberOfPlayers = 3){
-        int*** hands = NULL;
-        for (int i = 0; i < numberOfPlayers; i++){
-            *(hands + i) = dealingForHand(deck, i, numberOfPlayers);
+        int*** hands = new int**[numberOfPlayers];
+        for (int i = 0; i <= numberOfPlayers; i++){
+            *(hands + i) = dealingForHand(deck, i + 1, numberOfPlayers); // plus one for turn 
         }
         return hands;
     }
 
-    void dealing(Player* players[], int numberOfPlayers){
+    void dealing(Player** &players, int numberOfPlayers){
         shuffleCards(this->deck); //shuffle card
 
         int*** hands = dealingForHands(deck, numberOfPlayers);
 
-        for (int i = 1; i <= numberOfPlayers; i++){
-            int deckPos = this->shuffleBoard.next(numberOfPlayers); // player will receive random deck
+        bool storeDeck[numberOfPlayers] = {false};
+        for (int i = 0; i < numberOfPlayers; i++){
+            int deckPos;
+            do{
+                deckPos = this->shuffleBoard.next(numberOfPlayers); // player will receive random deck
+            }while(storeDeck[deckPos] == true);
+            storeDeck[deckPos] = true;
             int** hand = *(hands + deckPos);
             players[i]->setHand(hand); //player get cards
-
 
             hand = NULL; // maybe memory leak ???
             delete hand;
@@ -143,19 +147,24 @@ public:
     }
 
     void printHand(int** hand){
+        string Suits[SUITS] = {"Hearts", "Diamonds", "Clubs", "Spades"};
+        string Ranks[FACES] = { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
         stringstream writer;
         for (int i = 0; i < 5; i++){
-            writer << "(" << Suits[*( *(hand + i) + 0 )] /*suit*/ << ", " << Ranks[*( *(hand + i) + 1 )] /*rank*/ << ")\n";
+            int suitIndex = *(*(hand + i) + 0);
+            int rankIndex = *(*(hand + i) + 1);
+            writer << "(" << Suits[suitIndex] /*suit*/ << ", " << Ranks[rankIndex] /*rank*/ << ")\n";
         }
         cout << writer.str();
     }
 
-    map<string, int> countRank(int** hand){
-        map<string, int> dict;
+    map<int, int> countRank(int** hand){
+        map<int, int> dict;
         for(int i = 0; i < 5; i++){
-            string rank = Ranks[*( *(hand + i) + 1 )];
+            int rank = *( *(hand + i) + 1 );
             if (dict.find(rank) == dict.end()){
-                pair<string, int> obj = make_pair(rank, 1); // if dict doesn't have that rank, add that rank with num is 1
+                pair<int, int> obj = make_pair(rank, 1); // if dict doesn't have that rank, add that rank with num is 1
+                dict.insert(obj);
             }
             else{
                 dict[rank] += 1; // if found in dict then increase number
@@ -166,7 +175,7 @@ public:
 
     bool isFourOfAKind(int** hand){
         bool check = false;
-        map<string, int> dict = countRank(hand);
+        map<int, int> dict = countRank(hand);
         for (auto it : dict){
             if (it.second == 4 && dict.size() == 2) check = true;
             //two type of ranks, but one type has 4 cards then others will be one different rank
@@ -176,7 +185,7 @@ public:
 
     bool isFullHouse(int** hand){
         bool check = false;
-        map<string, int> dict = countRank(hand);
+        map<int, int> dict = countRank(hand);
         for (auto it : dict){
             if (it.second == 3 && dict.size() == 2) check = true; 
             //two type of ranks, but one type has 3 cards then others will be one different rank has 2 cards same rank
@@ -186,10 +195,11 @@ public:
 
     bool isFlush(int** hand){
         bool check = false;
-        string suit = Suits[* ( *(hand + 0) + 0 )]; //get suit of first card to check
+        int suit = * ( *(hand + 0) + 0 ); //get suit of first card to check
         for (int i = 1; i < 5; i++) { // don't have to chekc first suit
-            if (suit == Suits[* ( *(hand + i) + 0 )]){
-                check = true;
+            if (suit != * ( *(hand + i) + 0 )){
+                check = false;
+                break;
             }
         }
         return check;
@@ -217,7 +227,7 @@ public:
 
     bool isThreeOfAKind(int** hand){
         bool check = false;
-        map<string, int> dict = countRank(hand);
+        map<int, int> dict = countRank(hand);
         for (auto it : dict){
             if (it.second == 3 && dict.size() == 3) check = true; 
             //three type of ranks, but one type has 3 cards then others will be two different ranks
@@ -227,7 +237,7 @@ public:
 
     bool isTwoPairs(int** hand){
         bool check = false;
-        map<string, int> dict = countRank(hand);
+        map<int, int> dict = countRank(hand);
         int count = 0;
         for (auto it : dict){
             if (it.second == 2) count++; 
@@ -239,7 +249,7 @@ public:
 
     bool isPair(int** hand){
         bool check = false;
-        map<string, int> dict = countRank(hand);
+        map<int, int> dict = countRank(hand);
         for (auto it : dict){
             if (it.second == 2 && dict.size() == 4) check = true; 
             //four type of ranks, but one type has 2 cards then others will be three different ranks
@@ -317,12 +327,12 @@ public:
         // We will pop out max element instead of swap it with first element
 
         for (int i = 0; i < numberOfPlayers; i++){ // because we pop out elements so we have to run i to n instead of i to n-1
-            int max = result[0]; //get this status of first element of result
-            int index = 0;
-            for (int j = 1; j < result.size(); j++){
-                if (result[j] > max) {
-                    max = result[j];
-                    index = j;
+            int max = -1; //get this status of first element of result
+            int index = -1;
+            for (auto it : result){
+                if (it.second > max) {
+                    max = it.second;
+                    index = it.first;
                 }
             }
             leaderBoard[i] = index;
@@ -333,23 +343,24 @@ public:
         return leaderBoard;
     }
 
-    void showHands(Player* players[], int numberOfPlayers){
+    void showHands(Player** players, int numberOfPlayers){
         for (int i = 0; i < numberOfPlayers; i++){
-            cout << "Player " << i + 1 << ": ";
+            cout << "Player " << i + 1 << ": \n";
             printHand(players[i]->Hand());
         }
     }
 
-    void printWinners(Player* players[], int numberOfPlayers, vector<int> winnerList, int numberOfWinners){
+    void printWinners(Player** players, int numberOfPlayers, vector<int> winnerList, int numberOfWinners){
         stringstream writer;
+        writer << "Number of Winners: " << winnerList.size() << endl;
         for (int i = 0; i < numberOfWinners; i++){
-            writer << "Congrats player " << winnerList[i] << "\n";
+            writer << "Congrats player " << winnerList[i] + 1 << "\n";
         }
         cout << writer.str();
     }
 
-    void evaluateHands(Player* players[], int numberOfPlayers){
-        int*** hands = NULL;
+    void evaluateHands(Player** &players, int numberOfPlayers){
+        int*** hands = new int**[numberOfPlayers];
         for (int i = 0; i < numberOfPlayers; i++){
             *(hands + i) = players[i]->Hand(); 
         }
@@ -359,18 +370,21 @@ public:
         for (int j = 0; j < numberOfPlayers; j++){
             int index = leaderBoard[j];
             status[j] = getStatusOfHand(players[index]->Hand());
+            // cout << j + 1 << ":" << status[j] << "|"; 
+            // for check status
         }
 
         //count winners
         int numberOfWinners = 1;
         for (int j = 0; j < numberOfPlayers - 1; j++){
             if (status[j] == status[j + 1]) numberOfWinners++;
+            else break;
         }
 
         // set win status for player
         vector<int> winnerList;
         for(int k = 0; k < numberOfWinners; k++){
-            int index = leaderBoard[0];
+            int index = leaderBoard[k];
             players[index]->setWin();
             winnerList.push_back(index);
         }
@@ -387,15 +401,15 @@ private:
     Dealer* dealer;
 public:
     Table() : numberOfPlayers(1), players(NULL) {
-
+        dealer = new Dealer();
     }
-    ~Table(){
-        for (int i = 0; i < numberOfPlayers; i++){
-            delete (players + i);
-            delete[] players;
-            delete dealer;
-        }
-    }
+    // ~Table(){
+    //     for (int i = 0; i < numberOfPlayers; i++){
+    //         delete (players + i);
+    //         delete[] players;
+    //         delete dealer;
+    //     }
+    // }
 
     void setNumberOfPlayers(){
         cout << "Number of players: ";
@@ -404,12 +418,16 @@ public:
     int NumberOfPlayer(){return numberOfPlayers;}
 
     void createPlayers(){
+        setNumberOfPlayers();
         if (numberOfPlayers == 1) {
+            numberOfPlayers = 2; //include dealer
+            dealer = new Dealer();
             this->players = new Player*[2];
-            players[0] = new Dealer(); 
+            players[0] = dealer; 
             players[1] = new Player();
         }
         else {
+            dealer = new Dealer();          
             this->players = new Player*[numberOfPlayers];
             for (int i = 0; i < numberOfPlayers; i++){
                 players[i] = new Player();
@@ -418,6 +436,7 @@ public:
     }
 
     void playGame(){
+        createPlayers();
         dealer->dealing(players, numberOfPlayers);
         dealer->showHands(players, numberOfPlayers);
         dealer->evaluateHands(players, numberOfPlayers);
