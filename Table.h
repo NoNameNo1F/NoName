@@ -31,11 +31,6 @@ public:
     }
 };
 
-
-class Table{
-
-};
-
 class Player{
 private:
     int** hand;
@@ -132,7 +127,7 @@ public:
         return hands;
     }
 
-    void Dealing(Player* players[], int numberOfPlayers){
+    void dealing(Player* players[], int numberOfPlayers){
         shuffleCards(this->deck); //shuffle card
 
         int*** hands = dealingForHands(deck, numberOfPlayers);
@@ -154,10 +149,6 @@ public:
             writer << "(" << Suits[*( *(hand + i) + 0 )] /*suit*/ << ", " << Ranks[*( *(hand + i) + 1 )] /*rank*/ << ")\n";
         }
         cout << writer.str();
-    }
-
-    void printCardFromPlayer(Player* p){
-        printHand(p->Hand()); // get hand from player then print
     }
 
     map<string, int> countRank(int** hand){
@@ -344,7 +335,18 @@ public:
     }
 
     void showHands(Player* players[], int numberOfPlayers){
-        
+        for (int i = 0; i < numberOfPlayers; i++){
+            cout << "Player " << i + 1 << ": ";
+            printHand(players[i]->Hand());
+        }
+    }
+
+    void printWinners(Player* players[], int numberOfPlayers, vector<int> winnerList, int numberOfWinners){
+        stringstream writer;
+        for (int i = 0; i < numberOfWinners; i++){
+            writer << "Congrats player " << winnerList[i] << "\n";
+        }
+        cout << writer.str();
     }
 
     void evaluateHands(Player* players[], int numberOfPlayers){
@@ -367,10 +369,58 @@ public:
         }
 
         // set win status for player
+        vector<int> winnerList;
         for(int k = 0; k < numberOfWinners; k++){
             int index = leaderBoard[0];
             players[index]->setWin();
+            winnerList.push_back(index);
         }
+
+        printWinners(players, numberOfPlayers, winnerList, numberOfWinners);
     }
 
 };
+
+class Table{
+private:
+    int numberOfPlayers;
+    Player** players;
+    Dealer* dealer;
+public:
+    Table() : numberOfPlayers(1), players(NULL) {
+
+    }
+    ~Table(){
+        for (int i = 0; i < numberOfPlayers; i++){
+            delete (players + i);
+            delete[] players;
+            delete dealer;
+        }
+    }
+
+    void setNumberOfPlayers(){
+        cout << "Number of players: ";
+        cin >> numberOfPlayers;
+    }
+    int NumberOfPlayer(){return numberOfPlayers;}
+
+    void createPlayers(){
+        if (numberOfPlayers == 1) {
+            this->players = new Player*[2];
+            players[0] = new Dealer(); 
+            players[1] = new Player();
+        }
+        else {
+            this->players = new Player*[numberOfPlayers];
+            for (int i = 0; i < numberOfPlayers; i++){
+                players[i] = new Player();
+            }
+        }
+    }
+
+    void playGame(){
+        dealer->dealing(players, numberOfPlayers);
+        dealer->showHands(players, numberOfPlayers);
+        dealer->evaluateHands(players, numberOfPlayers);
+    }
+}; 
