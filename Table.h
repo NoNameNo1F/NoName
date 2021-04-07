@@ -1,8 +1,10 @@
 #pragma once
 #include <iostream>
 #include <sstream>
+#include <vector>
 #include <set>
 #include <map>
+#include <algorithm>
 #include <time.h>
 using namespace std;
 
@@ -37,9 +39,10 @@ class Table{
 class Player{
 private:
     int** hand;
+    int win;
 public:
-    Player() : hand(NULL) {}
-    ~Player(){
+    Player() : hand(NULL), win(0) {}
+    virtual ~Player(){
         for (int i = 0; i < 5; i++){
             delete[] (hand + i);
         }
@@ -48,9 +51,11 @@ public:
 
     void setHand(int** hand){ this->hand = hand;}
     int** Hand(){return hand;}
+    void setWin(){win++;}
+    int getWin(){return win;}
 };
 
-class Dealer{ //dealer also a player
+class Dealer : public Player { //dealer also a player
 private:
     Random shuffleBoard;
     const char* Suits[SUITS] = {"Hearts", "Diamonds", "Clubs", "Spades"};
@@ -99,7 +104,7 @@ public:
         cout << writer.str();
     }
 
-    int** dealingForHand(int deck[SUITS][FACES], int turn = 1, int numberOfPlayers = 1){ // turn to deal cards, default is there is only one player on table
+    int** dealingForHand(int deck[SUITS][FACES], int turn = 1, int numberOfPlayers = 2){ // turn to deal cards, default is there is only one player on table and a dealer
         int** hand = new int*[5]; // 5 card per player
         for (int i = 0; i < 5; i++){
             *(hand + i) = new int[2]; // first col present row of the matrix, second one present column of the matrix 
@@ -119,12 +124,28 @@ public:
         return hand;
     }
 
-    void Dealing(Player players[], int numberOfPlayers){
-        shuffleCards(this->deck); //shuffle card
-        for (int i = 1; i <= numberOfPlayers; i++){
-            int** hand = dealingForHand(deck, i, numberOfPlayers); //dealing for each player
-            players[i].setHand(hand); //player get cards
+    int*** dealingForHands(int deck[SUITS][FACES], int numberOfPlayers = 3){
+        int*** hands = NULL;
+        for (int i = 0; i < numberOfPlayers; i++){
+            *(hands + i) = dealingForHand(deck, i, numberOfPlayers);
         }
+        return hands;
+    }
+
+    void Dealing(Player* players[], int numberOfPlayers){
+        shuffleCards(this->deck); //shuffle card
+
+        int*** hands = dealingForHands(deck, numberOfPlayers);
+
+        for (int i = 1; i <= numberOfPlayers; i++){
+            int deckPos = this->shuffleBoard.next(numberOfPlayers); // player will receive random deck
+            int** hand = *(hands + deckPos);
+            players[i]->setHand(hand); //player get cards
+
+
+            hand = NULL; // maybe memory leak ???
+            delete hand;
+        } 
     }
 
     void printHand(int** hand){
@@ -135,8 +156,8 @@ public:
         cout << writer.str();
     }
 
-    void printCardFromPlayer(Player p){
-        printHand(p.Hand()); // get hand from player then print
+    void printCardFromPlayer(Player* p){
+        printHand(p->Hand()); // get hand from player then print
     }
 
     map<string, int> countRank(int** hand){
@@ -186,17 +207,17 @@ public:
 
     bool isStraight(int** hand){
         bool check = false;
-        int count = 0;
-        int indexRank = * ( *(hand + 0) + 1 ); // we only need index of rank from Ranks variable, we don't need its name
-        // Ex: rank "Ace" has index 0, we need 0 to check if that is sequential rank
-        for (int i = 1; i < 5; i++){
-            if (* ( *(hand + i) + 1 ) - indexRank == 1) { // sequential rank
-                indexRank = * ( *(hand + i) + 1 ); // then set indexRank to current Rank for next calculation
-                count++;
-            }
-            else break; // if not sequential rank then break
+        vector<int> arr; 
+        for (int i = 0; i < 5; i++){
+            arr.push_back(* ( *(hand + i) + 1) );
         }
-        if (count == 4) check = true; // De xet 5 la co rank tang dan, thi minh xet 4 cap xem no co hon nhau 1 don vi khong
+        sort(arr.begin(), arr.end());
+        for (int i = 0; i < 5; i++){
+            if (arr[i + 1] - arr[i] != 1) {
+                check = false;
+                break;
+            }
+        }
         return check;
     }
 
@@ -236,6 +257,120 @@ public:
         return check;
     }
 
-    int getHighestCard(int** hand){}
+    int getHighestCard(int** hand){
+        int highestCardPos = 0;
+        for (int i = 1; i < 5; i++){
+            int maxSuit = * ( *(hand + highestCardPos) + 0);
+            int maxRank = * ( *(hand + highestCardPos) + 1);
+            int currCardSuit = * ( *(hand + i) + 0);
+            int currCardRank = * ( *(hand + i) + 1);
+            if (currCardSuit > maxSuit) {
+                highestCardPos = i;
+            }
+            else if (currCardRank > maxRank){
+                highestCardPos = i;
+            }
+        }
+        return highestCardPos;
+    }
+
+    int getStatusOfHand(int** hand){
+        /*
+        1. Pair
+        2. TwoPairs
+        3. ThreeOfAKind
+        4. Straight
+        5. Flush
+        6. FullHouse
+        7. FourOfAKind
+        8. StraightFlush
+        0. None of above
+        */
+       int status = 0;
+       if (isStraigntFLush(hand) == true){
+           status = 8;
+       }
+       else if (isFourOfAKind(hand) == true){
+           status = 7;
+       }
+       else if (isFullHouse(hand) == true){
+           status = 6;
+       }
+       else if (isFlush(hand) == true){
+           status = 5;
+       }
+       else if (isStraight(hand) == true){
+           status = 4;
+       }
+       else if (isThreeOfAKind(hand) == true){
+           status = 3;
+       }
+       else if (isTwoPairs(hand) == true){
+           status = 2;
+       }
+       else if (isPair(hand) == true){
+           status = 1;
+       }
+       return status;
+    }
+
+    int* rankingHands(int*** hands, int numberOfPlayers){
+        int* leaderBoard = new int [numberOfPlayers];
+        map<int, int> result;
+        for (int i = 0; i < numberOfPlayers; i++){
+            int status = getStatusOfHand(*(hands + i));
+            pair<int, int> playerStatus = make_pair(i, status);
+            result.insert(playerStatus);
+        }
+        
+        /// INTERCHANGE SORT
+        // We will pop out max element instead of swap it with first element
+
+        for (int i = 0; i < numberOfPlayers; i++){ // because we pop out elements so we have to run i to n instead of i to n-1
+            int max = result[0]; //get this status of first element of result
+            int index = 0;
+            for (int j = 1; j < result.size(); j++){
+                if (result[j] > max) {
+                    max = result[j];
+                    index = j;
+                }
+            }
+            leaderBoard[i] = index;
+            result.erase(index);
+        }
+        ///
+
+        return leaderBoard;
+    }
+
+    void showHands(Player* players[], int numberOfPlayers){
+        
+    }
+
+    void evaluateHands(Player* players[], int numberOfPlayers){
+        int*** hands = NULL;
+        for (int i = 0; i < numberOfPlayers; i++){
+            *(hands + i) = players[i]->Hand(); 
+        }
+        int* leaderBoard = rankingHands(hands, numberOfPlayers);
+
+        int* status = new int [numberOfPlayers];// get status to check equal to split pot
+        for (int j = 0; j < numberOfPlayers; j++){
+            int index = leaderBoard[j];
+            status[j] = getStatusOfHand(players[index]->Hand());
+        }
+
+        //count winners
+        int numberOfWinners = 1;
+        for (int j = 0; j < numberOfPlayers - 1; j++){
+            if (status[j] == status[j + 1]) numberOfWinners++;
+        }
+
+        // set win status for player
+        for(int k = 0; k < numberOfWinners; k++){
+            int index = leaderBoard[0];
+            players[index]->setWin();
+        }
+    }
 
 };
