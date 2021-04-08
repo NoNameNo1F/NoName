@@ -1,5 +1,6 @@
 #pragma once
 #include "Random.h"
+#include "FakeName.h"
 #include <iostream>
 #include <sstream>
 #include <vector>
@@ -14,8 +15,10 @@ class Player{
 private:
     int** hand;
     int win;
+    int money;
+    string name;
 public:
-    Player() : hand(NULL), win(0) {}
+    Player() : hand(NULL), win(0), money(0), name(generateFakeName()) {}
     ~Player(){ 
         if (hand != NULL){ 
             // Dealer won't have cards if there is more than 2 players
@@ -30,6 +33,9 @@ public:
     int** Hand();
     void setWin();
     int getWin();
+    void setMoney(int money);
+    int Money();
+    string Name();
 };
 
 class Dealer : public Player { //dealer also a player
@@ -47,7 +53,11 @@ public:
     }
     virtual ~Dealer(){}
 
-    void shuffleCards(int (&deck)[SUITS][FACES]);
+    int betMoneyPlayers(Player** players, int numberOfPlayers);
+
+    void shuffleCards();
+
+    void resetCards();
 
     pair<int, int> searchCardPos(int deck[SUITS][FACES], int num);
 
@@ -87,8 +97,10 @@ public:
 
     void showHands(Player** players, int numberOfPlayers);
 
-    void printWinners(Player** players, int numberOfPlayers, vector<int> winnerList, int numberOfWinners);
+    void printWinners(Player** players, int numberOfPlayers, vector<int> winnerList, int numberOfWinners, int winMoney, int* status);
 
-    void evaluateHands(Player** &players, int numberOfPlayers);
+    void printPlayersMoney(Player** players, int numberOfPlayers);
+
+    void evaluateHands(Player** &players, int numberOfPlayers, int pot);
 
 };
