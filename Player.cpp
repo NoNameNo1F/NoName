@@ -130,7 +130,7 @@ void Dealer::printHand(int** hand){
 
 void Dealer::showHands(Player** players, int numberOfPlayers){
     for (int i = 0; i < numberOfPlayers; i++){
-        cout << "Player " << i + 1 << ": \n";
+        cout << "Player " << players[i]->Name() << ": \n";
         printHand(players[i]->Hand());
     }
 }
@@ -291,7 +291,8 @@ int* Dealer::rankingHands(int*** hands, int numberOfPlayers){
         int status = getStatusOfHand(*(hands + i));
         pair<int, int> playerStatus = make_pair(i, status);
 
-        cout << i << " " << status << "\n";
+        // cout << i << " " << status << "\n";
+        
 
         result.insert(playerStatus);
     }
