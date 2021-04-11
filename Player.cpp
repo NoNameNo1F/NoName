@@ -2,6 +2,36 @@
 
 /// Player
 
+Player::Player(const Player& other){
+    win = other.win;
+    money = other.money;
+    name = other.name;
+    for (int i = 0; i < 5; i++){
+        hand[i] = other.hand[i];
+    }
+}
+
+Player& Player::operator=(const Player& other){
+    win = other.win;
+    money = other.money;
+    name = other.name;
+    for (int i = 0; i < 5; i++){
+        hand[i] = other.hand[i];
+    }
+    return *this;
+}
+
+bool Player::operator== (const Player& other){
+    bool check = true;
+    if (win != other.win) check = false;
+    if (money != other.money) check = false;
+    if (name != other.name) check = false;
+    for (int i = 0; i < 5; i++){
+        if (hand[i] = other.hand[i]) check = false;
+    }
+    return check;
+}
+
 void Player::setHand(int** hand){ this->hand = hand;}
 
 int** Player::Hand(){return hand;}
@@ -16,6 +46,10 @@ int Player::Money(){return money;}
 
 string Player::Name(){return name;}
 
+int Player::HandStatus() {return handStatus;}
+    
+void Player::setHandStatus(int status){handStatus = status;}
+
 ///Dealer
 
 int Dealer::betMoneyPlayers(Player** players, int numberOfPlayers){
@@ -23,6 +57,7 @@ int Dealer::betMoneyPlayers(Player** players, int numberOfPlayers){
     for (int i = 0; i < numberOfPlayers; i++){
         int money;
         cout << "Player " << players[i]->Name() << ": How much money do you want to bet?: ";
+        if (players[i]->Money() > 0) cout << "(You are having " <<  players[i]->Money() << ") ";
         cin >> money;
         int playerMoney = players[i]->Money();
         players[i]->setMoney(playerMoney - money);
@@ -115,7 +150,7 @@ void Dealer::dealing(Player** &players, int numberOfPlayers){
         delete hand;
     } 
 }
-void Dealer::printHand(int** hand){
+string Dealer::printHand(int** hand){
     string Suits[SUITS] = {"Hearts", "Diamonds", "Clubs", "Spades"};
     string Ranks[FACES] = { "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
     stringstream writer;
@@ -125,14 +160,16 @@ void Dealer::printHand(int** hand){
         writer << "|(" << Suits[suitIndex] /*suit*/ << ", " << Ranks[rankIndex] /*rank*/ << ")|";      
     }
     writer << endl;
-    cout << writer.str();
+    return writer.str();
 }
 
-void Dealer::showHands(Player** players, int numberOfPlayers){
+string Dealer::showHands(Player** players, int numberOfPlayers){
+    stringstream writer;
     for (int i = 0; i < numberOfPlayers; i++){
-        cout << "Player " << players[i]->Name() << ": \n";
-        printHand(players[i]->Hand());
+        writer << "Player " << players[i]->Name() << ": \n";
+        writer << printHand(players[i]->Hand());
     }
+    return writer.str();
 }
 
 map<int, int> Dealer::countRank(int** hand){
@@ -315,45 +352,23 @@ int* Dealer::rankingHands(int*** hands, int numberOfPlayers){
     return leaderBoard;
 }
 
-void Dealer::printWinners(Player** players, int numberOfPlayers, vector<int> winnerList, int numberOfWinners, int winMoney, int* status){
-    vector<string> statusName = {"", "Pair", "TwoPairs", "ThreeOfAKind", "Straight", "Flush", "FullHouse", "FourOfAKind", "StraightFlush"};
-    stringstream writer;
-    writer << "Number of Winners: " << winnerList.size() << endl;
-    for (int i = 0; i < numberOfWinners; i++){
-        writer << "Congrats player " << players[winnerList[i]]->Name() << " got " << statusName[status[i]] << ", win " << winMoney << "\n";
-    }
-    cout << writer.str();
-}
-
-void Dealer::printPlayersMoney(Player** players, int numberOfPlayers){
-    stringstream writer;
-    for (int i = 0; i < numberOfPlayers; i++){
-        writer << "Player " << players[i]->Name() << ": " << players[i]->Money();
-        if (players[i]->Money() <= 0) {
-            writer << " (Kicked)";
-        }
-        writer << endl;
-    } 
-    cout << writer.str();
-}
-
-void Dealer::evaluateHands(Player** &players, int numberOfPlayers, int pot){
+vector<int> Dealer::evaluateHands(Player** &players, int numberOfPlayers, int pot){
     int*** hands = new int**[numberOfPlayers];
     for (int i = 0; i < numberOfPlayers; i++){
         *(hands + i) = players[i]->Hand(); 
     }
     int* leaderBoard = rankingHands(hands, numberOfPlayers);
-    int* status = new int [numberOfPlayers];// get status to check equal to split pot
     for (int j = 0; j < numberOfPlayers; j++){
-        int index = leaderBoard[j];
-        status[j] = getStatusOfHand(players[index]->Hand());
-        // cout << j + 1 << ":" << status[j] << "|"; 
+        int status = getStatusOfHand(players[j]->Hand());
+        players[j]->setHandStatus(status);
+
+        // cout << j << " " << status << " - " << players[j]->HandStatus() << "\n";
         // for check status
     }
     //count winners
     int numberOfWinners = 1;
-    for (int j = 0; j < numberOfPlayers - 1; j++){
-        if (status[j] == status[j + 1]) numberOfWinners++;
+    for (int j = 0; j < numberOfPlayers - 1; j++){ // compare numberOfPlayers - 1 pairs
+        if (players[leaderBoard[j]]->HandStatus() == players[leaderBoard[j + 1]]->HandStatus()) numberOfWinners++;
         else break;
     }
     // set win status for player
@@ -366,6 +381,6 @@ void Dealer::evaluateHands(Player** &players, int numberOfPlayers, int pot){
         players[index]->setMoney(playerMoney + winMoney);
         winnerList.push_back(index);
     }
-    printWinners(players, numberOfPlayers, winnerList, numberOfWinners, winMoney, status);
-    printPlayersMoney(players, numberOfPlayers);
+
+    return winnerList;
 }

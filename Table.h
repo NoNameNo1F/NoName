@@ -2,6 +2,7 @@
 #include "Player.h"
 #include "FakeDeck.h"
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -18,6 +19,7 @@ public:
     };
     ~Table(){
         for (int i = 0; i < numberOfPlayers; i++){
+            players[i] = NULL;
             delete (players + i);
 
         }
@@ -39,6 +41,8 @@ public:
 
     void createPlayers();
 
+    void createPlayers(vector<Player*> continuePlayersList);
+
     void printPlayersName();
 
     void setMoneyPlayers();
@@ -47,5 +51,13 @@ public:
 
     void playGame();
 
+    string printWinners(vector<int> winnerList);
+
+    string printPlayersMoney();
+
+    void logging(vector<int> winnerList);
+
     void kickPlayers();
+
+    vector<Player*>  savePlayersAndResetTable();
 };

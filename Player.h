@@ -17,8 +17,9 @@ private:
     int win;
     int money;
     string name;
+    int handStatus;
 public:
-    Player() : hand(NULL), win(0), money(0), name(generateFakeName()) {}
+    Player() : hand(NULL), win(0), money(0), name(generateFakeName()), handStatus(-1) {}
     ~Player(){ 
         if (hand != NULL){ 
             // Dealer won't have cards if there is more than 2 players
@@ -28,6 +29,9 @@ public:
             delete[] hand;
         }
     };
+    Player(const Player& other);
+    Player& operator= (const Player& other);
+    bool operator== (const Player& other);
 
     void setHand(int** hand);
     int** Hand();
@@ -36,6 +40,8 @@ public:
     void setMoney(int money);
     int Money();
     string Name();
+    int HandStatus();
+    void setHandStatus(int status);
 };
 
 class Dealer : public Player { //dealer also a player
@@ -69,7 +75,7 @@ public:
 
     void dealing(Player** &players, int numberOfPlayers);
 
-    void printHand(int** hand);
+    string printHand(int** hand);
 
     map<int, int> countRank(int** hand);
 
@@ -95,12 +101,8 @@ public:
 
     int* rankingHands(int*** hands, int numberOfPlayers);
 
-    void showHands(Player** players, int numberOfPlayers);
+    string showHands(Player** players, int numberOfPlayers);
 
-    void printWinners(Player** players, int numberOfPlayers, vector<int> winnerList, int numberOfWinners, int winMoney, int* status);
-
-    void printPlayersMoney(Player** players, int numberOfPlayers);
-
-    void evaluateHands(Player** &players, int numberOfPlayers, int pot);
+    vector<int> evaluateHands(Player** &players, int numberOfPlayers, int pot);
 
 };
