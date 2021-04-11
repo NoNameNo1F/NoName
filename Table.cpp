@@ -192,6 +192,7 @@ void Table::playGame(){
         setMoneyPlayers();
         int round = Round();
         for (int i = 0; i < round; i++){
+            cout << " \n --NEW ROUND-- \n";
             setPot(dealer->betMoneyPlayers(players, numberOfPlayers));
             dealer->dealing(players, numberOfPlayers);
             dealer->setHand(generateFakeDeck(3));
@@ -210,11 +211,10 @@ void Table::playGame(){
         cout << "\n --END GAME-- \n";
         continuePlayersList = savePlayersAndResetTable();
         delete[] *(&players); 
-        // free memory for pointer point to players because we create a new one each game. We don't have to 
-        // worry about players's memory because, if we store continue players and free memory who chose 
-        // don't want to continue
+        // free memory for pointer which point to array of players because we create a new one each game. We don't have to 
+        // worry about players's memory because if we stored continue players and freed memory those who chose 
+        // didn't want to continue
     }
     while(continuePlayersList.size() > 0);
-
-
+    cout << "\n GAME ENDED DUE TO NO PLAYER LEFT ON THE TABLE\n";
 }

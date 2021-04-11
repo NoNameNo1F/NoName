@@ -1,0 +1,33 @@
+Player Huy: 
+|(Diamonds, Four)||(Hearts, Eight)||(Diamonds, Queen)||(Spades, Eight)||(Diamonds, Eight)|
+Player Tuan: 
+|(Diamonds, Three)||(Spades, Three)||(Hearts, Nine)||(Diamonds, King)||(Spades, Ten)|
+Number of Winners: 1
+Congrats player Huy got ThreeOfAKind, win 145
+Player Huy: 145
+Player Tuan: 5
+Player Quan: 
+|(Clubs, Two)||(Diamonds, Five)||(Hearts, Queen)||(Spades, Four)||(Clubs, Five)|
+Player Huy: 
+|(Diamonds, Four)||(Spades, Nine)||(Clubs, Nine)||(Diamonds, Jack)||(Hearts, Seven)|
+Player Huy: 
+|(Diamonds, Ten)||(Diamonds, Queen)||(Clubs, Ten)||(Spades, Eight)||(Diamonds, Three)|
+Number of Winners: 3
+Congrats player Quan got Pair, win 65
+Congrats player Huy got Pair, win 65
+Congrats player Huy got Pair, win 65
+Player Quan: 115
+Player Huy: 110
+Player Huy: 110
+Player Quan: 
+|(Clubs, Jack)||(Hearts, Four)||(Hearts, Eight)||(Spades, Jack)||(Spades, Queen)|
+Player Huy: 
+|(Diamonds, Six)||(Clubs, Ace)||(Clubs, Seven)||(Diamonds, Queen)||(Hearts, King)|
+Player Huy: 
+|(Hearts, Two)||(Hearts, Ace)||(Diamonds, King)||(Spades, Eight)||(Spades, Two)|
+Number of Winners: 2
+Congrats player Quan got Pair, win 105
+Congrats player Huy got , win 105
+Player Quan: 120
+Player Huy: 60
+Player Huy: 155
