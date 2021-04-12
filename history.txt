@@ -31,3 +31,35 @@ Congrats player Huy got , win 105
 Player Quan: 120
 Player Huy: 60
 Player Huy: 155
+Player Phuc: 
+|(Hearts, Three)||(Clubs, Three)||(Diamonds, Three)||(Spades, Four)||(Hearts, Six)|
+Player Phuc: 
+|(Spades, Three)||(Clubs, Six)||(Diamonds, Nine)||(Spades, Ace)||(Hearts, Six)|
+Number of Winners: 1
+Congrats player Phuc got ThreeOfAKind, win 0
+Player Phuc: 100000000
+Player Phuc: 1000
+Player Phuc: 
+|(Hearts, Three)||(Clubs, Three)||(Diamonds, Three)||(Spades, Four)||(Hearts, Six)|
+Player Phuc: 
+|(Clubs, Ace)||(Clubs, Eight)||(Clubs, Queen)||(Hearts, Ace)||(Spades, King)|
+Number of Winners: 1
+Congrats player Phuc got ThreeOfAKind, win 0
+Player Phuc: 100000000
+Player Phuc: 1000
+Player An: 
+|(Hearts, Three)||(Clubs, Three)||(Diamonds, Three)||(Spades, Four)||(Hearts, Six)|
+Player Tuan: 
+|(Spades, King)||(Spades, Ace)||(Hearts, King)||(Spades, Three)||(Clubs, Ace)|
+Number of Winners: 1
+Congrats player An got ThreeOfAKind, win 10000
+Player An: 100005000
+Player Tuan: 5000
+Player An: 
+|(Hearts, Three)||(Clubs, Three)||(Diamonds, Three)||(Spades, Four)||(Hearts, Six)|
+Player Tuan: 
+|(Diamonds, Jack)||(Spades, Ten)||(Hearts, Queen)||(Hearts, Ten)||(Diamonds, Nine)|
+Number of Winners: 1
+Congrats player An got ThreeOfAKind, win 10000
+Player An: 100010000
+Player Tuan: 0 (Kicked)

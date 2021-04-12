@@ -51,6 +51,7 @@ public:
     Random shuffleBoard;
 public:
     Dealer() : shuffleBoard(Random::instance()){
+        setMoney(100000000);
         for (int i = 0; i < SUITS; i++){ // generate array fill with zero
             for (int j = 0; j < FACES; j++){
                 deck[i][j] = -1;
