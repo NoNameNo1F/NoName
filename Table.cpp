@@ -109,7 +109,7 @@ void Table::setGameRound(){
 }
 
 string Table::printWinners(vector<int> winnerList){
-    vector<string> statusName = {"", "Pair", "TwoPairs", "ThreeOfAKind", "Straight", "Flush", "FullHouse", "FourOfAKind", "StraightFlush"};
+    vector<string> statusName = {"normal Cards", "Pair", "TwoPairs", "ThreeOfAKind", "Straight", "Flush", "FullHouse", "FourOfAKind", "StraightFlush"};
     stringstream writer;
     writer << "Number of Winners: " << winnerList.size() << endl;
     for (int i = 0; i < winnerList.size(); i++){
