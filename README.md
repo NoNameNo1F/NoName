@@ -1,8 +1,9 @@
 GAMEPLAY
-- First, enter number of players. If there is only one player,
+- First, enter default bet value. This will keep until the table is closed.
+- Second, enter number of players. If there is only one player,
 dealer will play with you.
 - Next step, each players will enter their money and how much money they
-gonna bet, all the money is put into a pot of money. (Dealer will bet the same money as player).
+gonna bet (if default bet is zero), all the money is put into a pot of money. (Dealer will bet the same money as player).
 - After that, dealer will rank hands, show player's cards and give 
 money to winners (Game rule is simple, if many players got the same rank, they will split the pot). 
 If players's money is zero or below, they will be kicked out of table.

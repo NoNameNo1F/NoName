@@ -214,7 +214,7 @@ void Table::playGame(){
                 setPot(dealer->setMoneyBet(players, numberOfPlayers));
             }
             dealer->dealing(players, numberOfPlayers);
-            dealer->setHand(generateFakeDeck(3));
+            // dealer->setHand(generateFakeDeck(3));
             // Test rankingHands fucntion, input number of player = 1 then dealer will have card to play
             cout << dealer->showHands(players, numberOfPlayers);
             vector<int> winnerList = dealer->evaluateHands(players, numberOfPlayers, pot);
