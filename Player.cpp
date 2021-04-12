@@ -52,7 +52,7 @@ void Player::setHandStatus(int status){handStatus = status;}
 
 ///Dealer
 
-int Dealer::betMoneyPlayers(Player** players, int numberOfPlayers){
+int Dealer::setMoneyBet(Player** players, int numberOfPlayers){
     int pot = 0;
     for (int i = 0; i < numberOfPlayers; i++){
         if (players[i] == this) continue; // dealer will bet the same as player
@@ -67,6 +67,22 @@ int Dealer::betMoneyPlayers(Player** players, int numberOfPlayers){
             int playerMoney = players[0]->Money(); // set dealer's money
             players[0]->setMoney(playerMoney - money);
             pot += money;
+        }
+    }
+    return pot;
+}
+
+int Dealer::setMoneyBetWithDefaultBet(Player** players, int numberOfPlayers, int defaultBet){
+    int pot = 0;
+    for (int i = 0; i < numberOfPlayers; i++){
+        if (players[i] == this) continue; // dealer will bet the same as player
+        int playerMoney = players[i]->Money();
+        players[i]->setMoney(playerMoney - defaultBet);
+        pot += defaultBet;
+        if (players[0] == this){
+            int playerMoney = players[0]->Money(); // set dealer's money
+            players[0]->setMoney(playerMoney - defaultBet);
+            pot += defaultBet;
         }
     }
     return pot;

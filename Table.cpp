@@ -10,9 +10,22 @@ void Table::setPot(int money){pot = money;}
 
 int Table::Pot() {return pot;}
 
+void Table::setDefaultBet(int money){defaultBet = money;}
+
+int Table::DefaultBet(){return defaultBet;}
+
 void Table::setRound(int rounds) {round = rounds;}
 
 int Table::Round() {return round;}
+
+void Table::setTableDefaultBet(){
+    int defaultBet;
+    cout << "Default Bet: ";
+    cin >> defaultBet;
+    if (defaultBet > 0){
+        setDefaultBet(defaultBet);
+    }
+}
 
 void Table::createPlayers(){
     setNumberOfPlayers();
@@ -182,6 +195,7 @@ vector<Player*> Table::savePlayersAndResetTable(){
 
 void Table::playGame(){
     vector<Player*> continuePlayersList;
+    setTableDefaultBet();
     do {
         if (continuePlayersList.size() > 0){
             createPlayers(continuePlayersList);
@@ -193,7 +207,12 @@ void Table::playGame(){
         int round = Round();
         for (int i = 0; i < round; i++){
             cout << " \n --NEW ROUND-- \n";
-            setPot(dealer->betMoneyPlayers(players, numberOfPlayers));
+            if (DefaultBet() > 0){
+                setPot(dealer->setMoneyBetWithDefaultBet(players, numberOfPlayers, DefaultBet())); //pot will carry default
+            }
+            else {
+                setPot(dealer->setMoneyBet(players, numberOfPlayers));
+            }
             dealer->dealing(players, numberOfPlayers);
             dealer->setHand(generateFakeDeck(3));
             // Test rankingHands fucntion, input number of player = 1 then dealer will have card to play
@@ -210,7 +229,7 @@ void Table::playGame(){
         }
         cout << "\n --END GAME-- \n";
         continuePlayersList = savePlayersAndResetTable();
-        delete[] *(&players); 
+        // delete[] *(&players); 
         // free memory for pointer which point to array of players because we create a new one each game. We don't have to 
         // worry about players's memory because if we stored continue players and freed memory those who chose 
         // didn't want to continue

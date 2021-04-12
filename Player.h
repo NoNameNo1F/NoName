@@ -60,7 +60,9 @@ public:
     }
     virtual ~Dealer(){}
 
-    int betMoneyPlayers(Player** players, int numberOfPlayers);
+    int setMoneyBet(Player** players, int numberOfPlayers);
+
+    int setMoneyBetWithDefaultBet(Player** players, int numberOfPlayers, int defaultBet);
 
     void shuffleCards();
 

@@ -13,23 +13,28 @@ private:
     Player** players;
     Dealer* dealer;
     int pot;
+    int defaultBet;
 public:
-    Table() : numberOfPlayers(1), players(NULL), pot(0), round(0) {
+    Table() : numberOfPlayers(1), players(NULL), pot(0), defaultBet(0), round(0) {
         dealer = new Dealer();
     };
     ~Table(){
-        for (int i = 0; i < numberOfPlayers; i++){
-            players[i] = NULL;
-            delete (players + i);
+        // for (int i = 0; i < numberOfPlayers; i++){
+        //     players[i] = NULL;
+        //     delete (players + i);
 
-        }
-        delete[] players;
-        delete dealer;
+        // }
+        // delete[] players;
+        // delete dealer;
     }
 
     void setPot(int money);
 
     int Pot();
+
+    void setDefaultBet(int money);
+
+    int DefaultBet();
 
     void setRound(int round);
 
@@ -38,6 +43,8 @@ public:
     void setNumberOfPlayers();
 
     int NumberOfPlayer();
+
+    void setTableDefaultBet();
 
     void createPlayers();
 
