@@ -28,6 +28,8 @@ public:
         // delete dealer;
     }
 
+    void Menu();
+    
     void setPot(int money);
 
     int Pot();
