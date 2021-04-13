@@ -1,8 +1,62 @@
 #include "Table.h"
+void Table::Menu() {
+    //set colour
+    HANDLE hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
 
+    // SetConsoleTextAttribute(hStdout, 7);
+    fstream file1("C:\\Users\\Admin\\Documents\\intro_poker.txt", ios::in);
+    stringstream writer;
+    string Line;
+
+    if (file1.fail()) {
+        cout << "Can't open file \n";
+    }
+    else {
+        while (!file1.eof()) {
+            //getline(file1, writer);
+            getline(file1, Line);
+            for (int i = 0; i < Line.size(); i++) {
+
+                if (Line[i] == 'P') {
+                    SetConsoleTextAttribute(hStdout, 1);
+                    cout << Line[i];
+
+                }
+                else if (Line[i] == 'O') {
+                    SetConsoleTextAttribute(hStdout, 2);
+                    cout << Line[i];
+                }
+                else if (Line[i] == 'K') {
+                    SetConsoleTextAttribute(hStdout, 3);
+                    cout << Line[i];
+                }
+                else if (Line[i] == 'E') {
+                    SetConsoleTextAttribute(hStdout, 4);
+                    cout << Line[i];
+                }
+                else if (Line[i] == 'R') {
+                    SetConsoleTextAttribute(hStdout, 5);
+                    cout << Line[i];
+                }
+                else {
+                    SetConsoleTextAttribute(hStdout, 7);
+                    cout << Line[i];
+                }
+            }
+
+            //}
+            cout << endl;
+        }
+        //cout << writer.str();
+        file1.close();
+    }
+}
 void Table::setNumberOfPlayers(){
     cout << "Number of players: ";
     cin >> numberOfPlayers;
+    while (numberOfPlayers == 0) {
+        setNumberOfPlayers();
+    }
 }
 int Table::NumberOfPlayer(){return numberOfPlayers;}
 
