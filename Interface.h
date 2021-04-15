@@ -10,16 +10,6 @@ void ShowCur(bool CursorVisibility);
 
 void Menu();
 
-/*void move(int x, int y);
-
-void moveRight();
-
-void moveLeft();
-
-void moveUp();
-
-void moveDown();*/
-
 void GamePlay();
 
 void MoveCenter();

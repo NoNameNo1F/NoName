@@ -3,18 +3,18 @@
 /// Player
 
 Player::Player(const Player& other) {
-    win = other.win;
-    money = other.money;
-    name = other.name;
+    _win = other._win;
+    _money = other._money;
+    _name = other._name;
     for (int i = 0; i < 5; i++) {
         _hand[i] = other._hand[i];
     }
 }
 
 Player& Player::operator=(const Player& other) {
-    win = other.win;
-    money = other.money;
-    name = other.name;
+    _win = other._win;
+    _money = other._money;
+    _name = other._name;
     for (int i = 0; i < 5; i++) {
         _hand[i] = other._hand[i];
     }
@@ -23,69 +23,69 @@ Player& Player::operator=(const Player& other) {
 
 bool Player::operator== (const Player& other) {
     bool check = true;
-    if (win != other.win) check = false;
-    if (money != other.money) check = false;
-    if (name != other.name) check = false;
+    if (_win != other._win) check = false;
+    if (_money != other._money) check = false;
+    if (_name != other._name) check = false;
     for (int i = 0; i < 5; i++) {
         if (_hand[i] = other._hand[i]) check = false;
     }
     return check;
 }
 
-void Player::setHand(int** hand) { this->_hand = hand; }
+void Player::setHand(int** _hand) { this->_hand = _hand; }
 
 int** Player::Hand() { return _hand; }
 
-void Player::setWin() { win++; }
+void Player::setWin() { _win++; }
 
-int Player::getWin() { return win; }
+int Player::getWin() { return _win; }
 
-void Player::setMoney(unsigned int money) { this->money = money; }
+void Player::setMoney(unsigned int _money) { this->_money = _money; }
 
-unsigned int Player::Money() { return money; }
+unsigned int Player::Money() { return _money; }
 
-string Player::Name() { return name; }
+string Player::Name() { return _name; }
 
-int Player::HandStatus() { return handStatus; }
+int Player::HandStatus() { return _handStatus; }
 
-void Player::setHandStatus(int status) { handStatus = status; }
+void Player::setHandStatus(int status) { _handStatus = status; }
 
 ///Dealer
 
-int Dealer::setMoneyBet(Player** players, int numberOfPlayers) {
-    int pot = 0;
-    for (int i = 0; i < numberOfPlayers; i++) {
-        if (players[i] == this) continue; // dealer will bet the same as player
-        unsigned int money;
-        cout << "Player " << players[i]->Name() << ": How much money do you want to bet?: ";
-        if (players[i]->Money() > 0) cout << "(You are having " << players[i]->Money() << ") ";
-        cin >> money;
-        int playerMoney = players[i]->Money();
-        players[i]->setMoney(playerMoney - money);
-        pot += money;
-        if (players[0] == this) {
-            unsigned int playerMoney = players[0]->Money(); // set dealer's money
-            players[0]->setMoney(playerMoney - money);
-            pot += money;
+int Dealer::setMoneyBet(Player** _players, int _numberOfPlayers) {
+    int _pot = 0;
+    for (int i = 0; i < _numberOfPlayers; i++) {
+        if (_players[i] == this) continue; // dealer will bet the same as player
+        unsigned int _money;
+        cout << "Player " << _players[i]->Name() << ": How much money do you want to bet?: ";
+        if (_players[i]->Money() > 0) cout << "(You are having " << _players[i]->Money() << ") ";
+        cin >> _money;
+        int playerMoney = _players[i]->Money();
+        _players[i]->setMoney(playerMoney - _money);
+        _pot += _money;
+        if (_players[0] == this) {
+            unsigned int playerMoney = _players[0]->Money(); // set dealer's money
+            _players[0]->setMoney(playerMoney - _money);
+            _pot += _money;
         }
     }
-    return pot;
+    return _pot;
 }
 
-int Dealer::setMoneyBetWithDefaultBet(Player** players, int numberOfPlayers, int defaultBet) {
-    int pot = 0;
-    for (int i = 0; i < numberOfPlayers; i++) {
-        if (players[i] == this) continue; // dealer will bet the same as player
-        unsigned int playerMoney = players[i]->Money();
-        players[i]->setMoney(playerMoney - defaultBet);
-        pot += defaultBet;
-        if (players[0] == this) {
-            unsigned int playerMoney = players[0]->Money(); // set dealer's money
-            players[0]->setMoney(playerMoney - defaultBet);
-            pot += defaultBet;
+int Dealer::setMoneyBetWithDefaultBet(Player** _players, int _numberOfPlayers, int _defaultBet) {
+    int _pot = 0;
+    for (int i = 0; i < _numberOfPlayers; i++) {
+        if (_players[i] == this) continue; // dealer will bet the same as player
+        unsigned int playerMoney = _players[i]->Money();
+        _players[i]->setMoney(playerMoney - _defaultBet);
+        _pot += _defaultBet;
+        if (_players[0] == this) {
+            unsigned int playerMoney = _players[0]->Money(); // set dealer's money
+            _players[0]->setMoney(playerMoney - _defaultBet);
+            _pot += _defaultBet;
         }
     }
-    return pot;
+    return _pot;
 }
 
 void Dealer::shuffleCards() {
@@ -130,74 +130,74 @@ void Dealer::printCardShuffling(int deck[SUITS][FACES]) {
     }
     cout << writer.str();
 }
-int** Dealer::dealingForHand(int deck[SUITS][FACES], int turn, int numberOfPlayers) { // turn to deal cards, default is there is only one player on table and a dealer
-    int** hand = new int* [5]; // 5 card per player
+int** Dealer::dealingForHand(int deck[SUITS][FACES], int turn, int _numberOfPlayers) { // turn to deal cards, default is there is only one player on table and a dealer
+    int** _hand = new int* [5]; // 5 card per player
     for (int i = 0; i < 5; i++) {
-        *(hand + i) = new int[2]; // first col present row of the matrix, second one present column of the matrix 
+        *(_hand + i) = new int[2]; // first col present row of the matrix, second one present column of the matrix 
     }
     //assign cards
     int pos = turn;
     for (int j = 0; j < 5; j++) { // hand will have 5 cards
         pair <int, int> cardName = searchCardPos(deck, pos);
-        int* card = *(hand + j); // present card details
+        int* card = *(_hand + j); // present card details
         *(card + 0) = cardName.first; // suit
         *(card + 1) = cardName.second; // faces
         // free memory of temp card variable
         card = NULL;
         delete[] card;
-        pos += numberOfPlayers; // Ex: 1, 5, 9, 13, 17
+        pos += _numberOfPlayers; // Ex: 1, 5, 9, 13, 17
     }
-    return hand;
+    return _hand;
 }
-int*** Dealer::dealingForHands(int deck[SUITS][FACES], int numberOfPlayers) {
-    int*** hands = new int** [numberOfPlayers];
-    for (int i = 0; i <= numberOfPlayers; i++) {
-        *(hands + i) = dealingForHand(deck, i + 1, numberOfPlayers); // plus one for turn 
+int*** Dealer::dealingForHands(int deck[SUITS][FACES], int _numberOfPlayers) {
+    int*** hands = new int** [_numberOfPlayers];
+    for (int i = 0; i <= _numberOfPlayers; i++) {
+        *(hands + i) = dealingForHand(deck, i + 1, _numberOfPlayers); // plus one for turn 
     }
     return hands;
 }
-void Dealer::dealing(Player**& players, int numberOfPlayers) {
+void Dealer::dealing(Player**& _players, int _numberOfPlayers) {
     shuffleCards(); //shuffle card
-    int*** hands = dealingForHands(deck, numberOfPlayers);
-    vector<bool> storeDeck(numberOfPlayers, false );
-    for (int i = 0; i < numberOfPlayers; i++) {
+    int*** hands = dealingForHands(deck, _numberOfPlayers);
+    vector<bool> storeDeck(_numberOfPlayers, false );
+    for (int i = 0; i < _numberOfPlayers; i++) {
         int deckPos;
         do {
-            deckPos = this->shuffleBoard.next(numberOfPlayers); // player will receive random deck
+            deckPos = this->shuffleBoard.next(_numberOfPlayers); // player will receive random deck
         } while (storeDeck[deckPos] == true);
         storeDeck[deckPos] = true;
-        int** hand = *(hands + deckPos);
-        players[i]->setHand(hand); //player get cards
-        hand = NULL; // maybe memory leak ???
-        delete hand;
+        int** _hand = *(hands + deckPos);
+        _players[i]->setHand(_hand); //player get cards
+        _hand = NULL; // maybe memory leak ???
+        delete _hand;
     }
 }
-string Dealer::printHand(int** hand) {
+string Dealer::printHand(int** _hand) {
     string Suits[SUITS] = { "Co", "Ro", "Chuon", "Bich" };
     string Ranks[FACES] = { "A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K" };
     stringstream writer;
     for (int i = 0; i < 5; i++) {
-        int suitIndex = *(*(hand + i) + 0);
-        int rankIndex = *(*(hand + i) + 1);
+        int suitIndex = *(*(_hand + i) + 0);
+        int rankIndex = *(*(_hand + i) + 1);
         writer << "|(" << Suits[suitIndex] /*suit*/ << ", " << Ranks[rankIndex] /*rank*/ << ")|";
     }
     writer << endl;
     return writer.str();
 }
 
-string Dealer::showHands(Player** players, int numberOfPlayers) {
+string Dealer::showHands(Player** _players, int _numberOfPlayers) {
     stringstream writer;
-    for (int i = 0; i < numberOfPlayers; i++) {
-        writer << "Player " << players[i]->Name() << ": \n";
-        writer << printHand(players[i]->Hand());
+    for (int i = 0; i < _numberOfPlayers; i++) {
+        writer << "Player " << _players[i]->Name() << ": \n";
+        writer << printHand(_players[i]->Hand());
     }
     return writer.str();
 }
 
-map<int, int> Dealer::countRank(int** hand) {
+map<int, int> Dealer::countRank(int** _hand) {
     map<int, int> dict;
     for (int i = 0; i < 5; i++) {
-        int rank = *(*(hand + i) + 1);
+        int rank = *(*(_hand + i) + 1);
         if (dict.find(rank) == dict.end()) {
             pair<int, int> obj = make_pair(rank, 1); // if dict doesn't have that rank, add that rank with num is 1
             dict.insert(obj);
@@ -208,30 +208,30 @@ map<int, int> Dealer::countRank(int** hand) {
     }
     return dict;
 }
-bool Dealer::isFourOfAKind(int** hand) {
+bool Dealer::isFourOfAKind(int** _hand) {
     bool check = false;
-    map<int, int> dict = countRank(hand);
+    map<int, int> dict = countRank(_hand);
     for (auto it : dict) {
         if (it.first == 4 && dict.size() == 2) check = true;
         //two type of ranks, but one type has 4 cards then others will be one different rank
     }
     return check;
 }
-bool Dealer::isFullHouse(int** hand) {
+bool Dealer::isFullHouse(int** _hand) {
     bool check = false;
-    map<int, int> dict = countRank(hand);
+    map<int, int> dict = countRank(_hand);
     for (auto it : dict) {
         if (it.first == 3 && dict.size() == 2) check = true;
         //two type of ranks, but one type has 3 cards then others will be one different rank has 2 cards same rank
     }
     return check;
 }
-bool Dealer::isFlush(int** hand) {
+bool Dealer::isFlush(int** _hand) {
     bool check = false;
     int count = 0;
-    int suit = *(*(hand + 0) + 0); //get suit of first card to check
+    int suit = *(*(_hand + 0) + 0); //get suit of first card to check
     for (int i = 1; i < 5; i++) { // don't have to chekc first suit
-        if (suit == *(*(hand + i) + 0)) {
+        if (suit == *(*(_hand + i) + 0)) {
             count++;
         }
         else break;
@@ -239,12 +239,12 @@ bool Dealer::isFlush(int** hand) {
     if (count == 4) check = true;
     return check;
 }
-bool Dealer::isStraight(int** hand) {
+bool Dealer::isStraight(int** _hand) {
     bool check = false;
     int count = 0;
     vector<int> arr;
     for (int i = 0; i < 5; i++) {
-        arr.push_back(*(*(hand + i) + 1));
+        arr.push_back(*(*(_hand + i) + 1));
     }
     sort(arr.begin(), arr.end());
     for (int i = 0; i < 5; i++) {
@@ -256,21 +256,21 @@ bool Dealer::isStraight(int** hand) {
     if (count == 4) check = true;
     return check;
 }
-bool Dealer::isStraightFLush(int** hand) {
-    return isFlush(hand) && isStraight(hand);
+bool Dealer::isStraightFLush(int** _hand) {
+    return isFlush(_hand) && isStraight(_hand);
 }
-bool Dealer::isThreeOfAKind(int** hand) {
+bool Dealer::isThreeOfAKind(int** _hand) {
     bool check = false;
-    map<int, int> dict = countRank(hand);
+    map<int, int> dict = countRank(_hand);
     for (auto it : dict) {
         if (it.first == 3 && dict.size() == 3) check = true;
         //three type of ranks, but one type has 3 cards then others will be two different ranks
     }
     return check;
 }
-bool Dealer::isTwoPairs(int** hand) {
+bool Dealer::isTwoPairs(int** _hand) {
     bool check = false;
-    map<int, int> dict = countRank(hand);
+    map<int, int> dict = countRank(_hand);
     int count = 0;
     for (auto it : dict) {
         if (it.first == 2) count++;
@@ -279,22 +279,22 @@ bool Dealer::isTwoPairs(int** hand) {
     // if count equal 2 then there are 2 pairs of the same rank
     return check;
 }
-bool Dealer::isPair(int** hand) {
+bool Dealer::isPair(int** _hand) {
     bool check = false;
-    map<int, int> dict = countRank(hand);
+    map<int, int> dict = countRank(_hand);
     for (auto it : dict) {
         if (it.first == 2 && dict.size() == 4) check = true;
         //four type of ranks, but one type has 2 cards then others will be three different ranks
     }
     return check;
 }
-int Dealer::getHighestCard(int** hand) {
+int Dealer::getHighestCard(int** _hand) {
     int highestCardPos = 0;
     for (int i = 1; i < 5; i++) {
-        int maxSuit = *(*(hand + highestCardPos) + 0);
-        int maxRank = *(*(hand + highestCardPos) + 1);
-        int currCardSuit = *(*(hand + i) + 0);
-        int currCardRank = *(*(hand + i) + 1);
+        int maxSuit = *(*(_hand + highestCardPos) + 0);
+        int maxRank = *(*(_hand + highestCardPos) + 1);
+        int currCardSuit = *(*(_hand + i) + 0);
+        int currCardRank = *(*(_hand + i) + 1);
         if (currCardSuit > maxSuit) {
             highestCardPos = i;
         }
@@ -304,7 +304,7 @@ int Dealer::getHighestCard(int** hand) {
     }
     return highestCardPos;
 }
-int Dealer::getStatusOfHand(int** hand) {
+int Dealer::getStatusOfHand(int** _hand) {
     /*
     1. Pair
     2. TwoPairs
@@ -317,36 +317,36 @@ int Dealer::getStatusOfHand(int** hand) {
     0. None of above
     */
     int status = 0;
-    if (isStraightFLush(hand) == true) {
+    if (isStraightFLush(_hand) == true) {
         status = 8;
     }
-    else if (isFourOfAKind(hand) == true) {
+    else if (isFourOfAKind(_hand) == true) {
         status = 7;
     }
-    else if (isFullHouse(hand) == true) {
+    else if (isFullHouse(_hand) == true) {
         status = 6;
     }
-    else if (isFlush(hand) == true) {
+    else if (isFlush(_hand) == true) {
         status = 5;
     }
-    else if (isStraight(hand) == true) {
+    else if (isStraight(_hand) == true) {
         status = 4;
     }
-    else if (isThreeOfAKind(hand) == true) {
+    else if (isThreeOfAKind(_hand) == true) {
         status = 3;
     }
-    else if (isTwoPairs(hand) == true) {
+    else if (isTwoPairs(_hand) == true) {
         status = 2;
     }
-    else if (isPair(hand) == true) {
+    else if (isPair(_hand) == true) {
         status = 1;
     }
     return status;
 }
-int* Dealer::rankingHands(int*** hands, int numberOfPlayers) {
-    int* leaderBoard = new int[numberOfPlayers];
+int* Dealer::rankingHands(int*** hands, int _numberOfPlayers) {
+    int* leaderBoard = new int[_numberOfPlayers];
     map<int, int> result;
-    for (int i = 0; i < numberOfPlayers; i++) {
+    for (int i = 0; i < _numberOfPlayers; i++) {
         int status = getStatusOfHand(*(hands + i));
         pair<int, int> playerStatus = make_pair(i, status);
 
@@ -358,7 +358,7 @@ int* Dealer::rankingHands(int*** hands, int numberOfPlayers) {
 
     /// INTERCHANGE SORT
     // We will pop out max element instead of swap it with first element
-    for (int i = 0; i < numberOfPlayers; i++) { // because we pop out elements so we have to run i to n instead of i to n-1
+    for (int i = 0; i < _numberOfPlayers; i++) { // because we pop out elements so we have to run i to n instead of i to n-1
         int max = -1; //get this status of first element of result
         int index = -1;
         for (auto it : result) {
@@ -374,33 +374,33 @@ int* Dealer::rankingHands(int*** hands, int numberOfPlayers) {
     return leaderBoard;
 }
 
-vector<int> Dealer::evaluateHands(Player**& players, int numberOfPlayers, unsigned int pot) {
-    int*** hands = new int** [numberOfPlayers];
-    for (int i = 0; i < numberOfPlayers; i++) {
-        *(hands + i) = players[i]->Hand();
+vector<int> Dealer::evaluateHands(Player**& _players, int _numberOfPlayers, unsigned int _pot) {
+    int*** hands = new int** [_numberOfPlayers];
+    for (int i = 0; i < _numberOfPlayers; i++) {
+        *(hands + i) = _players[i]->Hand();
     }
-    int* leaderBoard = rankingHands(hands, numberOfPlayers);
-    for (int j = 0; j < numberOfPlayers; j++) {
-        int status = getStatusOfHand(players[j]->Hand());
-        players[j]->setHandStatus(status);
+    int* leaderBoard = rankingHands(hands, _numberOfPlayers);
+    for (int j = 0; j < _numberOfPlayers; j++) {
+        int status = getStatusOfHand(_players[j]->Hand());
+        _players[j]->setHandStatus(status);
 
         //cout << j << " " << status << " - " << players[j]->HandStatus() << "\n";
         //for check status
     }
     //count winners
     int numberOfWinners = 1;
-    for (int j = 0; j < numberOfPlayers - 1; j++) { // compare numberOfPlayers - 1 pairs
-        if (players[leaderBoard[j]]->HandStatus() == players[leaderBoard[j + 1]]->HandStatus()) numberOfWinners++;
+    for (int j = 0; j < _numberOfPlayers - 1; j++) { // compare numberOfPlayers - 1 pairs
+        if (_players[leaderBoard[j]]->HandStatus() == _players[leaderBoard[j + 1]]->HandStatus()) numberOfWinners++;
         else break;
     }
     // set win status for player
     vector<int> winnerList;
-    unsigned int winMoney = pot / numberOfWinners;
+    unsigned int winMoney = _pot / numberOfWinners;
     for (int k = 0; k < numberOfWinners; k++) {
         int index = leaderBoard[k];
-        players[index]->setWin();
-        unsigned int playerMoney = players[index]->Money();
-        players[index]->setMoney(playerMoney + winMoney);
+        _players[index]->setWin();
+        unsigned int playerMoney = _players[index]->Money();
+        _players[index]->setMoney(playerMoney + winMoney);
         winnerList.push_back(index);
     }
 

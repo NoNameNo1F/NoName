@@ -15,12 +15,12 @@ using namespace std;
 class Player {
 private:
     int** _hand;
-    int win;
-    unsigned int money;
-    string name;
-    int handStatus;
+    int _win;
+    unsigned int _money;
+    string _name;
+    int _handStatus;
 public:
-    Player() : _hand(NULL), win(0), money(0), name(generateFakeName()), handStatus(-1) {}
+    Player() : _hand(NULL), _win(0), _money(0), _name(generateFakeName()), _handStatus(-1) {}
     ~Player() {
         if (_hand != NULL) {
             // Dealer won't have cards if there is more than 2 players
@@ -38,7 +38,7 @@ public:
     int** Hand();
     void setWin();
     int getWin();
-    void setMoney(unsigned int money);
+    void setMoney(unsigned int _money);
     unsigned int Money();
     string Name();
     int HandStatus();
@@ -79,31 +79,31 @@ public:
 
     void dealing(Player**& players, int numberOfPlayers);
 
-    string printHand(int** hand);
+    string printHand(int** _hand);
 
-    map<int, int> countRank(int** hand);
+    map<int, int> countRank(int** _hand);
 
-    bool isFourOfAKind(int** hand);
+    bool isFourOfAKind(int** _hand);
 
-    bool isFullHouse(int** hand);
+    bool isFullHouse(int** _hand);
 
-    bool isFlush(int** hand);
+    bool isFlush(int** _hand);
 
-    bool isStraight(int** hand);
+    bool isStraight(int** _hand);
 
-    bool isStraightFLush(int** hand);
+    bool isStraightFLush(int** _hand);
 
-    bool isThreeOfAKind(int** hand);
+    bool isThreeOfAKind(int** _hand);
 
-    bool isTwoPairs(int** hand);
+    bool isTwoPairs(int** _hand);
 
-    bool isPair(int** hand);
+    bool isPair(int** _hand);
 
-    int getHighestCard(int** hand);
+    int getHighestCard(int** _hand);
 
-    int getStatusOfHand(int** hand);
+    int getStatusOfHand(int** _hand);
 
-    int* rankingHands(int*** hands, int numberOfPlayers);
+    int* rankingHands(int*** _hands, int numberOfPlayers);
 
     string showHands(Player** players, int numberOfPlayers);
 

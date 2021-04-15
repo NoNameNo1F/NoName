@@ -1,141 +1,142 @@
 #include "FakeDeck.h"
 
-void generatePair(int**& hand) {
-    hand[0][0] = 0; hand[0][1] = 2;
 
-    hand[1][0] = 2; hand[1][1] = 2;
+void generatePair(int**& _hand) {
+    _hand[0][0] = 0; _hand[0][1] = 2;
 
-    hand[2][0] = 1; hand[2][1] = 3;
+    _hand[1][0] = 2; _hand[1][1] = 2;
 
-    hand[3][0] = 3; hand[3][1] = 4;
+    _hand[2][0] = 1; _hand[2][1] = 3;
 
-    hand[4][0] = 0; hand[4][1] = 5;
+    _hand[3][0] = 3; _hand[3][1] = 4;
+
+    _hand[4][0] = 0; _hand[4][1] = 5;
 }
 
-void generateTwoPairs(int**& hand) {
-    hand[0][0] = 0; hand[0][1] = 2;
+void generateTwoPairs(int**& _hand) {
+    _hand[0][0] = 0; _hand[0][1] = 2;
 
-    hand[1][0] = 2; hand[1][1] = 2;
+    _hand[1][0] = 2; _hand[1][1] = 2;
 
-    hand[2][0] = 1; hand[2][1] = 3;
+    _hand[2][0] = 1; _hand[2][1] = 3;
 
-    hand[3][0] = 3; hand[3][1] = 3;
+    _hand[3][0] = 3; _hand[3][1] = 3;
 
-    hand[4][0] = 0; hand[4][1] = 5;
+    _hand[4][0] = 0; _hand[4][1] = 5;
 }
 
-void generateThreeOfAKind(int**& hand) {
-    hand[0][0] = 0; hand[0][1] = 2;
+void generateThreeOfAKind(int**& _hand) {
+    _hand[0][0] = 0; _hand[0][1] = 2;
 
-    hand[1][0] = 2; hand[1][1] = 2;
+    _hand[1][0] = 2; _hand[1][1] = 2;
 
-    hand[2][0] = 1; hand[2][1] = 2;
+    _hand[2][0] = 1; _hand[2][1] = 2;
 
-    hand[3][0] = 3; hand[3][1] = 3;
+    _hand[3][0] = 3; _hand[3][1] = 3;
 
-    hand[4][0] = 0; hand[4][1] = 5;
+    _hand[4][0] = 0; _hand[4][1] = 5;
 }
 
-void generateStraight(int**& hand) {
-    hand[0][0] = 0; hand[0][1] = 2;
+void generateStraight(int**& _hand) {
+    _hand[0][0] = 0; _hand[0][1] = 2;
 
-    hand[1][0] = 2; hand[1][1] = 3;
+    _hand[1][0] = 2; _hand[1][1] = 3;
 
-    hand[2][0] = 1; hand[2][1] = 4;
+    _hand[2][0] = 1; _hand[2][1] = 4;
 
-    hand[3][0] = 3; hand[3][1] = 5;
+    _hand[3][0] = 3; _hand[3][1] = 5;
 
-    hand[4][0] = 0; hand[4][1] = 6;
+    _hand[4][0] = 0; _hand[4][1] = 6;
 }
 
-void generateFlush(int**& hand) {
-    hand[0][0] = 0; hand[0][1] = 2;
+void generateFlush(int**& _hand) {
+    _hand[0][0] = 0; _hand[0][1] = 2;
 
-    hand[1][0] = 0; hand[1][1] = 6;
+    _hand[1][0] = 0; _hand[1][1] = 6;
 
-    hand[2][0] = 0; hand[2][1] = 3;
+    _hand[2][0] = 0; _hand[2][1] = 3;
 
-    hand[3][0] = 0; hand[3][1] = 3;
+    _hand[3][0] = 0; _hand[3][1] = 3;
 
-    hand[4][0] = 0; hand[4][1] = 5;
+    _hand[4][0] = 0; _hand[4][1] = 5;
 }
 
-void generateFullHouse(int**& hand) {
-    hand[0][0] = 0; hand[0][1] = 2;
+void generateFullHouse(int**& _hand) {
+    _hand[0][0] = 0; _hand[0][1] = 2;
 
-    hand[1][0] = 2; hand[1][1] = 2;
+    _hand[1][0] = 2; _hand[1][1] = 2;
 
-    hand[2][0] = 1; hand[2][1] = 3;
+    _hand[2][0] = 1; _hand[2][1] = 3;
 
-    hand[3][0] = 3; hand[3][1] = 3;
+    _hand[3][0] = 3; _hand[3][1] = 3;
 
-    hand[4][0] = 0; hand[4][1] = 3;
+    _hand[4][0] = 0; _hand[4][1] = 3;
 }
 
-void generateFourOfAKind(int**& hand) {
-    hand[0][0] = 0; hand[0][1] = 2;
+void generateFourOfAKind(int**& _hand) {
+    _hand[0][0] = 0; _hand[0][1] = 2;
 
-    hand[1][0] = 2; hand[1][1] = 2;
+    _hand[1][0] = 2; _hand[1][1] = 2;
 
-    hand[2][0] = 1; hand[2][1] = 2;
+    _hand[2][0] = 1; _hand[2][1] = 2;
 
-    hand[3][0] = 3; hand[3][1] = 2;
+    _hand[3][0] = 3; _hand[3][1] = 2;
 
-    hand[4][0] = 0; hand[4][1] = 5;
+    _hand[4][0] = 0; _hand[4][1] = 5;
 }
 
-void generateStraightFlush(int**& hand) {
-    hand[0][0] = 0; hand[0][1] = 2;
+void generateStraightFlush(int**& _hand) {
+    _hand[0][0] = 0; _hand[0][1] = 2;
 
-    hand[1][0] = 0; hand[1][1] = 3;
+    _hand[1][0] = 0; _hand[1][1] = 3;
 
-    hand[2][0] = 0; hand[2][1] = 4;
+    _hand[2][0] = 0; _hand[2][1] = 4;
 
-    hand[3][0] = 0; hand[3][1] = 5;
+    _hand[3][0] = 0; _hand[3][1] = 5;
 
-    hand[4][0] = 0; hand[4][1] = 6;
+    _hand[4][0] = 0; _hand[4][1] = 6;
 }
 
 int** generateFakeDeck(int status) {
-    int** hand = new int* [5];
+    int** _hand = new int* [5];
     for (int i = 0; i < 5; i++) {
-        *(hand + i) = new int[2];
+        *(_hand + i) = new int[2];
     }
 
     switch (status) {
     case 1: {
-        generatePair(hand);
+        generatePair(_hand);
         break;
     }
     case 2: {
-        generateTwoPairs(hand);
+        generateTwoPairs(_hand);
         break;
     }
     case 3: {
-        generateThreeOfAKind(hand);
+        generateThreeOfAKind(_hand);
         break;
     }
     case 4: {
-        generateStraight(hand);
+        generateStraight(_hand);
         break;
     }
     case 5: {
-        generateFlush(hand);
+        generateFlush(_hand);
         break;
     }
     case 6: {
-        generateFullHouse(hand);
+        generateFullHouse(_hand);
         break;
     }
     case 7: {
-        generateFourOfAKind(hand);
+        generateFourOfAKind(_hand);
         break;
     }
     case 8: {
-        generateStraightFlush(hand);
+        generateStraightFlush(_hand);
         break;
     }
     }
 
-    return hand;
+    return _hand;
 }

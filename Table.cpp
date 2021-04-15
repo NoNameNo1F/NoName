@@ -4,37 +4,37 @@
 
 void Table::setNumberOfPlayers() {
     cout << "Number of players: ";
-    cin >> numberOfPlayers;
-    while (numberOfPlayers <= 0 || numberOfPlayers >= 11) {
+    cin >> _numberOfPlayers;
+    while (_numberOfPlayers <= 0 || _numberOfPlayers >= 11) {
         cout << " Retry a number > 0 and < 11: ";
-        cin >> numberOfPlayers;
+        cin >> _numberOfPlayers;
     }
 }
-int Table::NumberOfPlayer() { return numberOfPlayers; }
+int Table::NumberOfPlayer() { return _numberOfPlayers; }
 
-void Table::setPot(unsigned int money) { pot = money; }
+void Table::setPot(unsigned int _money) { _pot = _money; }
 
-unsigned int Table::Pot() { return pot; }
+unsigned int Table::Pot() { return _pot; }
 
 
-void Table::setDefaultBet(unsigned int money) { defaultBet = money; }
+void Table::setDefaultBet(unsigned int _money) { _defaultBet = _money; }
 
-unsigned int Table::DefaultBet() { return defaultBet; }
+unsigned int Table::DefaultBet() { return _defaultBet; }
 
-void Table::setRound(int rounds) { round = rounds; }
+void Table::setRound(int rounds) { _round = rounds; }
 
-int Table::Round() { return round; }
+int Table::Round() { return _round; }
 
 void Table::setTableDefaultBet() {
-    int defaultBet;
+    int _defaultBet;
     cout << "Default Bet: ";
-    cin >> defaultBet;
-    while (defaultBet <= 0) {
+    cin >> _defaultBet;
+    while (_defaultBet <= 0) {
         cout << "Retry number Default Bet > 0: ";
-        cin >> defaultBet;
+        cin >> _defaultBet;
     }
-    if (defaultBet > 0) {
-        setDefaultBet(defaultBet);
+    if (_defaultBet > 0) {
+        setDefaultBet(_defaultBet);
     }
  
         
@@ -43,83 +43,83 @@ void Table::setTableDefaultBet() {
 
 void Table::createPlayers() {
     setNumberOfPlayers();
-    if (numberOfPlayers == 1) {
+    if (_numberOfPlayers == 1) {
         cout << "\n Playing with dealer... \n";
-        numberOfPlayers = 2; //include dealer
-        dealer = new Dealer();
-        this->players = new Player * [2];
-        players[0] = dealer;
-        players[1] = new Player();
+        _numberOfPlayers = 2; //include dealer
+        _dealer = new Dealer();
+        this->_players = new Player * [2];
+        _players[0] = _dealer;
+        _players[1] = new Player();
     }
     else {
-        dealer = new Dealer();
-        this->players = new Player * [numberOfPlayers];
-        for (int i = 0; i < numberOfPlayers; i++) {
-            players[i] = new Player();
+        _dealer = new Dealer();
+        this->_players = new Player * [_numberOfPlayers];
+        for (int i = 0; i < _numberOfPlayers; i++) {
+            _players[i] = new Player();
         }
     }
 }
 
 void Table::createPlayers(vector<Player*> continuePlayersList) {
     setNumberOfPlayers();
-    this->players = new Player * [numberOfPlayers + continuePlayersList.size()];
-    if (numberOfPlayers == 0 && continuePlayersList.size() == 1) {
+    this->_players = new Player * [_numberOfPlayers + continuePlayersList.size()];
+    if (_numberOfPlayers == 0 && continuePlayersList.size() == 1) {
         cout << "\n Playing with dealer... \n";
-        *(players + 0) = dealer; // we already have dealer
-        numberOfPlayers++;
+        *(_players + 0) = _dealer; // we already have dealer
+        _numberOfPlayers++;
     }
-    for (int i = 0; i < numberOfPlayers + continuePlayersList.size(); i++) {
-        if (*(players + i) == dealer) { continue; } // already assgin a dealer to play
-        if (i < numberOfPlayers) {
-            players[i] = new Player();
+    for (int i = 0; i < _numberOfPlayers + continuePlayersList.size(); i++) {
+        if (*(_players + i) == _dealer) { continue; } // already assgin a dealer to play
+        if (i < _numberOfPlayers) {
+            _players[i] = new Player();
         }
         else {
-            players[i] = *(&continuePlayersList[i - numberOfPlayers]);
+            _players[i] = *(&continuePlayersList[i - _numberOfPlayers]);
             // Ex: 3 new players, 2 old players, when assign old number, i is begin from 3 to 4
             // then index to continuePlayersList is 3 - 3 = 0 for first old player, 4 - 3 = 1 for second old player
         }
     }
-    numberOfPlayers += continuePlayersList.size();
+    _numberOfPlayers += continuePlayersList.size();
 }
 
 void Table::printPlayersName() {
     stringstream writer;
-    writer << dealer->Name() << " (dealer)\n";
-    for (int i = 0; i < numberOfPlayers; i++) {
-        writer << players[i]->Name() << " ";
+    writer << _dealer->Name() << " (dealer)\n";
+    for (int i = 0; i < _numberOfPlayers; i++) {
+        writer << _players[i]->Name() << " ";
     }
     writer << "entered: \n";
     cout << writer.str();
 }
 
 void Table::setMoneyPlayers() {
-    for (int i = 0; i < numberOfPlayers; i++) {
-        if (players[i]->Money() == 0) {
-            int money;
-            cout << "Player " << players[i]->Name() << ": \"How much money do you have?\": ";
-            cin >> money;
-            if (money < 1) {
-                while (money >= 1) {
-                    cout << "Player " << players[i]->Name() << ": Please insert number greater than 0!!!";
-                    cin >> money;
+    for (int i = 0; i < _numberOfPlayers; i++) {
+        if (_players[i]->Money() == 0) {
+            int _money;
+            cout << "Player " << _players[i]->Name() << ": \"How much money do you have?\": ";
+            cin >> _money;
+            if (_money < 1) {
+                while (_money >= 1) {
+                    cout << "Player " << _players[i]->Name() << ": Please insert number greater than 0!!!";
+                    cin >> _money;
                 }
             }
-            players[i]->setMoney(money);
+            _players[i]->setMoney(_money);
         }
     }
 }
 
 void Table::setGameRound() {
-    int round = 0;
+    int _round = 0;
     cout << "How many rounds do you want to play?: ";
-    cin >> round;
-    if (round < 1) {
-        while (round >= 1) {
+    cin >> _round;
+    if (_round < 1) {
+        while (_round >= 1) {
             cout << "Please insert number greater than 0!!!";
-            cin >> round;
+            cin >> _round;
         }
     }
-    setRound(round);
+    setRound(_round);
 }
 
 string Table::printWinners(vector<int> winnerList) {
@@ -127,17 +127,17 @@ string Table::printWinners(vector<int> winnerList) {
     stringstream writer;
     writer << "Number of Winners: " << winnerList.size() << endl;
     for (int i = 0; i < winnerList.size(); i++) {
-        int winMoney = pot / winnerList.size();
-        writer << "Congrats player " << players[winnerList[i]]->Name() << " got " << statusName[players[i]->HandStatus()] << ", win " << winMoney << "\n";
+        int winMoney = _pot / winnerList.size();
+        writer << "Congrats player " << _players[winnerList[i]]->Name() << " got " << statusName[_players[i]->HandStatus()] << ", win " << winMoney << "\n";
     }
     return writer.str();
 }
 
 string Table::printPlayersMoney() {
     stringstream writer;
-    for (int i = 0; i < numberOfPlayers; i++) {
-        writer << "Player " << players[i]->Name() << ": " << players[i]->Money();
-        if (players[i]->Money() <= 0) {
+    for (int i = 0; i < _numberOfPlayers; i++) {
+        writer << "Player " << _players[i]->Name() << ": " << _players[i]->Money();
+        if (_players[i]->Money() <= 0) {
             writer << " (Kicked)";
         }
         writer << endl;
@@ -149,7 +149,7 @@ void Table::logging(vector<int> winnerList) {
     fstream file("history.txt", ios::out | ios::app);
     if (file.fail()) { cout << "Can't open file \n"; }
     else {
-        file << dealer->showHands(players, numberOfPlayers);
+        file << _dealer->showHands(_players, _numberOfPlayers);
         file << printWinners(winnerList);
         file << printPlayersMoney();
     }
@@ -158,23 +158,23 @@ void Table::logging(vector<int> winnerList) {
 
 void Table::kickPlayers() {
     vector<Player*> storeDeletePlayers;
-    for (int i = 0; i < numberOfPlayers; i++) {
-        if (players[i]->Money() <= 0) {
-            if (players[i] == dealer) {
+    for (int i = 0; i < _numberOfPlayers; i++) {
+        if (_players[i]->Money() <= 0) {
+            if (_players[i] == _dealer) {
                 continue; // can't kick dealer
             }
             else {
-                storeDeletePlayers.push_back(*(&players[i]));
+                storeDeletePlayers.push_back(*(&_players[i]));
             }
         }
     }
-    for (int j = 0; j < numberOfPlayers; j++) {
-        if (players[j]->Money() > 0) {
-            players = (players + j);
+    for (int j = 0; j < _numberOfPlayers; j++) {
+        if (_players[j]->Money() > 0) {
+            _players = (_players + j);
             break;
         }
     }
-    numberOfPlayers -= storeDeletePlayers.size(); // re-adjust number of players
+    _numberOfPlayers -= storeDeletePlayers.size(); // re-adjust number of players
     for (auto it : storeDeletePlayers) {
         it = NULL;
         delete it;
@@ -184,16 +184,16 @@ void Table::kickPlayers() {
 vector<Player*> Table::savePlayersAndResetTable() {
     vector<Player*> continuePlayersList;
     vector<Player*> storeDeletePlayers;
-    for (int i = 0; i < numberOfPlayers; i++) {
-        if (players[i] == dealer) continue;
+    for (int i = 0; i < _numberOfPlayers; i++) {
+        if (_players[i] == _dealer) continue;
         string answer;
-        cout << "Player " << players[i]->Name() << " Do you want to continue?(yes/no): ";
+        cout << "Player " << _players[i]->Name() << " Do you want to continue?(yes/no): ";
         cin >> answer;
         if (answer == "yes") {
-            continuePlayersList.push_back(players[i]);
+            continuePlayersList.push_back(_players[i]);
         }
         else if (answer == "no") {
-            storeDeletePlayers.push_back(*(&players[i]));
+            storeDeletePlayers.push_back(*(&_players[i]));
         }
         else {
             cout << "Please input \"yes\" or \"no\"!!!\n";
@@ -219,31 +219,31 @@ void Table::playGame() {
         setGameRound();
         setMoneyPlayers();
         
-        int round = Round();
-        dealer->shuffleCards();
-        dealer->printCardShuffling(dealer->deck);
+        int _round = Round();
+        _dealer->shuffleCards();
+        _dealer->printCardShuffling(_dealer->deck);
 
-        for (int i = 0; i < round; i++) {
+        for (int i = 0; i < _round; i++) {
             cout << " \n\t\t\t\t\t\t\t\t\t\t\t --NEW ROUND-- \n";
             if (DefaultBet() > 0) {
-                setPot(dealer->setMoneyBetWithDefaultBet(players, numberOfPlayers, DefaultBet())); //pot will carry default
+                setPot(_dealer->setMoneyBetWithDefaultBet(_players, _numberOfPlayers, DefaultBet())); //pot will carry default
             }
             else {
-                setPot(dealer->setMoneyBet(players, numberOfPlayers));
+                setPot(_dealer->setMoneyBet(_players, _numberOfPlayers));
             }
-            dealer->dealing(players, numberOfPlayers);
-            dealer->setHand(generateFakeDeck(4));
+            _dealer->dealing(_players, _numberOfPlayers);
+            _dealer->setHand(generateFakeDeck(4));
             // Test rankingHands fucntion, input number of player = 1 then dealer will have card to play
-            cout << dealer->showHands(players, numberOfPlayers);
-            vector<int> winnerList = dealer->evaluateHands(players, numberOfPlayers, pot);
+            cout << _dealer->showHands(_players, _numberOfPlayers);
+            vector<int> winnerList = _dealer->evaluateHands(_players, _numberOfPlayers, _pot);
             cout << printWinners(winnerList);
             cout << printPlayersMoney();
             cout << " \n --END ROUND-- \n";
             logging(winnerList);
             kickPlayers();
-            dealer->resetCards();
+            _dealer->resetCards();
             setPot(0);
-            if (numberOfPlayers == 1) break;
+            if (_numberOfPlayers == 1) break;
         }
         cout << "\n --END GAME-- \n";
         continuePlayersList = savePlayersAndResetTable();

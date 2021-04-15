@@ -1,20 +1,20 @@
 #pragma once
 #include <iostream>
 using namespace std;
-void generatePair(int** &hand);
+void generatePair(int** & _hand);
 
-void generateTwoPairs(int** &hand);
+void generateTwoPairs(int** & _hand);
 
-void generateThreeOfAKind(int** &hand);
+void generateThreeOfAKind(int** & _hand);
 
-void generateStraight(int** &hand);
+void generateStraight(int** & _hand);
 
-void generateFlush(int** &hand);
+void generateFlush(int** & _hand);
 
-void generateFullHouse(int** &hand);
+void generateFullHouse(int** & _hand);
 
-void generateFourOfAKind(int** &hand);
+void generateFourOfAKind(int** & _hand);
 
-void generateStraightFlush(int** &hand);
+void generateStraightFlush(int** & _hand);
 
 int** generateFakeDeck(int status); 

@@ -13,15 +13,15 @@ using namespace std;
 
 class Table {
 private:
-    int numberOfPlayers;
-    int round;
-    Player** players;
-    Dealer* dealer;
-    unsigned int pot;
-    unsigned int defaultBet;
+    int _numberOfPlayers;
+    int _round;
+    Player** _players;
+    Dealer* _dealer;
+    unsigned int _pot;
+    unsigned int _defaultBet;
 public:
-    Table() : numberOfPlayers(1), players(NULL), pot(0), defaultBet(0), round(0) {
-        dealer = new Dealer();
+    Table() : _numberOfPlayers(1), _players(NULL), _pot(0), _defaultBet(0), _round(0) {
+        _dealer = new Dealer();
     };
     ~Table() {
        /* for (int i = 0; i < numberOfPlayers; i++) {
@@ -33,16 +33,16 @@ public:
         delete dealer;*/
     }
 
-    void setPot(unsigned int money);
+    void setPot(unsigned int _money);
 
     unsigned int Pot();
 
-    void setDefaultBet(unsigned int money);
+    void setDefaultBet(unsigned int _money);
 
     unsigned int DefaultBet();
 
 
-    void setRound(int round);
+    void setRound(int _round);
 
     int Round();
 
