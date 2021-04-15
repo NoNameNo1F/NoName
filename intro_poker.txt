@@ -1,0 +1,12 @@
+                                                                                     PPPPPPPP            OOO         KKK    KKK     EEEEEEEEEEEE   RRRRRRRRRR
+                                                                                      PPP   PPP         OOO OOO       KKK   KKK      EEEEEEEEEEE    RRR     RRR
+                                                                                       PPP    PPP       OOO   OOO      KKK  KKK       EEE            RRR      RRR
+                                                                                        PPP     PPP     OOO     OOO     KKK KKK        EEE            RRR     RRR
+                                                                                         PPP    PPP     OOO       OOO    KKKKKK         EEE            RRR    RRR
+                                                                                          PPP   PPP     OOO         OOO   KKK KKK        EEEEEEEE       RRRRRRRR
+                                                                                           PPPPPPPP       OOO       OOO    KKK  KKK       EEE            RRR  RRR
+                                                                                            PPP             OOO     OOO     KKK   KKK      EEE            RRR   RRR
+                                                                                             PPP              OOO   OOO      KKK    KKK     EEE            RRR    RRR
+                                                                                              PPP               OOO OOO       KKK     KKK    EEEEEEEEEEE    RRR     RRR
+                                                                                           PPPPPPPPPPPP            OOO         KKK      KKK   EEEEEEEEEEEE   RRR      RRR
+									
