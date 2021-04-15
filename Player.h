@@ -6,59 +6,60 @@
 #include <vector>
 #include <map>
 #include <set>
+
 using namespace std;
 
 #define SUITS 4
 #define FACES 13
 
-class Player{
+class Player {
 private:
-    int** hand;
+    int** _hand;
     int win;
-    int money;
+    unsigned int money;
     string name;
     int handStatus;
 public:
-    Player() : hand(NULL), win(0), money(0), name(generateFakeName()), handStatus(-1) {}
-    ~Player(){ 
-        if (hand != NULL){ 
+    Player() : _hand(NULL), win(0), money(0), name(generateFakeName()), handStatus(-1) {}
+    ~Player() {
+        if (_hand != NULL) {
             // Dealer won't have cards if there is more than 2 players
-            for (int i = 0; i < 5; i++){
-                delete[] hand[i];
+            for (int i = 0; i < 5; i++) {
+                delete[] _hand[i];
             }
-            delete[] hand;
+            delete[] _hand;
         }
     };
     Player(const Player& other);
     Player& operator= (const Player& other);
     bool operator== (const Player& other);
 
-    void setHand(int** hand);
+    void setHand(int** _hand);
     int** Hand();
     void setWin();
     int getWin();
-    void setMoney(int money);
-    int Money();
+    void setMoney(unsigned int money);
+    unsigned int Money();
     string Name();
     int HandStatus();
     void setHandStatus(int status);
 };
 
 class Dealer : public Player { //dealer also a player
-private:
+public:
     int deck[SUITS][FACES];
 public:
     Random shuffleBoard;
 public:
-    Dealer() : shuffleBoard(Random::instance()){
+    Dealer() : shuffleBoard(Random::instance()) {
         setMoney(100000000);
-        for (int i = 0; i < SUITS; i++){ // generate array fill with zero
-            for (int j = 0; j < FACES; j++){
+        for (int i = 0; i < SUITS; i++) { // generate array fill with zero
+            for (int j = 0; j < FACES; j++) {
                 deck[i][j] = -1;
             }
         }
     }
-    virtual ~Dealer(){}
+    virtual ~Dealer() {}
 
     int setMoneyBet(Player** players, int numberOfPlayers);
 
@@ -72,11 +73,11 @@ public:
 
     void printCardShuffling(int deck[SUITS][FACES]);
 
-    int** dealingForHand(int deck[SUITS][FACES], int turn = 1, int numberOfPlayers = 2);
+    int** dealingForHand(int deck[SUITS][FACES], int turn, int numberOfPlayers );
 
-    int*** dealingForHands(int deck[SUITS][FACES], int numberOfPlayers = 3);
+    int*** dealingForHands(int deck[SUITS][FACES], int numberOfPlayers );
 
-    void dealing(Player** &players, int numberOfPlayers);
+    void dealing(Player**& players, int numberOfPlayers);
 
     string printHand(int** hand);
 
@@ -90,7 +91,7 @@ public:
 
     bool isStraight(int** hand);
 
-    bool isStraigntFLush (int** hand);
+    bool isStraightFLush(int** hand);
 
     bool isThreeOfAKind(int** hand);
 
@@ -106,6 +107,6 @@ public:
 
     string showHands(Player** players, int numberOfPlayers);
 
-    vector<int> evaluateHands(Player** &players, int numberOfPlayers, int pot);
+    vector<int> evaluateHands(Player**& players, int numberOfPlayers, unsigned int pot);
 
 };

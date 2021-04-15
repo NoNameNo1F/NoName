@@ -3,40 +3,44 @@
 #include "FakeDeck.h"
 #include <iostream>
 #include <fstream>
+#include <windows.h>
+#include <sstream>
+#include <string>
+#include <cstring>
+#include "Interface.h"
 
 using namespace std;
 
-class Table{
+class Table {
 private:
     int numberOfPlayers;
     int round;
     Player** players;
     Dealer* dealer;
-    int pot;
-    int defaultBet;
+    unsigned int pot;
+    unsigned int defaultBet;
 public:
     Table() : numberOfPlayers(1), players(NULL), pot(0), defaultBet(0), round(0) {
         dealer = new Dealer();
     };
-    ~Table(){
-        // for (int i = 0; i < numberOfPlayers; i++){
-        //     players[i] = NULL;
-        //     delete (players + i);
+    ~Table() {
+       /* for (int i = 0; i < numberOfPlayers; i++) {
+            players[i] = NULL;
+            delete (players + i);
 
-        // }
-        // delete[] players;
-        // delete dealer;
+        }
+        delete[] players;
+        delete dealer;*/
     }
 
-    void Menu();
-    
-    void setPot(int money);
+    void setPot(unsigned int money);
 
-    int Pot();
+    unsigned int Pot();
 
-    void setDefaultBet(int money);
+    void setDefaultBet(unsigned int money);
 
-    int DefaultBet();
+    unsigned int DefaultBet();
+
 
     void setRound(int round);
 

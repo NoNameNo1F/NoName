@@ -1,7 +1,5 @@
 #include "Interface.h"
-#include <iostream>
 
-using namespace std;
 void ShowCur(bool CursorVisibility)
 {
     HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -29,20 +27,20 @@ void Menu() {
             for (int i = 0; i < Line.size(); i++) {
 
                 if (Line[i] == 'P') {
-                    SetConsoleTextAttribute(hStdout,1  );
+                    SetConsoleTextAttribute(hStdout,1 );
                     cout << Line[i];
 
                 }
                 else if (Line[i] == 'O') {
-                    SetConsoleTextAttribute(hStdout, 2);
+                    SetConsoleTextAttribute(hStdout, 4);
                     cout << Line[i];
                 }
                 else if (Line[i] == 'K') {
-                    SetConsoleTextAttribute(hStdout, 3);
+                    SetConsoleTextAttribute(hStdout, 2);
                     cout << Line[i];
                 }
                 else if (Line[i] == 'E') {
-                    SetConsoleTextAttribute(hStdout, 4);
+                    SetConsoleTextAttribute(hStdout, 6);
                     cout << Line[i];
                 }
                 else if (Line[i] == 'R') {
@@ -63,69 +61,46 @@ void Menu() {
     }
     // Menu and choose menu!!
     int choose;
-    cout << "\t\t\t\t\t\t\t1.Play!!!" << endl;
-    cout << "\t\t\t\t\t\t\t2.Game_Play!!!" << endl;
-    cout << "\t\t\t\t\t\t\t3.Exit!!!" << endl;
+    SetConsoleTextAttribute(hStdout, 2);
+    cout << "\t\t\t\t\t\t\t\t\t\t\t1.Play!!!" << endl;
+    SetConsoleTextAttribute(hStdout, 4);
+    cout << "\t\t\t\t\t\t\t\t\t\t\t2.Game_Play!!!" << endl;
+    SetConsoleTextAttribute(hStdout, 6);
+    cout << "\t\t\t\t\t\t\t\t\t\t\t3.Exit!!!" << endl;
+    SetConsoleTextAttribute(hStdout, 228);
+    cout << "\t\t\t\t\t\t\t\t\t\t\tYour's choice is: ";
     cin >> choose;
+    SetConsoleTextAttribute(hStdout, 7);
     switch (choose) {
         int switchback;
         case 1: {
-
+            system("cls");
+            SetConsoleTextAttribute(hStdout, 1);
+            
             break;
         }
         case 2: {
-
+            system("cls");
             GamePlay();
-            cout << "\t\t\t\t\t\tPress 1 to go to Menu!!!\n\t\t\t\t\t\t\t";
+            cout << "\t\t\t\t\t\t\t\t\t\t\tPress 1 to go back Menu!!!\n\t\t\t\t\t\t\t\n";
+            cout << "\t\t\t\t\t\t\t\t\t\t\tYour's choice is: ";
             cin >> switchback;
-            if(switchback == 1)
+            if (switchback == 1)
+                system("cls");
                 Menu();
             break;
         }
         case 3: {
-
+            cout << "\n\t\t\t\t\t\t\t\t\t\t\t --END GAME-- \n";
+            SetConsoleTextAttribute(hStdout, 0);
+            exit(0);
             break;
         }
     }
+
  
 }
 
-/*void move(int x, int y) {
-	HANDLE hConsoleOutput;
-	COORD Cursor;
-	Cursor.X = x;
-	Cursor.Y = y;
-	hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
-	SetConsoleCursorPosition(hConsoleOutput, Cursor); // DI CHUYEN 
-}
-
-void moveRight() {
-	if (X < A[BOARDSIZE - 1][BOARDSIZE - 1].x) {
-		X += 4;
-		move(X, Y);
-	}
-}
-
-void moveLeft() {
-	if (X > A[0][0].x) {
-		X -= 4;
-		move(X, Y);
-	}
-}
-
-void moveUp() {
-	if (Y > A[0][0].y) {
-		Y -= 2;
-		move(X, Y);
-	}
-}
-
-void moveDown() {
-	if (Y < A[BOARDSIZE - 1][BOARDSIZE - 1].y) {
-		Y += 2;
-		move(X, Y);
-	}
-}*/
 void GamePlay(){
     HANDLE hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
     fstream file2("C:\\Users\\Admin\\Documents\\gameplay.txt", ios::in);
@@ -135,18 +110,33 @@ void GamePlay(){
     }
     else {
         cout << endl;
+        int i = 1;
         while (!file2.eof()) {
-            int i = 1;
             getline(file2, c);
-            //for (i ; i < i + 1; i++) {
-                SetConsoleTextAttribute(hStdout,7 );
-                cout << c;
-            //}
+            if (i == 16)
+                i -=15;
+            SetConsoleTextAttribute(hStdout,i );
+            cout << c;
+            
             cout << endl;
+            i++;
         }
         //cout << writer.str();
         file2.close();
     }
-    SetConsoleTextAttribute(hStdout, 16);
+    SetConsoleTextAttribute(hStdout, 14);
 
+}
+
+void MoveCenter()
+{
+    RECT rectClient, rectWindow;
+    HWND hWnd = GetConsoleWindow();
+    GetClientRect(hWnd, &rectClient);
+    GetWindowRect(hWnd, &rectWindow);
+    int posx, posy;
+    posx = GetSystemMetrics(SM_CXSCREEN) / 2 - (rectWindow.right - rectWindow.left) / 2,
+        posy = GetSystemMetrics(SM_CYSCREEN) / 2 - (rectWindow.bottom - rectWindow.top) / 2,
+
+        MoveWindow(hWnd, posx, posy, rectClient.right - rectClient.left, rectClient.bottom - rectClient.top, TRUE);
 }

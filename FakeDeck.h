@@ -17,4 +17,4 @@ void generateFourOfAKind(int** &hand);
 
 void generateStraightFlush(int** &hand);
 
-int** generateFakeDeck(int status);
+int** generateFakeDeck(int status); 

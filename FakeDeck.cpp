@@ -1,6 +1,6 @@
 #include "FakeDeck.h"
 
-void generatePair(int** &hand){
+void generatePair(int**& hand) {
     hand[0][0] = 0; hand[0][1] = 2;
 
     hand[1][0] = 2; hand[1][1] = 2;
@@ -12,7 +12,7 @@ void generatePair(int** &hand){
     hand[4][0] = 0; hand[4][1] = 5;
 }
 
-void generateTwoPairs(int** &hand){
+void generateTwoPairs(int**& hand) {
     hand[0][0] = 0; hand[0][1] = 2;
 
     hand[1][0] = 2; hand[1][1] = 2;
@@ -24,7 +24,7 @@ void generateTwoPairs(int** &hand){
     hand[4][0] = 0; hand[4][1] = 5;
 }
 
-void generateThreeOfAKind(int** &hand){
+void generateThreeOfAKind(int**& hand) {
     hand[0][0] = 0; hand[0][1] = 2;
 
     hand[1][0] = 2; hand[1][1] = 2;
@@ -36,7 +36,7 @@ void generateThreeOfAKind(int** &hand){
     hand[4][0] = 0; hand[4][1] = 5;
 }
 
-void generateStraight(int** &hand){
+void generateStraight(int**& hand) {
     hand[0][0] = 0; hand[0][1] = 2;
 
     hand[1][0] = 2; hand[1][1] = 3;
@@ -48,7 +48,7 @@ void generateStraight(int** &hand){
     hand[4][0] = 0; hand[4][1] = 6;
 }
 
-void generateFlush(int** &hand){
+void generateFlush(int**& hand) {
     hand[0][0] = 0; hand[0][1] = 2;
 
     hand[1][0] = 0; hand[1][1] = 6;
@@ -60,7 +60,7 @@ void generateFlush(int** &hand){
     hand[4][0] = 0; hand[4][1] = 5;
 }
 
-void generateFullHouse(int** &hand){
+void generateFullHouse(int**& hand) {
     hand[0][0] = 0; hand[0][1] = 2;
 
     hand[1][0] = 2; hand[1][1] = 2;
@@ -72,7 +72,7 @@ void generateFullHouse(int** &hand){
     hand[4][0] = 0; hand[4][1] = 3;
 }
 
-void generateFourOfAKind(int** &hand){
+void generateFourOfAKind(int**& hand) {
     hand[0][0] = 0; hand[0][1] = 2;
 
     hand[1][0] = 2; hand[1][1] = 2;
@@ -84,7 +84,7 @@ void generateFourOfAKind(int** &hand){
     hand[4][0] = 0; hand[4][1] = 5;
 }
 
-void generateStraightFlush(int** &hand){
+void generateStraightFlush(int**& hand) {
     hand[0][0] = 0; hand[0][1] = 2;
 
     hand[1][0] = 0; hand[1][1] = 3;
@@ -96,45 +96,45 @@ void generateStraightFlush(int** &hand){
     hand[4][0] = 0; hand[4][1] = 6;
 }
 
-int** generateFakeDeck(int status){
+int** generateFakeDeck(int status) {
     int** hand = new int* [5];
-    for (int i = 0; i < 5; i++){
+    for (int i = 0; i < 5; i++) {
         *(hand + i) = new int[2];
     }
 
-    switch(status){
-        case 1:{
-            generatePair(hand);
-            break;
-        }
-        case 2:{
-            generateTwoPairs(hand);
-            break;
-        }
-        case 3:{
-            generateThreeOfAKind(hand);
-            break;
-        }
-        case 4:{
-            generateStraight(hand);
-            break;
-        }
-        case 5:{
-            generateFlush(hand);
-            break;
-        }
-        case 6:{
-            generateFullHouse(hand);
-            break;
-        }
-        case 7:{
-            generateFourOfAKind(hand);
-            break;
-        }
-        case 8:{
-            generateStraightFlush(hand);
-            break;
-        }
+    switch (status) {
+    case 1: {
+        generatePair(hand);
+        break;
+    }
+    case 2: {
+        generateTwoPairs(hand);
+        break;
+    }
+    case 3: {
+        generateThreeOfAKind(hand);
+        break;
+    }
+    case 4: {
+        generateStraight(hand);
+        break;
+    }
+    case 5: {
+        generateFlush(hand);
+        break;
+    }
+    case 6: {
+        generateFullHouse(hand);
+        break;
+    }
+    case 7: {
+        generateFourOfAKind(hand);
+        break;
+    }
+    case 8: {
+        generateStraightFlush(hand);
+        break;
+    }
     }
 
     return hand;

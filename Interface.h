@@ -21,3 +21,5 @@ void moveUp();
 void moveDown();*/
 
 void GamePlay();
+
+void MoveCenter();

@@ -1,0 +1,3326 @@
+Player Thinh: 
+|(Diamonds, Ace)||(Spades, Six)||(Spades, Eight)||(Hearts, Jack)||(Hearts, King)|
+Player Chuong: 
+|(Diamonds, Eight)||(Spades, Seven)||(Spades, Two)||(Clubs, Two)||(Clubs, Four)|
+Player Hoang: 
+|(Diamonds, Queen)||(Hearts, Ace)||(Spades, Nine)||(Hearts, Seven)||(Spades, King)|
+Number of Winners: 1
+Congrats player Chuong got , win 40100
+Player Thinh: -1000 (Kicked)
+Player Chuong: 39100
+Player Hoang: -100 (Kicked)
+Player Chuong: 
+|(Clubs, Four)||(Clubs, Seven)||(Spades, Eight)||(Hearts, Five)||(Diamonds, King)|
+Player An: 
+|(Clubs, Jack)||(Diamonds, Six)||(Diamonds, Queen)||(Hearts, Nine)||(Clubs, Ten)|
+Player Tuan: 
+|(Diamonds, Ace)||(Hearts, Six)||(Diamonds, Ten)||(Spades, Four)||(Clubs, Eight)|
+Number of Winners: 3
+Congrats player Chuong got , win 13750
+Congrats player An got , win 13750
+Congrats player Tuan got , win 13750
+Player Chuong: 22750
+Player An: 15500
+Player Tuan: 18750
+Player Chuong: 
+|(Clubs, Queen)||(Spades, Seven)||(Diamonds, Ten)||(Hearts, Two)||(Hearts, Four)|
+Player An: 
+|(Spades, Queen)||(Spades, Nine)||(Hearts, Eight)||(Clubs, Four)||(Spades, Eight)|
+Player Tuan: 
+|(Diamonds, Four)||(Hearts, Ten)||(Spades, Five)||(Spades, Three)||(Diamonds, Three)|
+Number of Winners: 2
+Congrats player An got , win 375
+Congrats player Tuan got Pair, win 375
+Player Chuong: 22450
+Player An: 15625
+Player Tuan: 18925
+Player Phuc: 
+|(Co, Three)||(Chuon, Three)||(Ro, Three)||(Bich, Four)||(Co, Six)|
+Player An: 
+|(Co, Six)||(Chuon, Eight)||(Chuon, Two)||(Ro, Two)||(Bich, Nine)|
+Number of Winners: 1
+Congrats player Phuc got ThreeOfAKind, win 10000
+Player Phuc: 100005000
+Player An: 5000
+Player Phuc: 
+|(Co, Three)||(Chuon, Three)||(Ro, Three)||(Bich, Four)||(Co, Six)|
+Player An: 
+|(Chuon, Six)||(Bich, Seven)||(Bich, Three)||(Ro, Four)||(Co, Nine)|
+Number of Winners: 1
+Congrats player Phuc got ThreeOfAKind, win 6000
+Player Phuc: 100008000
+Player An: 2000
+Player Phuc: 
+|(Co, Three)||(Chuon, Three)||(Ro, Three)||(Bich, Four)||(Co, Six)|
+Player An: 
+|(Chuon, Three)||(Co, Ten)||(Bich, Ten)||(Co, Eight)||(Bich, Five)|
+Number of Winners: 1
+Congrats player Phuc got ThreeOfAKind, win 2000
+Player Phuc: 100009000
+Player An: 1000
+Player Loc: 
+|(Co, Ace)||(Ro, Ten)||(Ro, Three)||(Co, King)||(Ro, Queen)|
+Player Quan: 
+|(Chuon, Jack)||(Co, Jack)||(Co, Five)||(Chuon, Five)||(Chuon, Queen)|
+Player Vinh: 
+|(Ro, Six)||(Chuon, King)||(Chuon, Ace)||(Ro, Eight)||(Ro, Four)|
+Number of Winners: 1
+Congrats player Quan got , win 30000
+Player Loc: 5000
+Player Quan: 175000
+Player Vinh: -8400 (Kicked)
+Player Loc: 
+|(Bich, Jack)||(Ro, Ten)||(Ro, Eight)||(Bich, Ten)||(Co, Six)|
+Player Quan: 
+|(Chuon, King)||(Co, Eight)||(Co, Ten)||(Co, Two)||(Bich, Seven)|
+Number of Winners: 1
+Congrats player Loc got Pair, win 20000
+Player Loc: 15000
+Player Quan: 165000
+Player Loc: 
+|(Co, King)||(Bich, Two)||(Ro, Six)||(Co, Queen)||(Ro, Five)|
+Player Quan: 
+|(Ro, Ten)||(Co, Three)||(Chuon, Queen)||(Chuon, Ace)||(Bich, Queen)|
+Number of Winners: 1
+Congrats player Quan got , win 20000
+Player Loc: 5000
+Player Quan: 175000
+Player Loc: 
+|(Ro, Queen)||(Chuon, Three)||(Ro, Two)||(Chuon, Nine)||(Ro, Nine)|
+Player Quan: 
+|(Bich, King)||(Bich, Three)||(Bich, Six)||(Bich, Five)||(Bich, Nine)|
+Number of Winners: 1
+Congrats player Quan got Pair, win 20000
+Player Loc: -5000 (Kicked)
+Player Quan: 185000
+Player Nien: 
+|(Bich, King)||(Chuon, Two)||(Bich, Two)||(Chuon, Three)||(Chuon, Ace)|
+Player Phuc: 
+|(Ro, Queen)||(Bich, Four)||(Ro, Nine)||(Bich, Six)||(Co, Four)|
+Player Quynh: 
+|(Chuon, Ten)||(Chuon, Six)||(Bich, Three)||(Co, Nine)||(Co, Two)|
+Player Nien: 
+|(Co, Ten)||(Ro, Seven)||(Ro, Three)||(Ro, Eight)||(Chuon, Four)|
+Player Loc: 
+|(Bich, Jack)||(Bich, Seven)||(Co, Ace)||(Ro, Four)||(Ro, Ten)|
+Player Nien: 
+|(Co, Jack)||(Bich, Eight)||(Co, Five)||(Ro, Jack)||(Chuon, Seven)|
+Number of Winners: 3
+Congrats player Nien got Pair, win 10000
+Congrats player Phuc got Pair, win 10000
+Congrats player Nien got , win 10000
+Player Nien: 65000
+Player Phuc: 20000
+Player Quynh: 160300
+Player Nien: 1611331
+Player Loc: 9995000
+Player Nien: 10004999
+Player Nien: 
+|(Co, Ace)||(Ro, King)||(Bich, Two)||(Chuon, Jack)||(Chuon, Seven)|
+Player Phuc: 
+|(Bich, Ten)||(Ro, Two)||(Ro, Jack)||(Ro, Six)||(Ro, Four)|
+Player Quynh: 
+|(Chuon, Four)||(Bich, Seven)||(Co, Six)||(Chuon, Six)||(Co, Five)|
+Player Nien: 
+|(Chuon, Two)||(Chuon, Five)||(Bich, Four)||(Bich, Five)||(Co, King)|
+Player Loc: 
+|(Ro, Seven)||(Chuon, Queen)||(Co, Jack)||(Bich, Nine)||(Bich, Eight)|
+Player Nien: 
+|(Ro, Five)||(Co, Seven)||(Bich, King)||(Bich, Six)||(Ro, Nine)|
+Number of Winners: 2
+Congrats player Quynh got , win 15000
+Congrats player Nien got , win 15000
+Player Nien: 60000
+Player Phuc: 15000
+Player Quynh: 170300
+Player Nien: 1621331
+Player Loc: 9990000
+Player Nien: 9999999
+Player Nien: 
+|(Ro, Three)||(Ro, Four)||(Co, Eight)||(Co, Four)||(Chuon, King)|
+Player Phuc: 
+|(Co, Five)||(Chuon, Nine)||(Ro, Queen)||(Co, Three)||(Co, Queen)|
+Player Quynh: 
+|(Chuon, Queen)||(Ro, Eight)||(Ro, Jack)||(Chuon, Three)||(Ro, Six)|
+Player Nien: 
+|(Co, Ace)||(Ro, Two)||(Co, Ten)||(Ro, Seven)||(Bich, Eight)|
+Player Loc: 
+|(Ro, Ten)||(Chuon, Two)||(Chuon, Six)||(Co, Two)||(Chuon, Five)|
+Player Nien: 
+|(Chuon, Four)||(Co, Nine)||(Bich, Two)||(Ro, Nine)||(Bich, Queen)|
+Number of Winners: 4
+Congrats player Nien got Pair, win 7500
+Congrats player Phuc got Pair, win 7500
+Congrats player Loc got , win 7500
+Congrats player Nien got , win 7500
+Player Nien: 62500
+Player Phuc: 17500
+Player Quynh: 165300
+Player Nien: 1616331
+Player Loc: 9992500
+Player Nien: 10002499
+Player Nien: 
+|(Chuon, Queen)||(Ro, Nine)||(Co, Queen)||(Chuon, Five)||(Ro, Jack)|
+Player Phuc: 
+|(Ro, Queen)||(Co, Nine)||(Ro, King)||(Bich, Seven)||(Bich, Five)|
+Player Quynh: 
+|(Ro, Ten)||(Bich, Ten)||(Ro, Seven)||(Co, King)||(Co, Five)|
+Player Nien: 
+|(Bich, Two)||(Bich, Jack)||(Co, Jack)||(Ro, Five)||(Bich, Eight)|
+Player Loc: 
+|(Co, Two)||(Co, Ten)||(Bich, Four)||(Chuon, Ten)||(Ro, Three)|
+Player Nien: 
+|(Co, Seven)||(Ro, Eight)||(Chuon, Seven)||(Chuon, Two)||(Ro, Four)|
+Number of Winners: 5
+Congrats player Nien got Pair, win 6000
+Congrats player Quynh got , win 6000
+Congrats player Nien got Pair, win 6000
+Congrats player Loc got Pair, win 6000
+Congrats player Nien got Pair, win 6000
+Player Nien: 63500
+Player Phuc: 12500
+Player Quynh: 166300
+Player Nien: 1617331
+Player Loc: 9993500
+Player Nien: 10003499
+Player Nien: 
+|(Ro, Nine)||(Chuon, Ten)||(Chuon, Five)||(Co, Ten)||(Ro, Seven)|
+Player Phuc: 
+|(Co, Two)||(Bich, Eight)||(Co, Eight)||(Chuon, Four)||(Ro, Eight)|
+Player Quynh: 
+|(Bich, Five)||(Ro, King)||(Ro, Five)||(Co, King)||(Chuon, Ace)|
+Player Nien: 
+|(Chuon, Seven)||(Chuon, Six)||(Ro, Ten)||(Bich, Nine)||(Bich, Queen)|
+Player Loc: 
+|(Ro, Jack)||(Bich, Two)||(Ro, Ace)||(Co, Jack)||(Bich, Seven)|
+Player Nien: 
+|(Co, Five)||(Bich, Ace)||(Bich, Three)||(Co, Six)||(Co, Queen)|
+Number of Winners: 1
+Congrats player Phuc got Pair, win 30000
+Player Nien: 58500
+Player Phuc: 37500
+Player Quynh: 161300
+Player Nien: 1612331
+Player Loc: 9988500
+Player Nien: 9998499
+Player Thinh: 
+|(Chuon, Seven)||(Co, Jack)||(Bich, King)||(Ro, Seven)||(Chuon, Ace)|
+Player Loc: 
+|(Bich, Seven)||(Ro, Four)||(Co, Two)||(Co, Eight)||(Chuon, Three)|
+Player Nien: 
+|(Ro, Ace)||(Chuon, Ten)||(Chuon, Four)||(Co, Four)||(Co, Queen)|
+Player Phuc: 
+|(Ro, Six)||(Co, Six)||(Chuon, Two)||(Bich, Queen)||(Bich, Jack)|
+Player Quynh: 
+|(Chuon, Five)||(Chuon, King)||(Bich, Eight)||(Co, Nine)||(Ro, Two)|
+Player Nien: 
+|(Ro, Nine)||(Bich, Six)||(Ro, King)||(Ro, Jack)||(Chuon, Queen)|
+Player Nien: 
+|(Chuon, Eight)||(Co, Three)||(Bich, Ace)||(Chuon, Jack)||(Ro, Five)|
+Number of Winners: 3
+Congrats player Thinh got Pair, win 11666
+Congrats player Nien got , win 11666
+Congrats player Phuc got Pair, win 11666
+Player Thinh: 606666
+Player Loc: 595000
+Player Nien: 65166
+Player Phuc: 44166
+Player Quynh: 156300
+Player Nien: 1607331
+Player Nien: 9993499
+Player Thinh: 
+|(Ro, Four)||(Co, Ace)||(Chuon, Nine)||(Co, Six)||(Bich, Ten)|
+Player Loc: 
+|(Ro, Eight)||(Co, Jack)||(Ro, Ten)||(Chuon, Ace)||(Co, Four)|
+Player Nien: 
+|(Ro, Ace)||(Co, Queen)||(Chuon, Eight)||(Chuon, Two)||(Bich, Seven)|
+Player Phuc: 
+|(Bich, Ace)||(Chuon, Jack)||(Chuon, Six)||(Bich, Eight)||(Chuon, Three)|
+Player Quynh: 
+|(Ro, Nine)||(Bich, Six)||(Bich, Five)||(Bich, Nine)||(Bich, Three)|
+Player Nien: 
+|(Ro, King)||(Ro, Two)||(Co, Ten)||(Co, Eight)||(Chuon, Four)|
+Player Nien: 
+|(Chuon, Ten)||(Ro, Queen)||(Chuon, Seven)||(Chuon, Five)||(Ro, Jack)|
+Number of Winners: 1
+Congrats player Quynh got , win 35000
+Player Thinh: 601666
+Player Loc: 590000
+Player Nien: 60166
+Player Phuc: 39166
+Player Quynh: 186300
+Player Nien: 1602331
+Player Nien: 9988499
+Player Thinh: 
+|(Chuon, Four)||(Chuon, Six)||(Bich, Four)||(Ro, Two)||(Ro, Eight)|
+Player Loc: 
+|(Bich, Queen)||(Chuon, King)||(Chuon, Two)||(Bich, Ace)||(Chuon, Ace)|
+Player Nien: 
+|(Bich, King)||(Chuon, Queen)||(Ro, Three)||(Ro, Jack)||(Ro, Six)|
+Player Phuc: 
+|(Co, Nine)||(Bich, Three)||(Bich, Six)||(Co, Five)||(Co, Jack)|
+Player Quynh: 
+|(Co, King)||(Ro, King)||(Chuon, Nine)||(Chuon, Jack)||(Chuon, Ten)|
+Player Nien: 
+|(Ro, Queen)||(Co, Ace)||(Co, Three)||(Chuon, Seven)||(Ro, Ace)|
+Player Nien: 
+|(Co, Two)||(Ro, Five)||(Chuon, Five)||(Bich, Seven)||(Ro, Seven)|
+Number of Winners: 1
+Congrats player Nien got Pair, win 35000
+Player Thinh: 596666
+Player Loc: 585000
+Player Nien: 55166
+Player Phuc: 34166
+Player Quynh: 181300
+Player Nien: 1597331
+Player Nien: 10018499
+Player Thinh: 
+|(Ro, Seven)||(Co, Three)||(Chuon, Two)||(Chuon, Three)||(Co, Queen)|
+Player Loc: 
+|(Chuon, Jack)||(Chuon, King)||(Chuon, Six)||(Bich, Ten)||(Bich, Jack)|
+Player Nien: 
+|(Ro, Queen)||(Co, Ten)||(Co, Jack)||(Ro, Two)||(Ro, Jack)|
+Player Phuc: 
+|(Ro, Three)||(Ro, Six)||(Chuon, Ace)||(Co, Nine)||(Ro, Ace)|
+Player Quynh: 
+|(Co, Eight)||(Bich, Six)||(Ro, Five)||(Bich, Queen)||(Ro, Eight)|
+Player Nien: 
+|(Co, Four)||(Bich, Seven)||(Bich, Two)||(Co, Six)||(Co, Ace)|
+Player Nien: 
+|(Bich, Nine)||(Chuon, Five)||(Bich, Eight)||(Chuon, Seven)||(Bich, Five)|
+Number of Winners: 6
+Congrats player Thinh got Pair, win 5833
+Congrats player Loc got Pair, win 5833
+Congrats player Nien got Pair, win 5833
+Congrats player Phuc got Pair, win 5833
+Congrats player Quynh got Pair, win 5833
+Congrats player Nien got , win 5833
+Player Thinh: 597499
+Player Loc: 585833
+Player Nien: 55999
+Player Phuc: 34999
+Player Quynh: 182133
+Player Nien: 1592331
+Player Nien: 10019332
+Player Thinh: 
+|(Chuon, Four)||(Chuon, Eight)||(Ro, Two)||(Ro, Six)||(Ro, Ten)|
+Player Loc: 
+|(Chuon, Ace)||(Ro, Ace)||(Ro, Four)||(Bich, Jack)||(Chuon, King)|
+Player Nien: 
+|(Bich, Six)||(Chuon, Queen)||(Bich, Eight)||(Ro, Queen)||(Chuon, Seven)|
+Player Phuc: 
+|(Bich, Two)||(Ro, Eight)||(Co, Jack)||(Chuon, Two)||(Co, Queen)|
+Player Quynh: 
+|(Co, Five)||(Ro, Nine)||(Chuon, Three)||(Bich, Queen)||(Co, King)|
+Player Nien: 
+|(Bich, King)||(Co, Ace)||(Co, Two)||(Chuon, Jack)||(Co, Nine)|
+Player Nien: 
+|(Bich, Ten)||(Bich, Three)||(Co, Four)||(Ro, Jack)||(Co, Ten)|
+Number of Winners: 4
+Congrats player Loc got , win 8750
+Congrats player Nien got Pair, win 8750
+Congrats player Phuc got Pair, win 8750
+Congrats player Nien got Pair, win 8750
+Player Thinh: 592499
+Player Loc: 589583
+Player Nien: 59749
+Player Phuc: 38749
+Player Quynh: 177133
+Player Nien: 1587331
+Player Nien: 10023082
+Player Thinh: 
+|(Chuon, Three)||(Ro, Seven)||(Chuon, Six)||(Bich, Four)||(Chuon, King)|
+Player Loc: 
+|(Chuon, Seven)||(Co, Six)||(Ro, Four)||(Ro, Two)||(Co, Eight)|
+Player Nien: 
+|(Co, Ace)||(Chuon, Queen)||(Ro, King)||(Bich, Eight)||(Bich, Nine)|
+Player Phuc: 
+|(Chuon, Four)||(Bich, Ace)||(Co, Jack)||(Bich, Jack)||(Chuon, Ace)|
+Player Quynh: 
+|(Chuon, Nine)||(Co, Queen)||(Co, Four)||(Ro, Nine)||(Ro, Five)|
+Player Nien: 
+|(Ro, Ten)||(Co, Seven)||(Bich, Seven)||(Ro, Jack)||(Bich, Six)|
+Player Nien: 
+|(Co, Two)||(Ro, Three)||(Co, King)||(Chuon, Jack)||(Ro, Eight)|
+Number of Winners: 1
+Congrats player Phuc got , win 35000
+Player Thinh: 587499
+Player Loc: 584583
+Player Nien: 54749
+Player Phuc: 68749
+Player Quynh: 172133
+Player Nien: 1582331
+Player Nien: 10018082
+Player Thinh: 
+|(Co, Jack)||(Chuon, Ace)||(Co, Six)||(Chuon, Jack)||(Chuon, Four)|
+Player Loc: 
+|(Bich, Four)||(Co, Eight)||(Ro, Queen)||(Co, Ace)||(Chuon, Nine)|
+Player Nien: 
+|(Chuon, Seven)||(Bich, Queen)||(Co, Nine)||(Co, Seven)||(Ro, Eight)|
+Player Phuc: 
+|(Ro, Ace)||(Chuon, Two)||(Chuon, Three)||(Bich, Seven)||(Bich, Three)|
+Player Quynh: 
+|(Chuon, Queen)||(Ro, Five)||(Ro, Three)||(Chuon, Eight)||(Co, Four)|
+Player Nien: 
+|(Ro, Four)||(Bich, Jack)||(Chuon, Six)||(Co, Three)||(Bich, Ace)|
+Player Nien: 
+|(Ro, Nine)||(Ro, Seven)||(Bich, Six)||(Chuon, Five)||(Chuon, Ten)|
+Number of Winners: 3
+Congrats player Thinh got Pair, win 11666
+Congrats player Nien got , win 11666
+Congrats player Phuc got Pair, win 11666
+Player Thinh: 594165
+Player Loc: 579583
+Player Nien: 61415
+Player Phuc: 75415
+Player Quynh: 167133
+Player Nien: 1577331
+Player Nien: 10013082
+Player Thinh: 
+|(Chuon, Seven)||(Ro, Nine)||(Co, Three)||(Chuon, Jack)||(Co, Four)|
+Player Loc: 
+|(Ro, Ten)||(Bich, Eight)||(Co, Five)||(Co, Jack)||(Ro, Ace)|
+Player Nien: 
+|(Ro, Four)||(Co, Seven)||(Chuon, Ten)||(Bich, Nine)||(Chuon, Four)|
+Player Phuc: 
+|(Chuon, Queen)||(Chuon, Two)||(Ro, Five)||(Chuon, Nine)||(Ro, Six)|
+Player Quynh: 
+|(Bich, Six)||(Ro, Two)||(Chuon, Three)||(Ro, Three)||(Co, King)|
+Player Nien: 
+|(Ro, Queen)||(Bich, Ten)||(Chuon, Six)||(Co, Ace)||(Co, Ten)|
+Player Nien: 
+|(Co, Two)||(Bich, Four)||(Bich, King)||(Bich, Two)||(Co, Eight)|
+Number of Winners: 4
+Congrats player Nien got , win 8750
+Congrats player Quynh got , win 8750
+Congrats player Nien got Pair, win 8750
+Congrats player Nien got , win 8750
+Player Thinh: 589165
+Player Loc: 574583
+Player Nien: 65165
+Player Phuc: 70415
+Player Quynh: 170883
+Player Nien: 1581081
+Player Nien: 10016832
+Player Thinh: 
+|(Co, Two)||(Co, Jack)||(Chuon, Nine)||(Co, Ten)||(Ro, Queen)|
+Player Loc: 
+|(Ro, Seven)||(Co, King)||(Ro, Six)||(Chuon, Jack)||(Bich, Two)|
+Player Nien: 
+|(Bich, Six)||(Bich, Three)||(Bich, Ace)||(Ro, Eight)||(Bich, Five)|
+Player Phuc: 
+|(Ro, King)||(Bich, Jack)||(Co, Eight)||(Chuon, Ten)||(Chuon, Seven)|
+Player Quynh: 
+|(Bich, King)||(Ro, Two)||(Chuon, Eight)||(Ro, Jack)||(Co, Ace)|
+Player Nien: 
+|(Bich, Four)||(Bich, Nine)||(Co, Three)||(Chuon, King)||(Bich, Queen)|
+Player Nien: 
+|(Ro, Three)||(Chuon, Queen)||(Co, Five)||(Chuon, Two)||(Ro, Five)|
+Number of Winners: 1
+Congrats player Nien got , win 35000
+Player Thinh: 584165
+Player Loc: 569583
+Player Nien: 60165
+Player Phuc: 65415
+Player Quynh: 165883
+Player Nien: 1576081
+Player Nien: 10046832
+Player Thinh: 
+|(Chuon, Five)||(Chuon, Four)||(Co, Four)||(Chuon, Six)||(Co, Ten)|
+Player Loc: 
+|(Bich, Ace)||(Co, Ace)||(Bich, Five)||(Ro, Ten)||(Co, Six)|
+Player Nien: 
+|(Co, Seven)||(Bich, Three)||(Bich, Seven)||(Chuon, Seven)||(Chuon, Nine)|
+Player Phuc: 
+|(Ro, Eight)||(Chuon, Three)||(Ro, King)||(Ro, Three)||(Bich, Ten)|
+Player Quynh: 
+|(Chuon, Ten)||(Co, Nine)||(Co, Two)||(Ro, Six)||(Ro, Seven)|
+Player Nien: 
+|(Co, Three)||(Ro, Five)||(Bich, King)||(Co, Five)||(Ro, Four)|
+Player Nien: 
+|(Ro, Nine)||(Bich, Two)||(Bich, Six)||(Chuon, Queen)||(Ro, Two)|
+Number of Winners: 1
+Congrats player Nien got Pair, win 35000
+Player Thinh: 579165
+Player Loc: 564583
+Player Nien: 90165
+Player Phuc: 60415
+Player Quynh: 160883
+Player Nien: 1571081
+Player Nien: 10041832
+Player Thinh: 
+|(Co, Jack)||(Chuon, Seven)||(Bich, Ten)||(Chuon, Five)||(Ro, Ten)|
+Player Loc: 
+|(Ro, King)||(Ro, Three)||(Bich, Seven)||(Chuon, Eight)||(Chuon, Three)|
+Player Nien: 
+|(Chuon, Four)||(Bich, Ace)||(Ro, Queen)||(Bich, Nine)||(Co, Four)|
+Player Phuc: 
+|(Chuon, Two)||(Ro, Four)||(Bich, Six)||(Ro, Eight)||(Ro, Six)|
+Player Quynh: 
+|(Co, Seven)||(Bich, King)||(Co, Ten)||(Ro, Five)||(Chuon, Six)|
+Player Nien: 
+|(Bich, Queen)||(Co, Six)||(Co, Nine)||(Ro, Seven)||(Co, Queen)|
+Player Nien: 
+|(Bich, Three)||(Co, Two)||(Bich, Four)||(Bich, Five)||(Ro, Two)|
+Number of Winners: 6
+Congrats player Thinh got Pair, win 5833
+Congrats player Loc got Pair, win 5833
+Congrats player Nien got Pair, win 5833
+Congrats player Phuc got Pair, win 5833
+Congrats player Nien got , win 5833
+Congrats player Nien got Pair, win 5833
+Player Thinh: 579998
+Player Loc: 565416
+Player Nien: 90998
+Player Phuc: 61248
+Player Quynh: 155883
+Player Nien: 1571914
+Player Nien: 10042665
+Player Thinh: 
+|(Ro, Ten)||(Chuon, King)||(Bich, Three)||(Chuon, Four)||(Chuon, Three)|
+Player Loc: 
+|(Chuon, Two)||(Co, Jack)||(Co, Three)||(Bich, Four)||(Co, Five)|
+Player Nien: 
+|(Chuon, Eight)||(Co, Queen)||(Ro, Jack)||(Co, King)||(Bich, King)|
+Player Phuc: 
+|(Co, Four)||(Bich, Eight)||(Ro, King)||(Ro, Three)||(Co, Six)|
+Player Quynh: 
+|(Chuon, Five)||(Ro, Five)||(Bich, Five)||(Bich, Ace)||(Bich, Jack)|
+Player Nien: 
+|(Bich, Two)||(Ro, Six)||(Bich, Seven)||(Bich, Queen)||(Co, Ace)|
+Player Nien: 
+|(Chuon, Seven)||(Chuon, Ten)||(Ro, Seven)||(Ro, Ace)||(Ro, Two)|
+Number of Winners: 1
+Congrats player Quynh got Pair, win 35000
+Player Thinh: 574998
+Player Loc: 560416
+Player Nien: 85998
+Player Phuc: 56248
+Player Quynh: 185883
+Player Nien: 1566914
+Player Nien: 10037665
+Player Thinh: 
+|(Ro, Eight)||(Chuon, Ace)||(Ro, Ten)||(Ro, King)||(Ro, Six)|
+Player Loc: 
+|(Bich, Seven)||(Chuon, Queen)||(Ro, Jack)||(Co, Two)||(Co, Seven)|
+Player Nien: 
+|(Bich, Ten)||(Co, Queen)||(Bich, Jack)||(Ro, Two)||(Chuon, Nine)|
+Player Phuc: 
+|(Chuon, Jack)||(Ro, Five)||(Ro, Queen)||(Bich, Two)||(Bich, Five)|
+Player Quynh: 
+|(Chuon, Two)||(Bich, Six)||(Chuon, Five)||(Ro, Nine)||(Bich, King)|
+Player Nien: 
+|(Co, Three)||(Bich, Four)||(Co, Four)||(Ro, Three)||(Co, Jack)|
+Player Nien: 
+|(Ro, Ace)||(Co, Nine)||(Chuon, Three)||(Ro, Four)||(Co, Ten)|
+Number of Winners: 1
+Congrats player Nien got , win 35000
+Player Thinh: 569998
+Player Loc: 555416
+Player Nien: 80998
+Player Phuc: 51248
+Player Quynh: 180883
+Player Nien: 1596914
+Player Nien: 10032665
+Player Thinh: 
+|(Ro, Two)||(Chuon, Four)||(Ro, Six)||(Co, Queen)||(Ro, Jack)|
+Player Loc: 
+|(Chuon, Queen)||(Bich, Seven)||(Co, Nine)||(Ro, King)||(Chuon, Nine)|
+Player Nien: 
+|(Chuon, Eight)||(Ro, Queen)||(Ro, Seven)||(Bich, King)||(Chuon, Ace)|
+Player Phuc: 
+|(Chuon, Three)||(Bich, Queen)||(Ro, Ten)||(Co, King)||(Bich, Four)|
+Player Quynh: 
+|(Co, Two)||(Ro, Ace)||(Chuon, Five)||(Co, Three)||(Bich, Jack)|
+Player Nien: 
+|(Bich, Ace)||(Chuon, King)||(Co, Jack)||(Bich, Six)||(Co, Seven)|
+Player Nien: 
+|(Chuon, Ten)||(Ro, Nine)||(Chuon, Six)||(Bich, Two)||(Ro, Five)|
+Number of Winners: 1
+Congrats player Loc got , win 35000
+Player Thinh: 564998
+Player Loc: 585416
+Player Nien: 75998
+Player Phuc: 46248
+Player Quynh: 175883
+Player Nien: 1591914
+Player Nien: 10027665
+Player Thinh: 
+|(Chuon, Two)||(Co, Ace)||(Bich, Queen)||(Co, Seven)||(Co, Six)|
+Player Loc: 
+|(Chuon, Jack)||(Chuon, Seven)||(Chuon, Six)||(Bich, Two)||(Chuon, Ace)|
+Player Nien: 
+|(Bich, Six)||(Bich, Five)||(Bich, Ace)||(Ro, Six)||(Chuon, Ten)|
+Player Phuc: 
+|(Ro, Ace)||(Ro, Nine)||(Ro, Eight)||(Co, King)||(Co, Ten)|
+Player Quynh: 
+|(Co, Jack)||(Bich, Four)||(Ro, Five)||(Co, Four)||(Co, Two)|
+Player Nien: 
+|(Ro, Jack)||(Chuon, Five)||(Ro, Ten)||(Ro, King)||(Bich, Ten)|
+Player Nien: 
+|(Chuon, Three)||(Bich, Three)||(Bich, Nine)||(Ro, Seven)||(Co, Nine)|
+Number of Winners: 1
+Congrats player Nien got , win 35000
+Player Thinh: 559998
+Player Loc: 580416
+Player Nien: 70998
+Player Phuc: 41248
+Player Quynh: 170883
+Player Nien: 1586914
+Player Nien: 10057665
+Player Thinh: 
+|(Ro, Ten)||(Chuon, Seven)||(Ro, Eight)||(Chuon, Ace)||(Ro, Six)|
+Player Loc: 
+|(Bich, Five)||(Bich, Queen)||(Bich, Jack)||(Co, Ten)||(Chuon, Eight)|
+Player Nien: 
+|(Ro, Jack)||(Co, Four)||(Bich, Seven)||(Bich, Three)||(Ro, Nine)|
+Player Phuc: 
+|(Chuon, Two)||(Ro, Ace)||(Ro, Two)||(Co, Three)||(Chuon, Six)|
+Player Quynh: 
+|(Co, King)||(Chuon, King)||(Co, Two)||(Ro, Seven)||(Co, Seven)|
+Player Nien: 
+|(Bich, Eight)||(Chuon, Queen)||(Bich, Ten)||(Co, Six)||(Chuon, Nine)|
+Player Nien: 
+|(Chuon, Five)||(Co, Ace)||(Ro, King)||(Bich, Six)||(Ro, Four)|
+Number of Winners: 1
+Congrats player Quynh got , win 35000
+Player Thinh: 554998
+Player Loc: 575416
+Player Nien: 65998
+Player Phuc: 36248
+Player Quynh: 200883
+Player Nien: 1581914
+Player Nien: 10052665
+Player Thinh: 
+|(Bich, Queen)||(Co, Queen)||(Chuon, Ace)||(Co, Two)||(Bich, Ten)|
+Player Loc: 
+|(Chuon, Six)||(Bich, Five)||(Co, Six)||(Co, Ten)||(Ro, Two)|
+Player Nien: 
+|(Bich, Jack)||(Co, Four)||(Chuon, Seven)||(Chuon, Five)||(Bich, Eight)|
+Player Phuc: 
+|(Chuon, Three)||(Bich, Four)||(Ro, Ace)||(Chuon, Two)||(Ro, Queen)|
+Player Quynh: 
+|(Bich, King)||(Co, Nine)||(Bich, Seven)||(Ro, Six)||(Chuon, King)|
+Player Nien: 
+|(Chuon, Queen)||(Co, Three)||(Chuon, Nine)||(Bich, Three)||(Ro, King)|
+Player Nien: 
+|(Co, Jack)||(Co, Eight)||(Co, Five)||(Co, King)||(Ro, Jack)|
+Number of Winners: 5
+Congrats player Thinh got Pair, win 7000
+Congrats player Loc got Pair, win 7000
+Congrats player Quynh got , win 7000
+Congrats player Nien got , win 7000
+Congrats player Nien got Pair, win 7000
+Player Thinh: 556998
+Player Loc: 577416
+Player Nien: 60998
+Player Phuc: 31248
+Player Quynh: 202883
+Player Nien: 1583914
+Player Nien: 10054665
+Player Thinh: 
+|(Co, Six)||(Bich, Seven)||(Bich, Ace)||(Co, Five)||(Chuon, Queen)|
+Player Loc: 
+|(Ro, Queen)||(Ro, Ten)||(Bich, Four)||(Ro, Four)||(Ro, King)|
+Player Nien: 
+|(Ro, Two)||(Co, King)||(Co, Jack)||(Chuon, Two)||(Ro, Five)|
+Player Phuc: 
+|(Chuon, Eight)||(Co, Two)||(Chuon, Ten)||(Ro, Jack)||(Bich, Five)|
+Player Quynh: 
+|(Ro, Seven)||(Co, Queen)||(Co, Four)||(Ro, Three)||(Co, Three)|
+Player Nien: 
+|(Bich, Three)||(Chuon, Jack)||(Chuon, Nine)||(Bich, Two)||(Ro, Eight)|
+Player Nien: 
+|(Bich, Queen)||(Chuon, Six)||(Chuon, Ace)||(Bich, Jack)||(Ro, Six)|
+Number of Winners: 4
+Congrats player Loc got , win 8750
+Congrats player Nien got Pair, win 8750
+Congrats player Quynh got Pair, win 8750
+Congrats player Nien got , win 8750
+Player Thinh: 551998
+Player Loc: 581166
+Player Nien: 64748
+Player Phuc: 26248
+Player Quynh: 206633
+Player Nien: 1578914
+Player Nien: 10058415
+Player Thinh: 
+|(Ro, Queen)||(Co, Seven)||(Chuon, Six)||(Bich, King)||(Chuon, Ten)|
+Player Loc: 
+|(Co, Two)||(Ro, Three)||(Bich, Five)||(Chuon, Queen)||(Ro, Five)|
+Player Nien: 
+|(Ro, Two)||(Co, Six)||(Ro, Seven)||(Chuon, Nine)||(Co, Eight)|
+Player Phuc: 
+|(Bich, Six)||(Co, Ace)||(Chuon, Eight)||(Ro, Ace)||(Bich, Queen)|
+Player Quynh: 
+|(Ro, Six)||(Chuon, Ace)||(Bich, Three)||(Co, Queen)||(Ro, Eight)|
+Player Nien: 
+|(Chuon, Four)||(Chuon, Jack)||(Co, Five)||(Chuon, Seven)||(Chuon, King)|
+Player Nien: 
+|(Co, Jack)||(Ro, King)||(Ro, Ten)||(Bich, Ten)||(Chuon, Two)|
+Number of Winners: 3
+Congrats player Loc got , win 11666
+Congrats player Phuc got Pair, win 11666
+Congrats player Nien got , win 11666
+Player Thinh: 546998
+Player Loc: 587832
+Player Nien: 59748
+Player Phuc: 32914
+Player Quynh: 201633
+Player Nien: 1573914
+Player Nien: 10065081
+Player Thinh: 
+|(Chuon, Six)||(Ro, Two)||(Chuon, Seven)||(Bich, Jack)||(Bich, Queen)|
+Player Loc: 
+|(Chuon, Four)||(Bich, Three)||(Co, Four)||(Co, Ace)||(Co, Seven)|
+Player Nien: 
+|(Ro, Jack)||(Co, Three)||(Ro, Five)||(Bich, Four)||(Co, Queen)|
+Player Phuc: 
+|(Bich, Six)||(Co, Nine)||(Bich, Five)||(Chuon, Nine)||(Ro, Nine)|
+Player Quynh: 
+|(Co, Jack)||(Bich, Nine)||(Ro, Three)||(Ro, Queen)||(Co, Six)|
+Player Nien: 
+|(Bich, Ace)||(Bich, Two)||(Bich, Ten)||(Chuon, Three)||(Chuon, Two)|
+Player Nien: 
+|(Co, Two)||(Chuon, Ten)||(Chuon, Five)||(Chuon, King)||(Ro, Ace)|
+Number of Winners: 1
+Congrats player Phuc got , win 35000
+Player Thinh: 541998
+Player Loc: 582832
+Player Nien: 54748
+Player Phuc: 62914
+Player Quynh: 196633
+Player Nien: 1568914
+Player Nien: 10060081
+Player Thinh: 
+|(Chuon, Six)||(Co, Eight)||(Chuon, Ace)||(Ro, Ace)||(Co, Two)|
+Player Loc: 
+|(Co, Four)||(Ro, Eight)||(Chuon, Queen)||(Ro, Nine)||(Bich, Six)|
+Player Nien: 
+|(Co, Three)||(Ro, Five)||(Co, Ace)||(Chuon, Nine)||(Ro, Four)|
+Player Phuc: 
+|(Ro, Six)||(Bich, King)||(Bich, Jack)||(Bich, Two)||(Co, Nine)|
+Player Quynh: 
+|(Chuon, King)||(Bich, Four)||(Bich, Three)||(Bich, Nine)||(Bich, Queen)|
+Player Nien: 
+|(Chuon, Two)||(Co, King)||(Co, Six)||(Bich, Eight)||(Bich, Five)|
+Player Nien: 
+|(Chuon, Four)||(Chuon, Jack)||(Co, Seven)||(Co, Queen)||(Ro, Three)|
+Number of Winners: 1
+Congrats player Thinh got Pair, win 35000
+Player Thinh: 571998
+Player Loc: 577832
+Player Nien: 49748
+Player Phuc: 57914
+Player Quynh: 191633
+Player Nien: 1563914
+Player Nien: 10055081
+Player Thinh: 
+|(Bich, Ten)||(Bich, Five)||(Ro, Three)||(Co, Nine)||(Bich, Ace)|
+Player Loc: 
+|(Ro, Ace)||(Co, King)||(Chuon, Six)||(Co, Queen)||(Chuon, Two)|
+Player Nien: 
+|(Co, Ace)||(Bich, Seven)||(Co, Six)||(Bich, King)||(Chuon, Jack)|
+Player Phuc: 
+|(Ro, Four)||(Co, Two)||(Bich, Six)||(Ro, Six)||(Ro, Ten)|
+Player Quynh: 
+|(Co, Eight)||(Bich, Jack)||(Ro, Five)||(Co, Jack)||(Chuon, Queen)|
+Player Nien: 
+|(Chuon, King)||(Chuon, Five)||(Ro, Nine)||(Ro, Eight)||(Chuon, Four)|
+Player Nien: 
+|(Bich, Three)||(Ro, Seven)||(Chuon, Seven)||(Bich, Four)||(Bich, Queen)|
+Number of Winners: 3
+Congrats player Phuc got , win 11666
+Congrats player Quynh got , win 11666
+Congrats player Nien got , win 11666
+Player Thinh: 566998
+Player Loc: 572832
+Player Nien: 44748
+Player Phuc: 64580
+Player Quynh: 198299
+Player Nien: 1558914
+Player Nien: 10061747
+Player Thinh: 
+|(Chuon, Two)||(Ro, Ten)||(Bich, Five)||(Co, Six)||(Ro, Queen)|
+Player Loc: 
+|(Bich, Ten)||(Co, Ace)||(Chuon, Eight)||(Co, Queen)||(Bich, Seven)|
+Player Nien: 
+|(Ro, Eight)||(Bich, Nine)||(Chuon, Five)||(Bich, Eight)||(Ro, Nine)|
+Player Phuc: 
+|(Ro, King)||(Co, Eight)||(Co, Seven)||(Chuon, Four)||(Bich, Ace)|
+Player Quynh: 
+|(Chuon, King)||(Chuon, Jack)||(Bich, Two)||(Co, Two)||(Co, Jack)|
+Player Nien: 
+|(Bich, Six)||(Co, Five)||(Bich, Four)||(Bich, King)||(Bich, Jack)|
+Player Nien: 
+|(Ro, Seven)||(Ro, Three)||(Co, King)||(Co, Nine)||(Chuon, Three)|
+Number of Winners: 2
+Congrats player Nien got , win 17500
+Congrats player Quynh got , win 17500
+Player Thinh: 561998
+Player Loc: 567832
+Player Nien: 57248
+Player Phuc: 59580
+Player Quynh: 210799
+Player Nien: 1553914
+Player Nien: 10056747
+Player Thinh: 
+|(Bich, Two)||(Bich, Three)||(Bich, Nine)||(Bich, Ace)||(Ro, Jack)|
+Player Loc: 
+|(Bich, Four)||(Bich, Five)||(Bich, King)||(Ro, Seven)||(Bich, Eight)|
+Player Nien: 
+|(Chuon, Five)||(Co, Four)||(Ro, Five)||(Chuon, Ace)||(Chuon, Six)|
+Player Phuc: 
+|(Co, Queen)||(Ro, King)||(Chuon, King)||(Co, Jack)||(Co, Eight)|
+Player Quynh: 
+|(Chuon, Three)||(Co, Ten)||(Chuon, Seven)||(Co, Six)||(Ro, Eight)|
+Player Nien: 
+|(Chuon, Jack)||(Bich, Jack)||(Ro, Six)||(Co, Three)||(Ro, Nine)|
+Player Nien: 
+|(Ro, Three)||(Bich, Ten)||(Bich, Queen)||(Co, Seven)||(Chuon, Nine)|
+Number of Winners: 3
+Congrats player Nien got , win 11666
+Congrats player Phuc got , win 11666
+Congrats player Nien got Pair, win 11666
+Player Thinh: 556998
+Player Loc: 562832
+Player Nien: 63914
+Player Phuc: 66246
+Player Quynh: 205799
+Player Nien: 1560580
+Player Nien: 10051747
+Player Thinh: 
+|(Ro, Eight)||(Chuon, Nine)||(Ro, Three)||(Bich, Three)||(Chuon, Jack)|
+Player Loc: 
+|(Bich, Four)||(Chuon, Six)||(Chuon, Five)||(Bich, Eight)||(Ro, Two)|
+Player Nien: 
+|(Bich, Queen)||(Ro, Seven)||(Chuon, Four)||(Ro, Queen)||(Bich, Five)|
+Player Phuc: 
+|(Co, Ten)||(Chuon, Ace)||(Bich, Two)||(Chuon, Seven)||(Ro, Four)|
+Player Quynh: 
+|(Bich, Nine)||(Co, Two)||(Co, Six)||(Ro, Nine)||(Chuon, Eight)|
+Player Nien: 
+|(Chuon, King)||(Co, Jack)||(Ro, Ace)||(Chuon, Ten)||(Bich, Jack)|
+Player Nien: 
+|(Co, Nine)||(Bich, King)||(Ro, Jack)||(Co, Five)||(Bich, Ace)|
+Number of Winners: 4
+Congrats player Thinh got Pair, win 8750
+Congrats player Nien got , win 8750
+Congrats player Quynh got Pair, win 8750
+Congrats player Nien got , win 8750
+Player Thinh: 560748
+Player Loc: 557832
+Player Nien: 67664
+Player Phuc: 61246
+Player Quynh: 209549
+Player Nien: 1564330
+Player Nien: 10046747
+Player Thinh: 
+|(Ro, Jack)||(Chuon, Three)||(Co, King)||(Bich, Six)||(Bich, Five)|
+Player Loc: 
+|(Chuon, Nine)||(Chuon, Eight)||(Ro, Queen)||(Ro, Six)||(Co, Seven)|
+Player Nien: 
+|(Ro, Five)||(Co, Ace)||(Ro, Eight)||(Chuon, Five)||(Co, Ten)|
+Player Phuc: 
+|(Bich, Two)||(Chuon, Jack)||(Co, Jack)||(Bich, Seven)||(Ro, Ace)|
+Player Quynh: 
+|(Ro, Nine)||(Bich, Queen)||(Ro, Ten)||(Chuon, Ten)||(Ro, Two)|
+Player Nien: 
+|(Chuon, Seven)||(Ro, Three)||(Bich, Nine)||(Bich, Ace)||(Chuon, King)|
+Player Nien: 
+|(Bich, Three)||(Co, Three)||(Bich, Ten)||(Chuon, Four)||(Co, Two)|
+Number of Winners: 4
+Congrats player Nien got , win 8750
+Congrats player Phuc got , win 8750
+Congrats player Quynh got Pair, win 8750
+Congrats player Nien got Pair, win 8750
+Player Thinh: 555748
+Player Loc: 552832
+Player Nien: 71414
+Player Phuc: 64996
+Player Quynh: 213299
+Player Nien: 1559330
+Player Nien: 10050497
+Player Thinh: 
+|(Ro, Five)||(Bich, Seven)||(Bich, Jack)||(Bich, Eight)||(Chuon, Queen)|
+Player Loc: 
+|(Co, Queen)||(Chuon, Eight)||(Bich, Ten)||(Co, Eight)||(Ro, Two)|
+Player Nien: 
+|(Chuon, Six)||(Ro, Six)||(Chuon, Four)||(Co, Nine)||(Chuon, Five)|
+Player Phuc: 
+|(Bich, Four)||(Co, Three)||(Ro, Four)||(Bich, Nine)||(Ro, Queen)|
+Player Quynh: 
+|(Chuon, Nine)||(Co, Two)||(Co, Seven)||(Chuon, Three)||(Co, Ten)|
+Player Nien: 
+|(Ro, Seven)||(Ro, Three)||(Co, King)||(Chuon, Jack)||(Co, Jack)|
+Player Nien: 
+|(Ro, King)||(Chuon, Ten)||(Ro, Jack)||(Co, Six)||(Chuon, King)|
+Number of Winners: 5
+Congrats player Loc got , win 7000
+Congrats player Nien got Pair, win 7000
+Congrats player Phuc got Pair, win 7000
+Congrats player Nien got Pair, win 7000
+Congrats player Nien got , win 7000
+Player Thinh: 550748
+Player Loc: 554832
+Player Nien: 73414
+Player Phuc: 66996
+Player Quynh: 208299
+Player Nien: 1561330
+Player Nien: 10052497
+Player Thinh: 
+|(Co, Five)||(Bich, King)||(Chuon, Five)||(Ro, Queen)||(Ro, Jack)|
+Player Loc: 
+|(Chuon, Three)||(Co, Nine)||(Ro, Six)||(Ro, Ten)||(Co, Ace)|
+Player Nien: 
+|(Chuon, Jack)||(Bich, Jack)||(Co, Six)||(Bich, Ace)||(Co, King)|
+Player Phuc: 
+|(Bich, Six)||(Chuon, Ten)||(Co, Four)||(Ro, Five)||(Chuon, Four)|
+Player Quynh: 
+|(Chuon, Two)||(Ro, King)||(Ro, Eight)||(Bich, Four)||(Chuon, King)|
+Player Nien: 
+|(Ro, Two)||(Chuon, Ace)||(Chuon, Seven)||(Ro, Three)||(Co, Seven)|
+Player Nien: 
+|(Bich, Five)||(Co, Jack)||(Co, Two)||(Bich, Ten)||(Chuon, Six)|
+Number of Winners: 5
+Congrats player Thinh got Pair, win 7000
+Congrats player Nien got , win 7000
+Congrats player Phuc got Pair, win 7000
+Congrats player Quynh got Pair, win 7000
+Congrats player Nien got Pair, win 7000
+Player Thinh: 552748
+Player Loc: 549832
+Player Nien: 75414
+Player Phuc: 68996
+Player Quynh: 210299
+Player Nien: 1563330
+Player Nien: 10047497
+Player Thinh: 
+|(Co, Four)||(Ro, Ten)||(Ro, Queen)||(Ro, Seven)||(Co, Nine)|
+Player Loc: 
+|(Co, Two)||(Ro, Ace)||(Ro, Three)||(Chuon, Six)||(Chuon, King)|
+Player Nien: 
+|(Bich, Nine)||(Ro, King)||(Bich, Two)||(Bich, Four)||(Bich, Ten)|
+Player Phuc: 
+|(Bich, Ace)||(Bich, Eight)||(Ro, Nine)||(Co, Jack)||(Ro, Six)|
+Player Quynh: 
+|(Co, Five)||(Ro, Jack)||(Chuon, Five)||(Bich, Seven)||(Chuon, Seven)|
+Player Nien: 
+|(Co, Seven)||(Chuon, Queen)||(Bich, Three)||(Ro, Eight)||(Chuon, Eight)|
+Player Nien: 
+|(Chuon, Ace)||(Ro, Two)||(Co, King)||(Co, Queen)||(Chuon, Jack)|
+Number of Winners: 1
+Congrats player Quynh got , win 35000
+Player Thinh: 547748
+Player Loc: 544832
+Player Nien: 70414
+Player Phuc: 63996
+Player Quynh: 240299
+Player Nien: 1558330
+Player Nien: 10042497
+Player Thinh: 
+|(Co, Four)||(Bich, Nine)||(Chuon, Five)||(Chuon, Nine)||(Bich, Seven)|
+Player Loc: 
+|(Co, Two)||(Co, Three)||(Bich, Queen)||(Bich, Ace)||(Ro, Jack)|
+Player Nien: 
+|(Ro, Four)||(Ro, Eight)||(Chuon, Six)||(Co, Ace)||(Co, Queen)|
+Player Phuc: 
+|(Bich, Four)||(Ro, King)||(Chuon, Four)||(Ro, Three)||(Ro, Two)|
+Player Quynh: 
+|(Chuon, Ten)||(Co, Nine)||(Bich, Five)||(Ro, Seven)||(Ro, Five)|
+Player Nien: 
+|(Bich, King)||(Ro, Six)||(Bich, Jack)||(Co, Jack)||(Co, King)|
+Player Nien: 
+|(Bich, Ten)||(Bich, Six)||(Chuon, Jack)||(Ro, Nine)||(Chuon, Ace)|
+Number of Winners: 1
+Congrats player Nien got Pair, win 35000
+Player Thinh: 542748
+Player Loc: 539832
+Player Nien: 65414
+Player Phuc: 58996
+Player Quynh: 235299
+Player Nien: 1588330
+Player Nien: 10037497
+Player Thinh: 
+|(Bich, Ace)||(Chuon, Seven)||(Ro, Ten)||(Bich, Six)||(Chuon, King)|
+Player Loc: 
+|(Ro, Ace)||(Ro, Two)||(Co, Four)||(Bich, Seven)||(Co, Nine)|
+Player Nien: 
+|(Chuon, Jack)||(Co, Three)||(Co, Six)||(Bich, Two)||(Bich, Nine)|
+Player Phuc: 
+|(Co, Queen)||(Chuon, Six)||(Co, Five)||(Ro, Five)||(Bich, Queen)|
+Player Quynh: 
+|(Ro, Queen)||(Bich, Eight)||(Chuon, Ten)||(Bich, Ten)||(Co, Jack)|
+Player Nien: 
+|(Bich, Five)||(Chuon, Five)||(Chuon, Queen)||(Chuon, Ace)||(Ro, Jack)|
+Player Nien: 
+|(Co, Eight)||(Chuon, Three)||(Ro, King)||(Chuon, Nine)||(Bich, King)|
+Number of Winners: 1
+Congrats player Phuc got , win 35000
+Player Thinh: 537748
+Player Loc: 534832
+Player Nien: 60414
+Player Phuc: 88996
+Player Quynh: 230299
+Player Nien: 1583330
+Player Nien: 10032497
+Player Thinh: 
+|(Co, Five)||(Bich, Three)||(Co, Six)||(Ro, Ten)||(Co, Two)|
+Player Loc: 
+|(Ro, Queen)||(Chuon, Nine)||(Bich, Queen)||(Co, Seven)||(Chuon, Two)|
+Player Nien: 
+|(Chuon, Ten)||(Ro, King)||(Ro, Two)||(Chuon, Three)||(Co, Ten)|
+Player Phuc: 
+|(Chuon, Eight)||(Ro, Seven)||(Bich, Ace)||(Bich, Jack)||(Bich, Four)|
+Player Quynh: 
+|(Co, Four)||(Ro, Six)||(Bich, Five)||(Co, Nine)||(Ro, Ace)|
+Player Nien: 
+|(Bich, Seven)||(Bich, Two)||(Chuon, Ace)||(Co, Queen)||(Bich, King)|
+Player Nien: 
+|(Bich, Eight)||(Co, Three)||(Ro, Three)||(Chuon, Jack)||(Co, Eight)|
+Number of Winners: 1
+Congrats player Nien got , win 35000
+Player Thinh: 532748
+Player Loc: 529832
+Player Nien: 55414
+Player Phuc: 83996
+Player Quynh: 225299
+Player Nien: 1578330
+Player Nien: 10062497
+Player Thinh: 
+|(Ro, Nine)||(Bich, Ten)||(Chuon, Queen)||(Bich, Four)||(Ro, Eight)|
+Player Loc: 
+|(Ro, Five)||(Ro, Jack)||(Chuon, Ten)||(Co, Nine)||(Co, Four)|
+Player Nien: 
+|(Chuon, Ace)||(Co, Eight)||(Co, Queen)||(Bich, Three)||(Bich, King)|
+Player Phuc: 
+|(Chuon, Three)||(Bich, Two)||(Ro, Two)||(Ro, Four)||(Bich, Six)|
+Player Quynh: 
+|(Co, Five)||(Ro, Queen)||(Co, Three)||(Ro, Three)||(Chuon, Five)|
+Player Nien: 
+|(Ro, Seven)||(Chuon, Two)||(Chuon, Nine)||(Co, Seven)||(Co, Two)|
+Player Nien: 
+|(Co, Jack)||(Chuon, Six)||(Chuon, Eight)||(Co, Ten)||(Ro, Ten)|
+Number of Winners: 2
+Congrats player Quynh got , win 17500
+Congrats player Nien got , win 17500
+Player Thinh: 527748
+Player Loc: 524832
+Player Nien: 50414
+Player Phuc: 78996
+Player Quynh: 237799
+Player Nien: 1590830
+Player Nien: 10057497
+Player Thinh: 
+|(Chuon, Nine)||(Ro, Six)||(Ro, Five)||(Chuon, Two)||(Ro, Jack)|
+Player Loc: 
+|(Ro, Two)||(Co, Five)||(Chuon, Four)||(Bich, Seven)||(Bich, Ten)|
+Player Nien: 
+|(Co, Six)||(Co, Seven)||(Chuon, Eight)||(Chuon, Ace)||(Bich, Jack)|
+Player Phuc: 
+|(Bich, Four)||(Bich, Five)||(Chuon, Three)||(Bich, Six)||(Bich, Eight)|
+Player Quynh: 
+|(Co, King)||(Co, Jack)||(Ro, Queen)||(Ro, King)||(Co, Eight)|
+Player Nien: 
+|(Chuon, Ten)||(Chuon, Five)||(Ro, Nine)||(Ro, Three)||(Co, Ace)|
+Player Nien: 
+|(Chuon, Queen)||(Co, Ten)||(Bich, Ace)||(Bich, King)||(Bich, Queen)|
+Number of Winners: 2
+Congrats player Quynh got , win 17500
+Congrats player Nien got , win 17500
+Player Thinh: 522748
+Player Loc: 519832
+Player Nien: 45414
+Player Phuc: 73996
+Player Quynh: 250299
+Player Nien: 1585830
+Player Nien: 10069997
+Player Thinh: 
+|(Ro, Five)||(Co, Eight)||(Ro, Four)||(Bich, Queen)||(Chuon, Five)|
+Player Loc: 
+|(Ro, Eight)||(Chuon, Ten)||(Co, Ace)||(Ro, Seven)||(Bich, Six)|
+Player Nien: 
+|(Ro, Queen)||(Bich, Seven)||(Bich, Nine)||(Chuon, Queen)||(Bich, King)|
+Player Phuc: 
+|(Co, King)||(Bich, Five)||(Ro, King)||(Ro, Six)||(Co, Ten)|
+Player Quynh: 
+|(Co, Nine)||(Co, Five)||(Bich, Jack)||(Bich, Three)||(Ro, Two)|
+Player Nien: 
+|(Bich, Four)||(Co, Queen)||(Ro, Jack)||(Co, Seven)||(Bich, Ace)|
+Player Nien: 
+|(Ro, Ace)||(Co, Jack)||(Chuon, Seven)||(Bich, Ten)||(Chuon, Jack)|
+Number of Winners: 4
+Congrats player Thinh got Pair, win 8750
+Congrats player Nien got , win 8750
+Congrats player Phuc got Pair, win 8750
+Congrats player Nien got Pair, win 8750
+Player Thinh: 526498
+Player Loc: 514832
+Player Nien: 49164
+Player Phuc: 77746
+Player Quynh: 245299
+Player Nien: 1580830
+Player Nien: 10073747
+Player Thinh: 
+|(Co, Seven)||(Bich, Nine)||(Bich, Ace)||(Co, Ten)||(Chuon, Five)|
+Player Loc: 
+|(Ro, Six)||(Bich, Two)||(Ro, Ten)||(Chuon, King)||(Ro, Eight)|
+Player Nien: 
+|(Ro, Queen)||(Ro, Jack)||(Ro, Four)||(Co, Ace)||(Bich, Five)|
+Player Phuc: 
+|(Co, Five)||(Co, Jack)||(Co, Three)||(Bich, Six)||(Ro, Seven)|
+Player Quynh: 
+|(Ro, King)||(Bich, King)||(Chuon, Seven)||(Ro, Ace)||(Co, King)|
+Player Nien: 
+|(Chuon, Four)||(Co, Six)||(Chuon, Nine)||(Chuon, Six)||(Chuon, Three)|
+Player Nien: 
+|(Ro, Five)||(Bich, Ten)||(Co, Two)||(Bich, Eight)||(Co, Eight)|
+Number of Winners: 1
+Congrats player Quynh got , win 35000
+Player Thinh: 521498
+Player Loc: 509832
+Player Nien: 44164
+Player Phuc: 72746
+Player Quynh: 275299
+Player Nien: 1575830
+Player Nien: 10068747
+Player Thinh: 
+|(Co, Four)||(Chuon, Jack)||(Bich, Queen)||(Ro, Five)||(Co, Two)|
+Player Loc: 
+|(Bich, Seven)||(Bich, Nine)||(Chuon, King)||(Co, Jack)||(Bich, Two)|
+Player Nien: 
+|(Co, Five)||(Chuon, Eight)||(Co, Six)||(Chuon, Queen)||(Ro, Queen)|
+Player Phuc: 
+|(Ro, Three)||(Ro, Eight)||(Chuon, Nine)||(Co, Ten)||(Bich, Five)|
+Player Quynh: 
+|(Co, Ace)||(Chuon, Ten)||(Ro, Six)||(Bich, King)||(Co, Eight)|
+Player Nien: 
+|(Bich, Four)||(Chuon, Four)||(Co, Nine)||(Ro, Ten)||(Ro, Four)|
+Player Nien: 
+|(Bich, Ten)||(Co, Queen)||(Ro, Two)||(Ro, Seven)||(Co, Seven)|
+Number of Winners: 1
+Congrats player Nien got , win 35000
+Player Thinh: 516498
+Player Loc: 504832
+Player Nien: 39164
+Player Phuc: 67746
+Player Quynh: 270299
+Player Nien: 1605830
+Player Nien: 10063747
+Player Thinh: 
+|(Chuon, Two)||(Co, Queen)||(Co, Four)||(Bich, Jack)||(Bich, Queen)|
+Player Loc: 
+|(Co, King)||(Chuon, Ten)||(Co, Five)||(Bich, Ten)||(Chuon, Queen)|
+Player Nien: 
+|(Co, Ace)||(Chuon, Three)||(Ro, Ten)||(Co, Two)||(Bich, Ace)|
+Player Phuc: 
+|(Ro, Seven)||(Chuon, Four)||(Ro, Five)||(Bich, Eight)||(Bich, Five)|
+Player Quynh: 
+|(Ro, Eight)||(Ro, Queen)||(Ro, Four)||(Co, Nine)||(Ro, Ace)|
+Player Nien: 
+|(Ro, Three)||(Ro, King)||(Chuon, Five)||(Co, Eight)||(Co, Jack)|
+Player Nien: 
+|(Co, Six)||(Bich, Four)||(Ro, Nine)||(Ro, Jack)||(Bich, Three)|
+Number of Winners: 4
+Congrats player Thinh got Pair, win 8750
+Congrats player Loc got Pair, win 8750
+Congrats player Nien got Pair, win 8750
+Congrats player Phuc got Pair, win 8750
+Player Thinh: 520248
+Player Loc: 508582
+Player Nien: 42914
+Player Phuc: 71496
+Player Quynh: 265299
+Player Nien: 1600830
+Player Nien: 10058747
+Player Thinh: 
+|(Ro, Jack)||(Chuon, Seven)||(Bich, Ace)||(Co, Seven)||(Bich, Four)|
+Player Loc: 
+|(Co, King)||(Bich, Five)||(Bich, Eight)||(Chuon, Two)||(Co, Queen)|
+Player Nien: 
+|(Chuon, Ten)||(Ro, Five)||(Co, Two)||(Ro, Seven)||(Bich, Ten)|
+Player Phuc: 
+|(Chuon, Ace)||(Co, Eight)||(Chuon, Nine)||(Co, Nine)||(Ro, Six)|
+Player Quynh: 
+|(Chuon, Eight)||(Ro, Nine)||(Chuon, King)||(Ro, Ace)||(Chuon, Three)|
+Player Nien: 
+|(Co, Jack)||(Co, Three)||(Bich, Three)||(Ro, King)||(Ro, Four)|
+Player Nien: 
+|(Co, Ace)||(Ro, Three)||(Chuon, Six)||(Ro, Eight)||(Chuon, Queen)|
+Number of Winners: 4
+Congrats player Thinh got Pair, win 8750
+Congrats player Nien got , win 8750
+Congrats player Phuc got Pair, win 8750
+Congrats player Nien got Pair, win 8750
+Player Thinh: 523998
+Player Loc: 503582
+Player Nien: 46664
+Player Phuc: 75246
+Player Quynh: 260299
+Player Nien: 1604580
+Player Nien: 10053747
+Player Thinh: 
+|(Chuon, Six)||(Ro, Nine)||(Chuon, Five)||(Bich, Nine)||(Bich, Four)|
+Player Loc: 
+|(Bich, Three)||(Chuon, Queen)||(Co, Eight)||(Bich, Six)||(Ro, Jack)|
+Player Nien: 
+|(Ro, Two)||(Ro, Seven)||(Ro, Six)||(Ro, King)||(Bich, Seven)|
+Player Phuc: 
+|(Ro, Four)||(Chuon, Seven)||(Co, Four)||(Chuon, Nine)||(Chuon, Four)|
+Player Quynh: 
+|(Co, Ace)||(Ro, Five)||(Ro, Ten)||(Ro, Three)||(Chuon, Three)|
+Player Nien: 
+|(Bich, Queen)||(Bich, Two)||(Chuon, Two)||(Bich, Ten)||(Bich, Eight)|
+Player Nien: 
+|(Co, Ten)||(Bich, Jack)||(Ro, Queen)||(Chuon, Jack)||(Co, Three)|
+Number of Winners: 1
+Congrats player Phuc got Pair, win 35000
+Player Thinh: 518998
+Player Loc: 498582
+Player Nien: 41664
+Player Phuc: 105246
+Player Quynh: 255299
+Player Nien: 1599580
+Player Nien: 10048747
+Player Thinh: 
+|(Ro, Queen)||(Ro, Seven)||(Chuon, Eight)||(Chuon, Four)||(Chuon, Ace)|
+Player Loc: 
+|(Ro, Nine)||(Co, Two)||(Co, Ace)||(Bich, Queen)||(Bich, Jack)|
+Player Nien: 
+|(Bich, Five)||(Co, Queen)||(Ro, Six)||(Bich, Six)||(Chuon, Two)|
+Player Phuc: 
+|(Chuon, Three)||(Ro, King)||(Chuon, Ten)||(Ro, Jack)||(Bich, Nine)|
+Player Quynh: 
+|(Co, Nine)||(Co, Eight)||(Co, Seven)||(Co, Six)||(Ro, Ace)|
+Player Nien: 
+|(Co, Ten)||(Bich, Seven)||(Ro, Two)||(Ro, Ten)||(Co, Five)|
+Player Nien: 
+|(Ro, Four)||(Co, King)||(Chuon, Five)||(Chuon, Queen)||(Chuon, Nine)|
+Number of Winners: 2
+Congrats player Nien got , win 17500
+Congrats player Nien got , win 17500
+Player Thinh: 513998
+Player Loc: 493582
+Player Nien: 54164
+Player Phuc: 100246
+Player Quynh: 250299
+Player Nien: 1612080
+Player Nien: 10043747
+Player Thinh: 
+|(Co, Five)||(Bich, Jack)||(Co, Queen)||(Ro, Eight)||(Co, Three)|
+Player Loc: 
+|(Co, King)||(Co, Eight)||(Ro, Four)||(Chuon, Four)||(Chuon, Eight)|
+Player Nien: 
+|(Bich, Eight)||(Chuon, Queen)||(Bich, Queen)||(Chuon, Ace)||(Chuon, Nine)|
+Player Phuc: 
+|(Chuon, Jack)||(Chuon, Two)||(Ro, Nine)||(Ro, Queen)||(Bich, Five)|
+Player Quynh: 
+|(Co, Ace)||(Co, Four)||(Ro, Six)||(Bich, Four)||(Bich, Nine)|
+Player Nien: 
+|(Chuon, Three)||(Co, Two)||(Chuon, Five)||(Co, Seven)||(Bich, King)|
+Player Nien: 
+|(Bich, Two)||(Chuon, Ten)||(Ro, Seven)||(Bich, Ace)||(Ro, Two)|
+Number of Winners: 1
+Congrats player Loc got , win 35000
+Player Thinh: 508998
+Player Loc: 523582
+Player Nien: 49164
+Player Phuc: 95246
+Player Quynh: 245299
+Player Nien: 1607080
+Player Nien: 10038747
+Player Thinh: 
+|(Bich, Five)||(Ro, Ace)||(Ro, Jack)||(Bich, Two)||(Ro, Ten)|
+Player Loc: 
+|(Co, Five)||(Co, Nine)||(Bich, Ten)||(Co, Seven)||(Chuon, Eight)|
+Player Nien: 
+|(Ro, Five)||(Chuon, Jack)||(Ro, Nine)||(Ro, Six)||(Ro, Queen)|
+Player Phuc: 
+|(Ro, Three)||(Co, Four)||(Bich, Six)||(Chuon, Three)||(Co, Eight)|
+Player Quynh: 
+|(Co, King)||(Bich, King)||(Ro, Four)||(Bich, Queen)||(Co, Two)|
+Player Nien: 
+|(Ro, King)||(Chuon, Five)||(Co, Ten)||(Chuon, Ten)||(Chuon, Nine)|
+Player Nien: 
+|(Bich, Four)||(Chuon, King)||(Co, Three)||(Bich, Eight)||(Chuon, Six)|
+Number of Winners: 3
+Congrats player Phuc got , win 11666
+Congrats player Quynh got , win 11666
+Congrats player Nien got , win 11666
+Player Thinh: 503998
+Player Loc: 518582
+Player Nien: 44164
+Player Phuc: 101912
+Player Quynh: 251965
+Player Nien: 1613746
+Player Nien: 10033747
+Player Thinh: 
+|(Ro, Jack)||(Ro, Four)||(Chuon, Queen)||(Ro, Nine)||(Ro, King)|
+Player Loc: 
+|(Co, Ace)||(Co, Six)||(Bich, Ten)||(Chuon, Ace)||(Ro, Two)|
+Player Nien: 
+|(Bich, Eight)||(Bich, Three)||(Ro, Seven)||(Bich, King)||(Ro, Ace)|
+Player Phuc: 
+|(Bich, Jack)||(Chuon, Eight)||(Bich, Seven)||(Chuon, Jack)||(Ro, Five)|
+Player Quynh: 
+|(Co, Seven)||(Chuon, King)||(Co, Nine)||(Bich, Six)||(Co, Five)|
+Player Nien: 
+|(Co, Queen)||(Bich, Ace)||(Ro, Queen)||(Bich, Four)||(Chuon, Four)|
+Player Nien: 
+|(Co, Two)||(Chuon, Seven)||(Co, Three)||(Ro, Six)||(Ro, Ten)|
+Number of Winners: 1
+Congrats player Nien got , win 35000
+Player Thinh: 498998
+Player Loc: 513582
+Player Nien: 39164
+Player Phuc: 96912
+Player Quynh: 246965
+Player Nien: 1643746
+Player Nien: 10028747
+Player Thinh: 
+|(Bich, Ten)||(Bich, Six)||(Chuon, Nine)||(Ro, Jack)||(Co, Four)|
+Player Phuc: 
+|(Ro, Two)||(Ro, Eight)||(Co, Six)||(Bich, Three)||(Ro, Five)|
+Number of Winners: 2
+Congrats player Thinh got , win 10000
+Congrats player Phuc got , win 10000
+Player Thinh: 100000000
+Player Phuc: 60000
+Player Thinh: 
+|(Chuon, Two)||(Chuon, King)||(Co, Eight)||(Bich, Three)||(Co, Queen)|
+Player Phuc: 
+|(Co, King)||(Ro, Seven)||(Bich, Nine)||(Ro, Six)||(Co, Five)|
+Number of Winners: 2
+Congrats player Thinh got , win 10000
+Congrats player Phuc got , win 10000
+Player Thinh: 100000000
+Player Phuc: 60000
+Player Thinh: 
+|(Bich, King)||(Chuon, Eight)||(Ro, Three)||(Ro, Five)||(Bich, Six)|
+Player Phuc: 
+|(Ro, Ten)||(Chuon, Ace)||(Co, Jack)||(Co, Three)||(Chuon, Seven)|
+Number of Winners: 2
+Congrats player Thinh got , win 10000
+Congrats player Phuc got , win 10000
+Player Thinh: 100000000
+Player Phuc: 60000
+Player Thinh: 
+|(Co, Four)||(Chuon, Jack)||(Co, Queen)||(Chuon, Four)||(Ro, Five)|
+Player Phuc: 
+|(Chuon, Ace)||(Chuon, Three)||(Co, Five)||(Bich, Three)||(Co, Three)|
+Number of Winners: 1
+Congrats player Phuc got Pair, win 20000
+Player Thinh: 99990000
+Player Phuc: 70000
+Player Thinh: 
+|(Chuon, King)||(Bich, Three)||(Bich, Six)||(Ro, Five)||(Ro, Three)|
+Player Phuc: 
+|(Co, Queen)||(Ro, Seven)||(Chuon, Seven)||(Ro, Jack)||(Chuon, Eight)|
+Number of Winners: 2
+Congrats player Thinh got Pair, win 10000
+Congrats player Phuc got Pair, win 10000
+Player Thinh: 99990000
+Player Phuc: 70000
+Player Loc: 
+|(Bich, Two)||(Ro, Nine)||(Bich, Ace)||(Ro, Queen)||(Ro, King)|
+Player An: 
+|(Bich, Four)||(Chuon, Two)||(Co, Five)||(Bich, Five)||(Co, Queen)|
+Player Quan: 
+|(Bich, Seven)||(Chuon, Seven)||(Bich, Eight)||(Co, Eight)||(Bich, Three)|
+Player Thinh: 
+|(Co, Three)||(Ro, Ten)||(Chuon, Jack)||(Bich, Queen)||(Chuon, Queen)|
+Player Phong: 
+|(Ro, Eight)||(Ro, Two)||(Bich, Jack)||(Co, Seven)||(Ro, Ace)|
+Player Vinh: 
+|(Co, Ten)||(Bich, Nine)||(Ro, Four)||(Bich, Ten)||(Chuon, Six)|
+Number of Winners: 1
+Congrats player Quan got , win 90000
+Player Loc: 84999
+Player An: 84999
+Player Quan: 174999
+Player Thinh: 84999
+Player Phong: 84999
+Player Vinh: 84999
+Player Loc: 
+|(Co, Seven)||(Ro, Ace)||(Co, King)||(Bich, Three)||(Co, Ace)|
+Player An: 
+|(Bich, Ten)||(Ro, Nine)||(Chuon, Three)||(Chuon, Eight)||(Chuon, Queen)|
+Player Quan: 
+|(Chuon, King)||(Co, Nine)||(Co, Two)||(Ro, Three)||(Bich, Ace)|
+Player Thinh: 
+|(Co, Five)||(Chuon, Jack)||(Bich, Jack)||(Ro, Seven)||(Ro, Four)|
+Player Phong: 
+|(Chuon, Five)||(Ro, Ten)||(Co, Six)||(Ro, Two)||(Ro, Five)|
+Player Vinh: 
+|(Chuon, Seven)||(Bich, Nine)||(Ro, Six)||(Co, Ten)||(Bich, King)|
+Number of Winners: 3
+Congrats player Loc got Pair, win 30000
+Congrats player Thinh got , win 30000
+Congrats player Phong got , win 30000
+Player Loc: 99999
+Player An: 69999
+Player Quan: 159999
+Player Thinh: 99999
+Player Phong: 99999
+Player Vinh: 69999
+Player Loc: 
+|(Chuon, King)||(Co, Seven)||(Ro, Ten)||(Bich, Queen)||(Ro, Four)|
+Player An: 
+|(Co, Jack)||(Co, Eight)||(Co, Six)||(Bich, Seven)||(Bich, Nine)|
+Player Quan: 
+|(Bich, Ace)||(Ro, Ace)||(Bich, Ten)||(Co, Queen)||(Chuon, Queen)|
+Player Thinh: 
+|(Ro, King)||(Chuon, Five)||(Bich, Two)||(Bich, Eight)||(Chuon, Ten)|
+Player Phong: 
+|(Ro, Nine)||(Ro, Six)||(Chuon, Three)||(Bich, King)||(Ro, Three)|
+Player Vinh: 
+|(Bich, Five)||(Chuon, Eight)||(Ro, Queen)||(Bich, Four)||(Co, Ten)|
+Number of Winners: 1
+Congrats player Quan got , win 90000
+Player Loc: 84999
+Player An: 54999
+Player Quan: 234999
+Player Thinh: 84999
+Player Phong: 84999
+Player Vinh: 54999
+Player Loc: 
+|(Chuon, Jack)||(Co, Ace)||(Chuon, Two)||(Bich, Queen)||(Co, Five)|
+Player An: 
+|(Ro, King)||(Ro, Nine)||(Ro, Ten)||(Chuon, Ten)||(Bich, Two)|
+Player Quan: 
+|(Chuon, Six)||(Ro, Four)||(Ro, Six)||(Bich, King)||(Ro, Seven)|
+Player Thinh: 
+|(Chuon, King)||(Co, Four)||(Bich, Jack)||(Ro, Queen)||(Co, Jack)|
+Player Phong: 
+|(Co, Ten)||(Bich, Four)||(Co, Six)||(Ro, Five)||(Bich, Six)|
+Player Vinh: 
+|(Bich, Five)||(Ro, Eight)||(Co, Queen)||(Ro, Jack)||(Co, Eight)|
+Number of Winners: 5
+Congrats player An got , win 18000
+Congrats player Quan got Pair, win 18000
+Congrats player Thinh got Pair, win 18000
+Congrats player Phong got Pair, win 18000
+Congrats player Vinh got Pair, win 18000
+Player Loc: 69999
+Player An: 57999
+Player Quan: 237999
+Player Thinh: 87999
+Player Phong: 87999
+Player Vinh: 57999
+Player Loc: 
+|(Ro, Five)||(Ro, Six)||(Co, Six)||(Ro, Four)||(Chuon, Four)|
+Player An: 
+|(Bich, Two)||(Chuon, Ace)||(Bich, Five)||(Chuon, King)||(Bich, Queen)|
+Player Quan: 
+|(Ro, Three)||(Bich, Six)||(Ro, Two)||(Co, King)||(Bich, Three)|
+Player Thinh: 
+|(Ro, Jack)||(Chuon, Seven)||(Co, Seven)||(Ro, Seven)||(Co, Queen)|
+Player Phong: 
+|(Co, Four)||(Chuon, Eight)||(Co, Nine)||(Chuon, Three)||(Co, Two)|
+Player Vinh: 
+|(Co, Five)||(Chuon, Queen)||(Bich, Jack)||(Ro, Ace)||(Bich, Nine)|
+Number of Winners: 1
+Congrats player Thinh got TwoPairs, win 90000
+Player Loc: 54999
+Player An: 42999
+Player Quan: 222999
+Player Thinh: 162999
+Player Phong: 72999
+Player Vinh: 42999
+Player Tuan: 
+|(Co, Nine)||(Co, Two)||(Ro, Three)||(Bich, Four)||(Ro, Four)|
+Player An: 
+|(Chuon, Two)||(Ro, Two)||(Bich, Three)||(Ro, Jack)||(Chuon, Four)|
+Player Hoang: 
+|(Chuon, Jack)||(Bich, Queen)||(Chuon, Ten)||(Bich, Ace)||(Ro, Nine)|
+Number of Winners: 2
+Congrats player Tuan got Pair, win 7500
+Congrats player An got Pair, win 7500
+Player Tuan: 17500
+Player An: 462941
+Player Hoang: 37641
+Player Tuan: 
+|(Bich, Nine)||(Bich, Jack)||(Co, Two)||(Bich, Seven)||(Bich, Ace)|
+Player An: 
+|(Chuon, Ten)||(Co, Nine)||(Co, Five)||(Chuon, Ace)||(Chuon, Jack)|
+Player Hoang: 
+|(Ro, Jack)||(Chuon, Six)||(Bich, Four)||(Chuon, Four)||(Co, Four)|
+Number of Winners: 1
+Congrats player Hoang got , win 15000
+Player Tuan: 12500
+Player An: 457941
+Player Hoang: 47641
+Player Tuan: 
+|(Chuon, Eight)||(Ro, Seven)||(Bich, Seven)||(Chuon, Three)||(Co, Queen)|
+Player An: 
+|(Bich, Four)||(Co, Seven)||(Chuon, Nine)||(Bich, Queen)||(Bich, Two)|
+Player Hoang: 
+|(Ro, Three)||(Co, King)||(Chuon, Seven)||(Ro, Ace)||(Ro, Two)|
+Number of Winners: 1
+Congrats player Tuan got Pair, win 15000
+Player Tuan: 22500
+Player An: 452941
+Player Hoang: 42641
+Player Tuan: 
+|(Chuon, King)||(Co, Three)||(Co, Seven)||(Bich, Nine)||(Ro, Six)|
+Player An: 
+|(Ro, Two)||(Bich, Queen)||(Chuon, Ace)||(Ro, Ten)||(Bich, Seven)|
+Player Hoang: 
+|(Co, Ten)||(Chuon, Seven)||(Chuon, Jack)||(Co, Two)||(Ro, Ace)|
+Number of Winners: 3
+Congrats player Tuan got , win 5000
+Congrats player An got , win 5000
+Congrats player Hoang got , win 5000
+Player Tuan: 22500
+Player An: 452941
+Player Hoang: 42641
+Player Tuan: 
+|(Co, Jack)||(Chuon, Six)||(Chuon, Three)||(Co, Five)||(Ro, Seven)|
+Player An: 
+|(Ro, Four)||(Bich, Nine)||(Co, Ace)||(Chuon, Queen)||(Co, Seven)|
+Player Hoang: 
+|(Chuon, Eight)||(Co, Two)||(Co, Queen)||(Bich, Seven)||(Ro, King)|
+Number of Winners: 3
+Congrats player Tuan got , win 5000
+Congrats player An got , win 5000
+Congrats player Hoang got , win 5000
+Player Tuan: 22500
+Player An: 452941
+Player Hoang: 42641
+Player Lan: 
+|(Chuon, Ten)||(Co, Ten)||(Bich, Three)||(Ro, Ten)||(Bich, Two)|
+Player Vinh: 
+|(Chuon, Six)||(Co, Two)||(Bich, Six)||(Co, Four)||(Ro, Queen)|
+Number of Winners: 1
+Congrats player Lan got ThreeOfAKind, win 199998
+Player Lan: 100099999
+Player Vinh: 6441322
+Player Lan: 
+|(Co, Nine)||(Chuon, Three)||(Bich, Ten)||(Bich, Two)||(Ro, King)|
+Player Vinh: 
+|(Ro, Eight)||(Co, King)||(Ro, Ten)||(Ro, Six)||(Chuon, Ace)|
+Number of Winners: 2
+Congrats player Lan got , win 99999
+Congrats player Vinh got , win 99999
+Player Lan: 100099999
+Player Vinh: 6441322
+Player Lan: 
+|(Bich, Nine)||(Ro, Eight)||(Chuon, Ten)||(Bich, Five)||(Bich, King)|
+Player Vinh: 
+|(Chuon, Jack)||(Co, Ace)||(Chuon, Nine)||(Co, Six)||(Ro, Five)|
+Number of Winners: 2
+Congrats player Lan got , win 99999
+Congrats player Vinh got , win 99999
+Player Lan: 100099999
+Player Vinh: 6441322
+Player Tuan: 
+|(Co, Queen)||(Co, Six)||(Ro, Ace)||(Chuon, Eight)||(Co, Eight)|
+Player Phuc: 
+|(Co, Ten)||(Ro, Four)||(Co, Two)||(Bich, Ace)||(Co, Nine)|
+Number of Winners: 1
+Congrats player Tuan got Pair, win 10000
+Player Tuan: 100005000
+Player Phuc: 61656316
+Player Tuan: 
+|(Bich, Queen)||(Ro, Three)||(Chuon, Nine)||(Bich, Five)||(Ro, Eight)|
+Player Phuc: 
+|(Chuon, Seven)||(Co, Nine)||(Ro, Ten)||(Ro, King)||(Ro, Nine)|
+Number of Winners: 1
+Congrats player Phuc got , win 10000
+Player Tuan: 100000000
+Player Phuc: 61661316
+Player Tuan: 
+|(Chuon, Three)||(Chuon, Ace)||(Ro, Ace)||(Co, Jack)||(Ro, Five)|
+Player Phuc: 
+|(Co, Seven)||(Chuon, Four)||(Co, King)||(Bich, Queen)||(Co, Ten)|
+Number of Winners: 1
+Congrats player Tuan got Pair, win 10000
+Player Tuan: 100005000
+Player Phuc: 61656316
+Player Tuan: 
+|(Bich, Eight)||(Chuon, Three)||(Chuon, Ace)||(Chuon, Ten)||(Co, Queen)|
+Player Phuc: 
+|(Co, Seven)||(Ro, Jack)||(Bich, King)||(Co, Three)||(Co, Six)|
+Number of Winners: 2
+Congrats player Tuan got , win 5000
+Congrats player Phuc got , win 5000
+Player Tuan: 100005000
+Player Phuc: 61656316
+Player Tuan: 
+|(Ro, Eight)||(Bich, Six)||(Co, Eight)||(Co, Queen)||(Bich, Two)|
+Player Phuc: 
+|(Bich, Three)||(Chuon, Eight)||(Ro, Three)||(Ro, Ten)||(Bich, Nine)|
+Number of Winners: 2
+Congrats player Tuan got Pair, win 5000
+Congrats player Phuc got Pair, win 5000
+Player Tuan: 100005000
+Player Phuc: 61656316
+Player Tuan: 
+|(Chuon, King)||(Bich, Five)||(Ro, Eight)||(Co, Two)||(Co, Five)|
+Player Phuc: 
+|(Ro, Two)||(Bich, Six)||(Co, Three)||(Bich, Two)||(Bich, Queen)|
+Number of Winners: 2
+Congrats player Tuan got Pair, win 5000
+Congrats player Phuc got Pair, win 5000
+Player Tuan: 100005000
+Player Phuc: 61656316
+Player Lan: 
+|(Co, Jack)||(Chuon, Three)||(Ro, Five)||(Co, Four)||(Ro, Jack)|
+Player Thinh: 
+|(Bich, Eight)||(Bich, Five)||(Co, Queen)||(Ro, Ace)||(Ro, King)|
+Player Hoang: 
+|(Bich, Three)||(Bich, Queen)||(Bich, Ace)||(Bich, King)||(Chuon, King)|
+Number of Winners: 2
+Congrats player Lan got Pair, win 4999
+Congrats player Hoang got , win 4999
+Player Lan: 38282
+Player Thinh: 28280
+Player Hoang: 33297
+Player Loc: 
+|(Co, Six)||(Chuon, Seven)||(Chuon, Queen)||(Bich, Six)||(Chuon, Ten)|
+Player Tuan: 
+|(Bich, Nine)||(Chuon, Jack)||(Ro, Seven)||(Ro, Jack)||(Bich, Eight)|
+Player Huy: 
+|(Ro, King)||(Co, Jack)||(Chuon, Nine)||(Ro, Five)||(Co, King)|
+Player Thinh: 
+|(Ro, Eight)||(Co, Three)||(Bich, Ten)||(Bich, Four)||(Chuon, Four)|
+Player Lan: 
+|(Bich, Three)||(Ro, Two)||(Bich, Five)||(Chuon, Six)||(Ro, Three)|
+Number of Winners: 5
+Congrats player Loc got Pair, win 5
+Congrats player Tuan got Pair, win 5
+Congrats player Huy got Pair, win 5
+Congrats player Thinh got Pair, win 5
+Congrats player Lan got Pair, win 5
+Player Loc: 5
+Player Tuan: 5
+Player Huy: 5
+Player Thinh: 5
+Player Lan: 5
+Player Loc: 
+|(Co, Eight)||(Co, Nine)||(Chuon, Nine)||(Ro, Nine)||(Ro, King)|
+Player Tuan: 
+|(Chuon, Eight)||(Bich, Three)||(Ro, Ace)||(Ro, Six)||(Bich, Ten)|
+Player Huy: 
+|(Chuon, Three)||(Bich, Six)||(Bich, Jack)||(Co, Queen)||(Chuon, Four)|
+Player Thinh: 
+|(Co, Jack)||(Chuon, Six)||(Ro, Eight)||(Co, Three)||(Chuon, Two)|
+Player Lan: 
+|(Bich, Seven)||(Co, Seven)||(Bich, Ace)||(Ro, Jack)||(Co, Ace)|
+Number of Winners: 1
+Congrats player Loc got ThreeOfAKind, win 25
+Player Loc: 25
+Player Tuan: 0 (Kicked)
+Player Huy: 0 (Kicked)
+Player Thinh: 0 (Kicked)
+Player Lan: 0 (Kicked)
+Player Tuan: 
+|(Chuon, Eight)||(Co, Five)||(Co, Seven)||(Chuon, King)||(Co, Eight)|
+Player Quynh: 
+|(Chuon, Four)||(Ro, Three)||(Co, Ace)||(Ro, Nine)||(Co, Two)|
+Player Chuong: 
+|(Co, Jack)||(Co, King)||(Bich, King)||(Co, Three)||(Chuon, Queen)|
+Number of Winners: 2
+Congrats player Tuan got Pair, win 83332
+Congrats player Chuong got , win 83332
+Player Tuan: 6219093
+Player Quynh: 3105760
+Player Chuong: 49290
+Player Tuan: 
+|(Ro, Six)||(Chuon, Six)||(Bich, Six)||(Co, Four)||(Co, Six)|
+Player Quynh: 
+|(Ro, King)||(Chuon, Three)||(Bich, Jack)||(Chuon, Two)||(Chuon, Seven)|
+Player Chuong: 
+|(Ro, Three)||(Bich, Five)||(Bich, Three)||(Bich, Two)||(Chuon, Eight)|
+Number of Winners: 1
+Congrats player Tuan got FourOfAKind, win 166665
+Player Tuan: 6330203
+Player Quynh: 3050205
+Player Chuong: 4294961031
+Player Tuan: 
+|(Ro, Four)||(Bich, Four)||(Ro, Two)||(Ro, Nine)||(Chuon, King)|
+Player Quynh: 
+|(Ro, Ace)||(Chuon, Nine)||(Bich, Two)||(Co, Four)||(Bich, Six)|
+Player Chuong: 
+|(Co, Queen)||(Ro, Six)||(Co, Jack)||(Co, Seven)||(Co, Five)|
+Number of Winners: 1
+Congrats player Tuan got Pair, win 166665
+Player Tuan: 6441313
+Player Quynh: 2994650
+Player Chuong: 4294905476
+Player Vinh: 
+|(Co, King)||(Bich, Jack)||(Co, Four)||(Bich, Queen)||(Ro, Three)|
+Player Lan: 
+|(Bich, Ace)||(Bich, Six)||(Ro, Nine)||(Ro, King)||(Ro, Ten)|
+Player Thinh: 
+|(Ro, Queen)||(Co, Ten)||(Bich, Four)||(Chuon, Ace)||(Bich, Seven)|
+Player Hoang: 
+|(Co, Three)||(Bich, Two)||(Co, Five)||(Bich, Eight)||(Chuon, Three)|
+Player Vinh: 
+|(Chuon, Two)||(Chuon, Four)||(Ro, Two)||(Co, Ace)||(Ro, Five)|
+Player Tuan: 
+|(Co, Jack)||(Co, Two)||(Co, Nine)||(Co, Queen)||(Ro, Six)|
+Player Quynh: 
+|(Chuon, Nine)||(Co, Eight)||(Bich, Five)||(Chuon, Five)||(Ro, Seven)|
+Player Chuong: 
+|(Ro, Jack)||(Ro, Ace)||(Bich, King)||(Chuon, King)||(Co, Seven)|
+Number of Winners: 4
+Congrats player Hoang got , win 111110
+Congrats player Vinh got , win 111110
+Congrats player Quynh got , win 111110
+Congrats player Chuong got Pair, win 111110
+Player Vinh: 4294954987
+Player Lan: 407087
+Player Thinh: 90661
+Player Hoang: 59969
+Player Vinh: 69797
+Player Tuan: 6385758
+Player Quynh: 3050205
+Player Chuong: 4294961031
+Player Vinh: 
+|(Ro, Five)||(Co, Ace)||(Chuon, Six)||(Ro, Queen)||(Ro, Ace)|
+Player Lan: 
+|(Chuon, King)||(Chuon, Ten)||(Chuon, Queen)||(Co, Jack)||(Chuon, Eight)|
+Player Thinh: 
+|(Bich, Five)||(Bich, Nine)||(Ro, Six)||(Co, Seven)||(Bich, Two)|
+Player Hoang: 
+|(Ro, Four)||(Co, Two)||(Bich, Three)||(Ro, Two)||(Ro, Nine)|
+Player Vinh: 
+|(Ro, Jack)||(Co, Three)||(Ro, Ten)||(Ro, Three)||(Co, Ten)|
+Player Tuan: 
+|(Chuon, Four)||(Bich, Jack)||(Co, Six)||(Co, Eight)||(Co, Five)|
+Player Quynh: 
+|(Bich, Ace)||(Bich, King)||(Co, Four)||(Co, Queen)||(Bich, Six)|
+Player Chuong: 
+|(Bich, Ten)||(Co, King)||(Chuon, Nine)||(Ro, Eight)||(Chuon, Seven)|
+Number of Winners: 1
+Congrats player Vinh got Pair, win 444440
+Player Vinh: 4294899432
+Player Lan: 351532
+Player Thinh: 35106
+Player Hoang: 4414
+Player Vinh: 458682
+Player Tuan: 6330203
+Player Quynh: 2994650
+Player Chuong: 4294905476
+Player Hoang: 
+|(Chuon, Four)||(Ro, Five)||(Bich, Eight)||(Ro, Nine)||(Bich, Five)|
+Player Quynh: 
+|(Co, Five)||(Chuon, Jack)||(Chuon, Two)||(Bich, Queen)||(Chuon, Six)|
+Player Chuong: 
+|(Ro, Two)||(Chuon, Eight)||(Ro, Seven)||(Co, Seven)||(Ro, Eight)|
+Number of Winners: 1
+Congrats player Chuong got Pair, win 166665
+Player Hoang: 4294945074
+Player Quynh: 2939095
+Player Chuong: 49290
+Player Hoang: 
+|(Ro, Ten)||(Ro, Six)||(Ro, King)||(Co, Queen)||(Co, Seven)|
+Player Quynh: 
+|(Chuon, Four)||(Bich, Queen)||(Chuon, Jack)||(Co, Six)||(Co, Ten)|
+Player Chuong: 
+|(Bich, Two)||(Chuon, Ten)||(Bich, Four)||(Ro, Seven)||(Ro, Four)|
+Number of Winners: 1
+Congrats player Chuong got , win 166665
+Player Hoang: 4294889519
+Player Quynh: 2883540
+Player Chuong: 160400
+Player Hoang: 
+|(Chuon, Ten)||(Chuon, Queen)||(Co, Three)||(Chuon, King)||(Ro, Ten)|
+Player Quynh: 
+|(Ro, Queen)||(Chuon, Six)||(Ro, Seven)||(Bich, Ace)||(Ro, Jack)|
+Player Chuong: 
+|(Chuon, Ace)||(Co, Ace)||(Bich, Seven)||(Ro, Ace)||(Bich, Five)|
+Number of Winners: 1
+Congrats player Chuong got Pair, win 166665
+Player Hoang: 4294833964
+Player Quynh: 2827985
+Player Chuong: 271510
+Player Hoang: 
+|(Chuon, Four)||(Chuon, Six)||(Bich, Ten)||(Bich, Five)||(Bich, Eight)|
+Player Quynh: 
+|(Chuon, Jack)||(Co, Ten)||(Ro, Ten)||(Bich, Four)||(Chuon, Ten)|
+Player Chuong: 
+|(Chuon, Eight)||(Bich, King)||(Bich, Three)||(Bich, Nine)||(Co, Queen)|
+Number of Winners: 1
+Congrats player Quynh got , win 166665
+Player Hoang: 4294778409
+Player Quynh: 2939095
+Player Chuong: 215955
+Player Hoang: 
+|(Ro, Eight)||(Bich, Nine)||(Co, Ace)||(Chuon, Six)||(Chuon, Eight)|
+Player Quynh: 
+|(Bich, Ace)||(Ro, King)||(Co, Six)||(Co, Queen)||(Ro, Ace)|
+Player Chuong: 
+|(Ro, Jack)||(Co, Ten)||(Chuon, Three)||(Ro, Seven)||(Co, Jack)|
+Number of Winners: 3
+Congrats player Hoang got Pair, win 55555
+Congrats player Quynh got Pair, win 55555
+Congrats player Chuong got Pair, win 55555
+Player Hoang: 4294778409
+Player Quynh: 2939095
+Player Chuong: 215955
+Player Huy: 
+|(Chuon, Five)||(Ro, Ace)||(Ro, Nine)||(Co, Six)||(Ro, Eight)|
+Player Thinh: 
+|(Co, Four)||(Ro, Two)||(Bich, Three)||(Ro, King)||(Ro, Four)|
+Player Quynh: 
+|(Chuon, Eight)||(Ro, Three)||(Chuon, Nine)||(Bich, Two)||(Co, Ten)|
+Player Huy: 
+|(Co, Seven)||(Ro, Seven)||(Chuon, Ace)||(Chuon, Four)||(Bich, Nine)|
+Player Nien: 
+|(Bich, Seven)||(Co, Ace)||(Ro, Queen)||(Chuon, King)||(Ro, Jack)|
+Player An: 
+|(Bich, Ten)||(Bich, Five)||(Ro, Five)||(Bich, King)||(Ro, Six)|
+Number of Winners: 3
+Congrats player Thinh got , win 199998
+Congrats player Huy got Pair, win 199998
+Congrats player An got , win 199998
+Player Huy: 221655
+Player Thinh: 121234
+Player Quynh: 4294869420
+Player Huy: 1613515
+Player Nien: 113533
+Player An: 261615
+Player Huy: 
+|(Ro, Two)||(Ro, Jack)||(Co, Ten)||(Chuon, Four)||(Bich, Ten)|
+Player Thinh: 
+|(Bich, Five)||(Co, King)||(Chuon, Ace)||(Bich, Two)||(Co, Three)|
+Player Quynh: 
+|(Ro, Three)||(Co, Four)||(Chuon, Queen)||(Co, Ace)||(Ro, King)|
+Player Huy: 
+|(Ro, Ten)||(Co, Eight)||(Co, Queen)||(Ro, Seven)||(Bich, King)|
+Player Nien: 
+|(Bich, Three)||(Bich, Ace)||(Co, Two)||(Bich, Seven)||(Chuon, Three)|
+Player An: 
+|(Co, Nine)||(Bich, Six)||(Chuon, Two)||(Chuon, Five)||(Co, Seven)|
+Number of Winners: 2
+Congrats player Huy got Pair, win 299997
+Congrats player Nien got , win 299997
+Player Huy: 421653
+Player Thinh: 21235
+Player Quynh: 4294769421
+Player Huy: 1513516
+Player Nien: 313531
+Player An: 161616
+Player Huy: 
+|(Chuon, Two)||(Bich, Seven)||(Ro, Nine)||(Co, Eight)||(Chuon, Six)|
+Player Thinh: 
+|(Ro, Jack)||(Co, Ace)||(Bich, Three)||(Co, Ten)||(Ro, Eight)|
+Player Quynh: 
+|(Co, Four)||(Bich, Nine)||(Ro, Ace)||(Bich, Ten)||(Ro, King)|
+Player Huy: 
+|(Ro, Five)||(Ro, Three)||(Co, Jack)||(Chuon, Eight)||(Bich, Jack)|
+Player Nien: 
+|(Co, Six)||(Co, Three)||(Co, King)||(Chuon, Queen)||(Bich, Ace)|
+Player An: 
+|(Ro, Four)||(Bich, Eight)||(Chuon, Three)||(Ro, Seven)||(Chuon, Seven)|
+Number of Winners: 2
+Congrats player Huy got , win 299997
+Congrats player An got , win 299997
+Player Huy: 321654
+Player Thinh: 4294888532
+Player Quynh: 4294669422
+Player Huy: 1713514
+Player Nien: 213532
+Player An: 361614
+Player Huy: 
+|(Bich, Six)||(Chuon, Ten)||(Bich, King)||(Bich, Jack)||(Chuon, Seven)|
+Player Thinh: 
+|(Ro, Five)||(Co, Two)||(Ro, Seven)||(Ro, Four)||(Chuon, Queen)|
+Player Quynh: 
+|(Co, Jack)||(Co, Four)||(Bich, Seven)||(Co, Ace)||(Chuon, Jack)|
+Player Huy: 
+|(Co, Five)||(Bich, Queen)||(Ro, Nine)||(Chuon, Nine)||(Bich, Ace)|
+Player Nien: 
+|(Chuon, King)||(Bich, Three)||(Bich, Nine)||(Chuon, Five)||(Ro, Three)|
+Player An: 
+|(Co, Queen)||(Ro, Six)||(Co, Three)||(Bich, Four)||(Ro, Ten)|
+Number of Winners: 3
+Congrats player Quynh got , win 199998
+Congrats player Huy got , win 199998
+Congrats player Nien got Pair, win 199998
+Player Huy: 221655
+Player Thinh: 4294788533
+Player Quynh: 4294769421
+Player Huy: 1813513
+Player Nien: 313531
+Player An: 261615
+Player Huy: 
+|(Ro, Jack)||(Bich, Five)||(Co, Three)||(Chuon, Ace)||(Chuon, Queen)|
+Player Thinh: 
+|(Ro, Three)||(Co, Two)||(Ro, Nine)||(Bich, Ten)||(Bich, Four)|
+Player Quynh: 
+|(Chuon, Jack)||(Bich, Ace)||(Chuon, Two)||(Co, Nine)||(Bich, Six)|
+Player Huy: 
+|(Co, Ten)||(Bich, Jack)||(Co, Jack)||(Chuon, Nine)||(Ro, King)|
+Player Nien: 
+|(Co, Five)||(Chuon, Eight)||(Bich, Nine)||(Chuon, Five)||(Ro, Two)|
+Player An: 
+|(Bich, Three)||(Bich, King)||(Ro, Queen)||(Ro, Ace)||(Ro, Seven)|
+Number of Winners: 2
+Congrats player Huy got , win 299997
+Congrats player Nien got , win 299997
+Player Huy: 121656
+Player Thinh: 4294688534
+Player Quynh: 4294669422
+Player Huy: 2013511
+Player Nien: 513529
+Player An: 161616
+Player Loc: 
+|('2665', Seven)||(Chuon, Five)||(Bich, King)||(Chuon, Eight)||(Chuon, Seven)|
+Player Quan: 
+|(Chuon, Four)||(Bich, Jack)||('2665', Two)||('2665', Four)||(Chuon, Three)|
+Player Phong: 
+|(Bich, Ten)||(Bich, Nine)||(Bich, Six)||(Ro, Three)||(Ro, Ten)|
+Player Phong: 
+|(Chuon, Jack)||(Chuon, Ace)||(Bich, Seven)||('2665', Jack)||('2665', Three)|
+Player Thinh: 
+|(Ro, Eight)||(Chuon, Two)||(Chuon, King)||(Ro, Four)||('2665', Six)|
+Number of Winners: 4
+Congrats player Loc got Pair, win 41666
+Congrats player Quan got Pair, win 41666
+Congrats player Phong got Pair, win 41666
+Congrats player Phong got Pair, win 41666
+Player Loc: 41666
+Player Quan: 341666
+Player Phong: 341666
+Player Phong: 341666
+Player Thinh: 300000
+Player Loc: 
+|(Chuon, Eight)||(Bich, Nine)||(Chuon, Two)||('2665', Ace)||(Chuon, Six)|
+Player Quan: 
+|(Ro, Three)||(Ro, Two)||('2665', Six)||(Ro, Eight)||('2665', Three)|
+Player Phong: 
+|(Ro, Queen)||(Bich, Three)||('2665', Seven)||('2665', Ten)||(Chuon, King)|
+Player Phong: 
+|('2665', Nine)||(Chuon, Three)||(Bich, King)||(Bich, Jack)||(Bich, Queen)|
+Player Thinh: 
+|('2665', Jack)||(Bich, Ace)||(Ro, Six)||(Chuon, Five)||(Ro, Seven)|
+Number of Winners: 1
+Congrats player Quan got , win 166665
+Player Loc: 8333
+Player Quan: 474998
+Player Phong: 308333
+Player Phong: 308333
+Player Thinh: 266667
+Player Loc: 
+|('2665', King)||('2665', Jack)||('2665', Eight)||('2665', Ten)||(Ro, Queen)|
+Player Quan: 
+|(Chuon, Four)||(Ro, Two)||(Ro, Five)||(Ro, Three)||(Chuon, Queen)|
+Player Phong: 
+|(Chuon, Six)||('2665', Five)||('2665', Ace)||(Chuon, Ace)||(Chuon, Nine)|
+Player Phong: 
+|('2665', Two)||(Ro, Eight)||(Ro, Ten)||(Bich, Five)||('2665', Six)|
+Player Thinh: 
+|(Chuon, Three)||(Bich, Six)||('2665', Nine)||(Chuon, Five)||(Chuon, Eight)|
+Number of Winners: 1
+Congrats player Phong got , win 166665
+Player Loc: 4294942296
+Player Quan: 441665
+Player Phong: 441665
+Player Phong: 275000
+Player Thinh: 233334
+Player Loc: 
+|(Bich, Six)||('2665', Nine)||('2665', Ten)||(Chuon, Eight)||('2665', Three)|
+Player Quan: 
+|(Ro, Five)||(Bich, Four)||(Ro, Seven)||('2665', Six)||(Ro, Ace)|
+Player Phong: 
+|(Chuon, King)||(Ro, Nine)||(Chuon, Two)||(Bich, Seven)||(Bich, Ten)|
+Player Phong: 
+|(Chuon, Ten)||(Bich, Ace)||(Bich, Three)||(Ro, Eight)||(Ro, Two)|
+Player Thinh: 
+|(Bich, Eight)||('2665', Four)||(Ro, King)||(Chuon, Three)||(Bich, Five)|
+Number of Winners: 5
+Congrats player Loc got , win 33333
+Congrats player Quan got , win 33333
+Congrats player Phong got , win 33333
+Congrats player Phong got , win 33333
+Congrats player Thinh got , win 33333
+Player Loc: 4294942296
+Player Quan: 441665
+Player Phong: 441665
+Player Phong: 275000
+Player Thinh: 233334
+Player Loc: 
+|(Ro, Six)||(Bich, Five)||('2665', Six)||(Ro, Eight)||(Bich, Eight)|
+Player Quan: 
+|(Ro, Four)||(Chuon, Ten)||('2665', Queen)||(Bich, Queen)||(Bich, Ace)|
+Player Phong: 
+|(Chuon, Four)||(Bich, Three)||('2665', Ace)||(Ro, Three)||('2665', Seven)|
+Player Phong: 
+|('2665', Jack)||(Ro, Jack)||('2665', Nine)||(Bich, Four)||('2665', Ace)|
+Player Thinh: 
+|(Bich, Jack)||('2665', King)||(Chuon, Three)||(Ro, King)||(Bich, Nine)|
+Number of Winners: 1
+Congrats player Loc got TwoPairs, win 166665
+Player Loc: 108332
+Player Quan: 408332
+Player Phong: 408332
+Player Phong: 241667
+Player Thinh: 200001
+Player Huy: 
+|('5', Jack)||(Bich, Four)||(Ro, Ace)||(Bich, Two)||(Chuon, Six)|
+Player Lan: 
+|(Chuon, Eight)||('5', Six)||('5', Ten)||(Ro, Eight)||('5', King)|
+Player Chuong: 
+|('5', Four)||(Bich, Ten)||(Ro, Five)||(Bich, King)||('5', Nine)|
+Player Loc: 
+|(Chuon, Queen)||(Bich, Seven)||(Chuon, Ten)||(Bich, Nine)||(Chuon, King)|
+Player Loc: 
+|(Bich, Queen)||(Bich, Six)||('5', Ace)||(Ro, King)||(Ro, Jack)|
+Number of Winners: 1
+Congrats player Lan got , win 16665
+Player Huy: 342012
+Player Lan: 358767
+Player Chuong: 342012
+Player Loc: 342022
+Player Loc: 31210
+Player Huy: 
+|('5', Eight)||(Ro, Seven)||(Bich, Ten)||('5', Ace)||(Chuon, Jack)|
+Player Lan: 
+|(Ro, Jack)||(Bich, Two)||(Ro, Five)||(Ro, Ten)||(Ro, Ace)|
+Player Chuong: 
+|('5', Ten)||('5', Five)||(Ro, Two)||(Chuon, King)||(Ro, King)|
+Player Loc: 
+|(Bich, Nine)||(Bich, Queen)||(Chuon, Five)||(Chuon, Four)||(Ro, Queen)|
+Player Loc: 
+|('5', Queen)||(Chuon, Three)||(Chuon, Queen)||(Ro, Three)||('5', Three)|
+Number of Winners: 1
+Congrats player Loc got , win 16665
+Player Huy: 338679
+Player Lan: 355434
+Player Chuong: 338679
+Player Loc: 338689
+Player Loc: 44542
+Player Huy: 
+|(Bich, Five)||(Chuon, Two)||(Ro, Eight)||(Bich, Queen)||('5', Jack)|
+Player Lan: 
+|('5', Nine)||(Chuon, Nine)||('5', Ace)||(Bich, Eight)||(Chuon, Ten)|
+Player Chuong: 
+|(Ro, Four)||(Bich, Ace)||(Bich, Two)||(Chuon, Six)||(Chuon, Eight)|
+Player Loc: 
+|(Bich, Six)||('5', King)||('5', Five)||(Chuon, King)||(Bich, Jack)|
+Player Loc: 
+|(Ro, Queen)||(Bich, Seven)||(Ro, Nine)||(Ro, Six)||(Ro, Jack)|
+Number of Winners: 2
+Congrats player Lan got , win 8332
+Congrats player Loc got Pair, win 8332
+Player Huy: 335346
+Player Lan: 360433
+Player Chuong: 335346
+Player Loc: 343688
+Player Loc: 41209
+Player Quan: 
+|(Chuon, Four)||(Bich, Seven)||(?, Four)||(Ro, Five)||(Bich, Two)|
+Player Phong: 
+|(Bich, Nine)||(Bich, Four)||(?, Eight)||(Bich, Three)||(?, Ten)|
+Player Tuan: 
+|(Ro, Six)||(?, Six)||(Chuon, Eight)||(Chuon, Two)||(Chuon, Six)|
+Player Quan: 
+|(Bich, Five)||(Ro, Seven)||(Ro, Nine)||(Chuon, King)||(Bich, Queen)|
+Number of Winners: 1
+Congrats player Tuan got Pair, win 1332
+Player Quan: 2081
+Player Phong: 21079
+Player Tuan: 22420
+Player Quan: 22991
+Player Quan: 
+|(?, Three)||(Chuon, Four)||(Ro, Seven)||(Ro, Three)||(Chuon, Three)|
+Player Phong: 
+|(Bich, Three)||(?, Queen)||(Ro, Five)||(Ro, Eight)||(Chuon, Six)|
+Player Tuan: 
+|(Chuon, Queen)||(?, Two)||(Chuon, Eight)||(Bich, Eight)||(Ro, Jack)|
+Player Quan: 
+|(Bich, Ten)||(?, Ace)||(?, Nine)||(Chuon, Ten)||(Ro, Two)|
+Number of Winners: 1
+Congrats player Quan got ThreeOfAKind, win 1332
+Player Quan: 3080
+Player Phong: 20746
+Player Tuan: 22087
+Player Quan: 22658
+Player Quan: 
+|(Chuon, Nine)||(Bich, Ace)||(?, Four)||(Bich, Four)||(Chuon, Ace)|
+Player Phong: 
+|(Bich, King)||(Chuon, Ten)||(Ro, Queen)||(Chuon, Eight)||(Ro, Seven)|
+Player Tuan: 
+|(?, Ten)||(Ro, King)||(Bich, Eight)||(?, Six)||(Ro, Nine)|
+Player Quan: 
+|(?, Nine)||(Ro, Two)||(Chuon, Three)||(?, Jack)||(Ro, Jack)|
+Number of Winners: 1
+Congrats player Quan got TwoPairs, win 1332
+Player Quan: 4079
+Player Phong: 20413
+Player Tuan: 21754
+Player Quan: 22325
+Player An: 
+|(?, Ten)||(?, Seven)||(Ro, Ten)||(Chuon, King)||(?, Six)|
+Player Nien: 
+|(?, Four)||(?, King)||(Bich, Four)||(Bich, Eight)||(Chuon, Five)|
+Player Phuc: 
+|(?, Eight)||(Ro, Four)||(Bich, Nine)||(Chuon, Six)||(Chuon, Eight)|
+Player Vinh: 
+|(Ro, Nine)||(Bich, Two)||(Chuon, Ace)||(Ro, Ace)||(Chuon, Three)|
+Number of Winners: 4
+Congrats player An got Pair, win 3
+Congrats player Nien got Pair, win 3
+Congrats player Phuc got Pair, win 3
+Congrats player Vinh got Pair, win 3
+Player An: 123
+Player Nien: 234
+Player Phuc: 345
+Player Vinh: 456
+Player An: 
+|(?, Two)||(Bich, Two)||(Bich, Eight)||(Bich, Five)||(?, King)|
+Player Nien: 
+|(Ro, Five)||(?, Seven)||(Chuon, Ten)||(Ro, Nine)||(Ro, Three)|
+Player Phuc: 
+|(?, Ace)||(Ro, Eight)||(Ro, Four)||(Chuon, Five)||(Chuon, Eight)|
+Player Vinh: 
+|(Ro, Two)||(Bich, King)||(Chuon, Ace)||(Chuon, Queen)||(Chuon, King)|
+Number of Winners: 3
+Congrats player An got Pair, win 4
+Congrats player Phuc got , win 4
+Congrats player Vinh got Pair, win 4
+Player An: 124
+Player Nien: 231
+Player Phuc: 346
+Player Vinh: 457
+Player An: 
+|(Bich, Five)||(Bich, Ten)||(Bich, Eight)||(Bich, Seven)||(?, Five)|
+Player Nien: 
+|(?, Seven)||(?, Two)||(?, Eight)||(Ro, Five)||(?, Nine)|
+Player Phuc: 
+|(Ro, Ace)||(Ro, Jack)||(Chuon, Two)||(Bich, Nine)||(?, Ace)|
+Player Vinh: 
+|(Ro, Three)||(Ro, Eight)||(Chuon, Six)||(Chuon, Ace)||(?, Six)|
+Number of Winners: 3
+Congrats player An got Pair, win 4
+Congrats player Phuc got , win 4
+Congrats player Vinh got Pair, win 4
+Player An: 125
+Player Nien: 228
+Player Phuc: 347
+Player Vinh: 458
+Player An: 
+|(Bich, King)||(Chuon, Jack)||(Bich, Jack)||(Ro, Six)||(Ro, Eight)|
+Player Nien: 
+|(Bich, Two)||(Bich, Eight)||(Ro, Two)||(?, Five)||(Chuon, Ten)|
+Player Phuc: 
+|(Bich, Seven)||(Ro, Seven)||(?, Six)||(?, Eight)||(?, Queen)|
+Player Vinh: 
+|(Chuon, King)||(?, Ten)||(?, Three)||(Bich, Three)||(Ro, Ace)|
+Number of Winners: 4
+Congrats player An got Pair, win 3
+Congrats player Nien got Pair, win 3
+Congrats player Phuc got Pair, win 3
+Congrats player Vinh got Pair, win 3
+Player An: 125
+Player Nien: 228
+Player Phuc: 347
+Player Vinh: 458
+Player Quynh: 
+|(Ro, Three)||(Ro, King)||(Bich, Queen)||(?, Jack)||(Bich, Three)|
+Player Chuong: 
+|(Ro, Nine)||(Chuon, Five)||(Chuon, Seven)||(Ro, Queen)||(Chuon, Queen)|
+Player An: 
+|(Ro, Two)||(Chuon, Three)||(Ro, Four)||(Chuon, Two)||(Bich, Ten)|
+Number of Winners: 3
+Congrats player Quynh got Pair, win 3
+Congrats player Chuong got Pair, win 3
+Congrats player An got Pair, win 3
+Player Quynh: 123
+Player Chuong: 123
+Player An: 123
+Player Quynh: 
+|(Ro, Seven)||(Chuon, Five)||(Ro, Queen)||(Bich, Jack)||(Chuon, Two)|
+Player Chuong: 
+|(Chuon, Four)||(?, Eight)||(Chuon, Ten)||(Chuon, Six)||(?, Two)|
+Player An: 
+|(Bich, Ace)||(Chuon, King)||(Ro, King)||(?, Ace)||(Ro, Two)|
+Number of Winners: 1
+Congrats player An got , win 9
+Player Quynh: 120
+Player Chuong: 120
+Player An: 129
+Player Quynh: 
+|(Chuon, Two)||(Ro, Four)||(Bich, Nine)||(Ro, Nine)||(Chuon, Ace)|
+Player Chuong: 
+|(Ro, Queen)||(Chuon, King)||(Bich, Seven)||(Bich, Six)||(?, Jack)|
+Player An: 
+|(Chuon, Nine)||(Bich, Three)||(Ro, Five)||(Bich, Two)||(Ro, Ace)|
+Number of Winners: 1
+Congrats player Quynh got Pair, win 9
+Player Quynh: 126
+Player Chuong: 117
+Player An: 126
+Player Lan: 
+|(Ro, 2)||(Chuon, 8)||(Bich, K)||(Bich, 8)||(Ro, 5)|
+Player Lan: 
+|(Ro, 4)||(Chuon, 5)||(Co, 9)||(Chuon, 7)||(Bich, 2)|
+Player Tuan: 
+|(Co, A)||(Ro, J)||(Bich, 9)||(Ro, 7)||(Ro, K)|
+Player Nien: 
+|(Co, 5)||(Bich, 7)||(Chuon, K)||(Chuon, Q)||(Co, K)|
+Number of Winners: 2
+Congrats player Lan got Pair, win 666
+Congrats player Nien got , win 666
+Player Lan: 3545
+Player Lan: 4790
+Player Tuan: 14790
+Player Nien: 21845
+Player Lan: 
+|(Chuon, 5)||(Ro, A)||(Bich, 3)||(Co, K)||(Ro, 7)|
+Player Lan: 
+|(Bich, K)||(Chuon, 9)||(Ro, K)||(Co, 3)||(Co, A)|
+Player Tuan: 
+|(Ro, 4)||(Co, 10)||(Chuon, K)||(Chuon, 10)||(Co, 8)|
+Player Nien: 
+|(Ro, J)||(Ro, 6)||(Ro, 10)||(Ro, 8)||(Chuon, 7)|
+Number of Winners: 2
+Congrats player Lan got , win 666
+Congrats player Tuan got Pair, win 666
+Player Lan: 3212
+Player Lan: 5123
+Player Tuan: 15123
+Player Nien: 21512
+Player Quynh: 
+|(Ro, 4)||(Bich, 6)||(Ro, 7)||(Co, 3)||(Co, 7)|
+Player Hoang: 
+|(Bich, A)||(Chuon, 10)||(Ro, 10)||(Chuon, J)||(Co, 10)|
+Player Quan: 
+|(Ro, 6)||(Chuon, 8)||(Chuon, 9)||(Ro, 3)||(Bich, 9)|
+Number of Winners: 1
+Congrats player Hoang got Pair, win 9
+Player Quynh: 1231
+Player Hoang: 124130
+Player Quan: 24221
+Player Quynh: 
+|(Bich, 5)||(Chuon, Q)||(Chuon, 8)||(Bich, J)||(Ro, 5)|
+Player Hoang: 
+|(Ro, 3)||(Chuon, 9)||(Bich, 6)||(Ro, A)||(Ro, 6)|
+Player Quan: 
+|(Chuon, K)||(Co, 7)||(Co, 2)||(Co, 8)||(Ro, 7)|
+Number of Winners: 3
+Congrats player Quynh got Pair, win 3
+Congrats player Hoang got Pair, win 3
+Congrats player Quan got Pair, win 3
+Player Quynh: 1231
+Player Hoang: 124130
+Player Quan: 24221
+Player Quynh: 
+|(Chuon, 5)||(Bich, Q)||(Co, A)||(Ro, 6)||(Chuon, J)|
+Player Hoang: 
+|(Ro, 3)||(Ro, 8)||(Co, 6)||(Bich, 4)||(Co, 2)|
+Player Quan: 
+|(Chuon, 3)||(Chuon, 10)||(Co, 3)||(Chuon, 6)||(Bich, 7)|
+Number of Winners: 1
+Congrats player Quan got , win 9
+Player Quynh: 1228
+Player Hoang: 124127
+Player Quan: 24227
+Player Quynh: 
+|(Co, K)||(Ro, 7)||(Co, Q)||(Bich, 3)||(Chuon, 3)|
+Player Hoang: 
+|(Ro, 2)||(Bich, 9)||(Bich, A)||(Bich, 2)||(Ro, J)|
+Player Quan: 
+|(Chuon, 9)||(Bich, J)||(Chuon, A)||(Co, 3)||(Ro, A)|
+Number of Winners: 3
+Congrats player Quynh got Pair, win 3
+Congrats player Hoang got Pair, win 3
+Congrats player Quan got Pair, win 3
+Player Quynh: 1228
+Player Hoang: 124127
+Player Quan: 24227
+Player Quynh: 
+|(Chuon, A)||(Co, 6)||(Chuon, 4)||(Bich, 2)||(Chuon, 2)|
+Player Huy: 
+|(Chuon, J)||(Co, 10)||(Ro, J)||(Bich, 3)||(Bich, Q)|
+Player Quynh: 
+|(Ro, 6)||(Ro, 8)||(Ro, 10)||(Chuon, K)||(Bich, 4)|
+Player Lan: 
+|(Ro, 4)||(Ro, Q)||(Bich, 7)||(Chuon, Q)||(Bich, A)|
+Number of Winners: 1
+Congrats player Huy got , win 1372
+Player Quynh: 20978
+Player Huy: 13450
+Player Quynh: 23871
+Player Lan: 11980
+Player Quynh: 
+|(Co, 3)||(Co, 8)||(Chuon, A)||(Chuon, J)||(Co, K)|
+Player Huy: 
+|(Chuon, K)||(Chuon, 7)||(Chuon, 6)||(Bich, 6)||(Bich, 3)|
+Player Quynh: 
+|(Chuon, 5)||(Chuon, 8)||(Co, A)||(Co, 4)||(Ro, A)|
+Player Lan: 
+|(Bich, A)||(Bich, 2)||(Chuon, 2)||(Ro, 10)||(Chuon, Q)|
+Number of Winners: 1
+Congrats player Huy got , win 1372
+Player Quynh: 20635
+Player Huy: 14479
+Player Quynh: 23528
+Player Lan: 11637
+Player Quynh: 
+|(Chuon, 9)||(Bich, 4)||(Ro, A)||(Bich, 5)||(Bich, A)|
+Player Huy: 
+|(Ro, 2)||(Chuon, 4)||(Chuon, 3)||(Chuon, K)||(Co, 7)|
+Player Quynh: 
+|(Ro, J)||(Ro, 10)||(Co, 8)||(Bich, 7)||(Bich, 8)|
+Player Lan: 
+|(Bich, K)||(Ro, 5)||(Ro, 7)||(Bich, Q)||(Co, 5)|
+Number of Winners: 4
+Congrats player Quynh got , win 343
+Congrats player Huy got , win 343
+Congrats player Quynh got , win 343
+Congrats player Lan got , win 343
+Player Quynh: 20635
+Player Huy: 14479
+Player Quynh: 23528
+Player Lan: 11637
+Player Quynh: 
+|(Chuon, 3)||(Chuon, 6)||(Chuon, K)||(Chuon, 8)||(Ro, A)|
+Player Huy: 
+|(Chuon, A)||(Ro, 2)||(Co, 5)||(Bich, K)||(Ro, Q)|
+Player Quynh: 
+|(Co, Q)||(Ro, 5)||(Chuon, 4)||(Bich, 4)||(Chuon, 2)|
+Player Lan: 
+|(Chuon, Q)||(Bich, J)||(Ro, 7)||(Bich, Q)||(Co, 2)|
+Number of Winners: 4
+Congrats player Quynh got , win 343
+Congrats player Huy got , win 343
+Congrats player Quynh got , win 343
+Congrats player Lan got , win 343
+Player Quynh: 20635
+Player Huy: 14479
+Player Quynh: 23528
+Player Lan: 11637
+Player Tuan: 
+|(Bich, 10)||(Bich, 7)||(Chuon, Q)||(Ro, 4)||(Co, J)|
+Player Tuan: 
+|(Ro, 7)||(Bich, J)||(Co, 8)||(Ro, J)||(Bich, 6)|
+Player Quan: 
+|(Chuon, 10)||(Co, 3)||(Ro, Q)||(Co, 5)||(Bich, 3)|
+Number of Winners: 1
+Congrats player Quan got , win 9
+Player Tuan: 0 (Kicked)
+Player Tuan: 0 (Kicked)
+Player Quan: 9
+Player Nien: 
+|(Ro, 3)||(Chuon, A)||(Co, J)||(Ro, 8)||(Bich, 2)|
+Player Vinh: 
+|(Chuon, 3)||(Co, 4)||(Ro, 4)||(Chuon, J)||(Bich, A)|
+Player An: 
+|(Co, 9)||(Bich, 7)||(Co, K)||(Ro, A)||(Bich, J)|
+Player Phong: 
+|(Bich, K)||(Co, 10)||(Co, 3)||(Chuon, 4)||(Co, 2)|
+Player Nien: 
+|(Co, A)||(Ro, 10)||(Co, 7)||(Bich, 3)||(Bich, 8)|
+Player Nien: 
+|(Chuon, 6)||(Chuon, 8)||(Chuon, 7)||(Chuon, Q)||(Ro, 6)|
+Number of Winners: 1
+Congrats player Vinh got , win 18
+Player Nien: 323
+Player Vinh: 6177
+Player An: 623
+Player Phong: 623
+Player Nien: 6158
+Player Nien: 61613
+Player Nien: 
+|(Bich, 5)||(Ro, 10)||(Co, Q)||(Ro, 5)||(Ro, 9)|
+Player Vinh: 
+|(Co, 2)||(Co, K)||(Ro, K)||(Co, J)||(Bich, A)|
+Player An: 
+|(Co, 10)||(Ro, 2)||(Chuon, 6)||(Bich, 3)||(Chuon, 7)|
+Player Phong: 
+|(Bich, 4)||(Chuon, 4)||(Co, 8)||(Co, 4)||(Chuon, 5)|
+Player Nien: 
+|(Chuon, 8)||(Ro, 7)||(Co, A)||(Bich, 10)||(Ro, 4)|
+Player Nien: 
+|(Chuon, 2)||(Ro, 3)||(Ro, A)||(Bich, K)||(Chuon, J)|
+Number of Winners: 1
+Congrats player Phong got , win 18
+Player Nien: 320
+Player Vinh: 6174
+Player An: 620
+Player Phong: 638
+Player Nien: 6155
+Player Nien: 61610
+Player Nien: 
+|(Co, 6)||(Co, 10)||(Co, 7)||(Ro, 4)||(Bich, A)|
+Player Vinh: 
+|(Bich, 10)||(Ro, 7)||(Bich, 5)||(Co, 9)||(Ro, Q)|
+Player An: 
+|(Chuon, 3)||(Bich, Q)||(Bich, 7)||(Chuon, 4)||(Ro, 9)|
+Player Phong: 
+|(Bich, 9)||(Chuon, A)||(Co, 4)||(Ro, J)||(Bich, 2)|
+Player Nien: 
+|(Ro, 10)||(Ro, 5)||(Chuon, 8)||(Chuon, 6)||(Chuon, 5)|
+Player Nien: 
+|(Co, 5)||(Bich, 3)||(Bich, K)||(Bich, J)||(Co, 3)|
+Number of Winners: 1
+Congrats player Nien got , win 18
+Player Nien: 317
+Player Vinh: 6171
+Player An: 617
+Player Phong: 635
+Player Nien: 6152
+Player Nien: 61625
+Player Nien: 
+|(Chuon, 3)||(Chuon, 5)||(Chuon, J)||(Bich, 7)||(Ro, K)|
+Player Vinh: 
+|(Co, 7)||(Bich, 5)||(Bich, 8)||(Chuon, 9)||(Bich, J)|
+Player An: 
+|(Co, A)||(Ro, 9)||(Co, 5)||(Co, Q)||(Ro, 7)|
+Player Phong: 
+|(Ro, 2)||(Bich, Q)||(Chuon, 7)||(Bich, 6)||(Ro, J)|
+Player Nien: 
+|(Bich, 10)||(Chuon, Q)||(Co, J)||(Ro, 10)||(Chuon, 10)|
+Player Nien: 
+|(Bich, 2)||(Chuon, A)||(Chuon, 4)||(Co, 4)||(Co, 3)|
+Number of Winners: 1
+Congrats player Nien got , win 18
+Player Nien: 314
+Player Vinh: 6168
+Player An: 614
+Player Phong: 632
+Player Nien: 6149
+Player Nien: 61640
+Player Nien: 
+|(Co, 4)||(Bich, 10)||(Chuon, 6)||(Co, 9)||(Chuon, K)|
+Player Vinh: 
+|(Chuon, 9)||(Chuon, J)||(Bich, K)||(Co, 5)||(Bich, Q)|
+Player An: 
+|(Chuon, 7)||(Bich, 9)||(Chuon, 10)||(Bich, 5)||(Ro, K)|
+Player Phong: 
+|(Ro, A)||(Ro, 3)||(Bich, J)||(Ro, 7)||(Co, A)|
+Player Nien: 
+|(Ro, Q)||(Bich, 3)||(Chuon, 2)||(Co, 6)||(Chuon, 4)|
+Player Nien: 
+|(Co, 8)||(Co, 7)||(Chuon, 3)||(Co, 3)||(Ro, 2)|
+Number of Winners: 2
+Congrats player Phong got , win 9
+Congrats player Nien got , win 9
+Player Nien: 311
+Player Vinh: 6165
+Player An: 611
+Player Phong: 638
+Player Nien: 6146
+Player Nien: 61646
+Player Nien: 
+|(Ro, 4)||(Bich, A)||(Ro, J)||(Bich, 2)||(Bich, 8)|
+Player Vinh: 
+|(Bich, J)||(Chuon, 10)||(Co, 7)||(Co, 2)||(Co, 5)|
+Player An: 
+|(Chuon, 5)||(Chuon, A)||(Ro, Q)||(Ro, 7)||(Co, 8)|
+Player Phong: 
+|(Ro, 8)||(Co, 9)||(Bich, Q)||(Co, 3)||(Ro, K)|
+Player Nien: 
+|(Co, A)||(Bich, 6)||(Co, J)||(Ro, 9)||(Ro, 3)|
+Player Nien: 
+|(Chuon, 7)||(Chuon, 3)||(Chuon, 9)||(Bich, 3)||(Ro, 10)|
+Number of Winners: 1
+Congrats player Nien got , win 18
+Player Nien: 308
+Player Vinh: 6162
+Player An: 608
+Player Phong: 635
+Player Nien: 6143
+Player Nien: 61661
+Player Quynh: 
+|(Ro, 9)||(Bich, A)||(Co, 2)||(Bich, 4)||(Chuon, A)|
+Player Hoang: 
+|(Co, Q)||(Chuon, 10)||(Chuon, Q)||(Chuon, 6)||(Ro, 7)|
+Player Phong: 
+|(Bich, 7)||(Co, 10)||(Ro, 3)||(Ro, A)||(Co, 5)|
+Number of Winners: 3
+Congrats player Quynh got , win 3000
+Congrats player Hoang got , win 3000
+Congrats player Phong got , win 3000
+Player Quynh: 321556
+Player Hoang: 316133
+Player Phong: 31613
+Player Quynh: 
+|(Co, 2)||(Chuon, 6)||(Ro, 3)||(Bich, 8)||(Bich, 5)|
+Player Hoang: 
+|(Bich, 2)||(Ro, 6)||(Ro, 4)||(Bich, A)||(Chuon, 8)|
+Player Phong: 
+|(Chuon, 5)||(Ro, A)||(Co, 10)||(Co, K)||(Bich, 10)|
+Number of Winners: 3
+Congrats player Quynh got , win 3000
+Congrats player Hoang got , win 3000
+Congrats player Phong got , win 3000
+Player Quynh: 321556
+Player Hoang: 316133
+Player Phong: 31613
+Player Quynh: 
+|(Ro, 5)||(Co, J)||(Co, 4)||(Bich, 5)||(Chuon, K)|
+Player Hoang: 
+|(Chuon, 2)||(Bich, 6)||(Co, 10)||(Bich, Q)||(Bich, 9)|
+Player Phong: 
+|(Bich, J)||(Co, 7)||(Co, 9)||(Co, 2)||(Ro, 9)|
+Number of Winners: 3
+Congrats player Quynh got , win 3000
+Congrats player Hoang got , win 3000
+Congrats player Phong got , win 3000
+Player Quynh: 321556
+Player Hoang: 316133
+Player Phong: 31613
+Player Quynh: 
+|(Chuon, 7)||(Ro, A)||(Bich, 6)||(Co, 8)||(Co, K)|
+Player Hoang: 
+|(Ro, 5)||(Co, 5)||(Co, 7)||(Chuon, 9)||(Chuon, 6)|
+Player Phong: 
+|(Chuon, 10)||(Ro, Q)||(Bich, 4)||(Bich, 8)||(Bich, 9)|
+Number of Winners: 3
+Congrats player Quynh got , win 3000
+Congrats player Hoang got , win 3000
+Congrats player Phong got , win 3000
+Player Quynh: 321556
+Player Hoang: 316133
+Player Phong: 31613
+Player Quynh: 
+|(Chuon, K)||(Ro, 4)||(Chuon, 8)||(Ro, 5)||(Ro, J)|
+Player Hoang: 
+|(Bich, 9)||(Chuon, 6)||(Bich, A)||(Co, 9)||(Chuon, 10)|
+Player Phong: 
+|(Bich, Q)||(Co, A)||(Chuon, 7)||(Chuon, Q)||(Ro, 8)|
+Number of Winners: 3
+Congrats player Quynh got , win 3000
+Congrats player Hoang got , win 3000
+Congrats player Phong got , win 3000
+Player Quynh: 321556
+Player Hoang: 316133
+Player Phong: 31613
+Player Quynh: 
+|(Co, 5)||(Ro, 9)||(Co, 4)||(Chuon, K)||(Bich, 3)|
+Player Hoang: 
+|(Co, 10)||(Bich, 2)||(Co, A)||(Chuon, 6)||(Bich, 9)|
+Player Phong: 
+|(Bich, 5)||(Chuon, 5)||(Bich, J)||(Bich, 10)||(Chuon, Q)|
+Number of Winners: 3
+Congrats player Quynh got , win 3000
+Congrats player Hoang got , win 3000
+Congrats player Phong got , win 3000
+Player Quynh: 321556
+Player Hoang: 316133
+Player Phong: 31613
+Player Vu: 
+|(Ro, K)||(Co, A)||(Ro, 5)||(Chuon, 2)||(Co, 8)|
+Player Cuong: 
+|(Chuon, Q)||(Bich, 9)||(Co, Q)||(Chuon, 3)||(Ro, 8)|
+Player Hao: 
+|(Co, 4)||(Bich, 2)||(Chuon, A)||(Co, 9)||(Chuon, 9)|
+Number of Winners: 1
+Congrats player Cuong got , win 1848483
+Player Vu: 4294394299
+Player Cuong: 2574486
+Player Hao: 4294351135
+Player Vu: 
+|(Chuon, K)||(Ro, 3)||(Chuon, 10)||(Chuon, J)||(Co, J)|
+Player Cuong: 
+|(Co, Q)||(Ro, J)||(Co, 7)||(Chuon, 2)||(Chuon, 9)|
+Player Hao: 
+|(Bich, A)||(Co, 5)||(Bich, 7)||(Co, K)||(Co, 9)|
+Number of Winners: 1
+Congrats player Vu got Pair, win 1848483
+Player Vu: 659325
+Player Cuong: 1958325
+Player Hao: 4293734974
+Player Vu: 
+|(Bich, 6)||(Chuon, 5)||(Co, 2)||(Co, 4)||(Ro, 2)|
+Player Cuong: 
+|(Chuon, 8)||(Ro, 5)||(Bich, K)||(Chuon, 9)||(Co, 5)|
+Player Hao: 
+|(Chuon, 2)||(Co, 9)||(Ro, 7)||(Chuon, 4)||(Chuon, 3)|
+Number of Winners: 3
+Congrats player Vu got , win 616161
+Congrats player Cuong got , win 616161
+Congrats player Hao got , win 616161
+Player Vu: 659325
+Player Cuong: 1958325
+Player Hao: 4293734974
+Player Vu: 
+|(Ro, 8)||(Ro, 9)||(Ro, A)||(Ro, 7)||(Ro, K)|
+Player Cuong: 
+|(Co, 10)||(Bich, Q)||(Co, 9)||(Bich, J)||(Chuon, 7)|
+Player Hao: 
+|(Bich, K)||(Ro, 2)||(Co, 2)||(Bich, 10)||(Co, K)|
+Number of Winners: 1
+Congrats player Vu got Flush, win 1848483
+Player Vu: 1891647
+Player Cuong: 1342164
+Player Hao: 4293118813
+Player Vu: 
+|(Bich, K)||(Co, 4)||(Ro, 8)||(Co, 7)||(Bich, 8)|
+Player Cuong: 
+|(Chuon, 10)||(Chuon, 6)||(Ro, 2)||(Chuon, J)||(Co, 5)|
+Player Hao: 
+|(Ro, 10)||(Co, 8)||(Bich, 4)||(Co, J)||(Co, K)|
+Number of Winners: 3
+Congrats player Vu got , win 616161
+Congrats player Cuong got , win 616161
+Congrats player Hao got , win 616161
+Player Vu: 1891647
+Player Cuong: 1342164
+Player Hao: 4293118813
+Player Vu: 
+|(Ro, 7)||(Ro, K)||(Chuon, 4)||(Bich, K)||(Co, 4)|
+Player Cuong: 
+|(Ro, 6)||(Chuon, J)||(Bich, 8)||(Co, 6)||(Co, 2)|
+Player Hao: 
+|(Chuon, K)||(Ro, 8)||(Chuon, A)||(Bich, 4)||(Chuon, 3)|
+Number of Winners: 1
+Congrats player Vu got ThreeOfAKind, win 1848483
+Player Vu: 3123969
+Player Cuong: 726003
+Player Hao: 4292502652
+Player Hao: 
+|(Ro, A)||(Chuon, 5)||(Co, 6)||(Ro, 6)||(Chuon, 4)|
+Player Huy: 
+|(Ro, 7)||(Co, 3)||(Chuon, J)||(Co, 5)||(Bich, J)|
+Player Hao: 
+|(Chuon, Q)||(Bich, 10)||(Ro, 3)||(Bich, 4)||(Co, A)|
+Number of Winners: 1
+Congrats player Huy got , win 3
+Player Hao: 2
+Player Huy: 5
+Player Hao: 2
+Player Loc: 
+|(Ro, 6)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Truong: 
+|(Bich, 8)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Co, 2)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Lan: 
+|(Ro, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phong: 
+|(Chuon, 3)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Nien: 
+|(Bich, 7)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Quan: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hoang: 
+|(Chuon, Q)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Bich, 4)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Loc: 
+|(Chuon, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Chuon, 2)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Truong: 
+|(Ro, Q)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hao: 
+|(Ro, 8)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Bich, 2)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Loc: 
+|(Ro, 10)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Quynh: 
+|(Bich, Q)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Loc: 
+|(Ro, K)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phat: 
+|(Chuon, J)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Chuong: 
+|(Co, Q)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Truong: 
+|(Co, 10)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Tuan: 
+|(Chuon, 4)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Chuong: 
+|(Co, 4)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hoang: 
+|(Co, 8)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Thinh: 
+|(Bich, 3)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Truong: 
+|(Bich, 10)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Thinh: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Bich, 9)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player An: 
+|(Chuon, 6)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Chuong: 
+|(Ro, J)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Chuong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Ro, 3)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Bich, 6)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Ro, 7)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hoang: 
+|(Bich, K)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Tuan: 
+|(Co, 3)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phong: 
+|(Co, 7)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Bich, 5)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Ro, 4)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Loc: 
+|(Co, K)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Nien: 
+|(Ro, 9)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Co, J)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Quynh: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Chuon, 10)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phat: 
+|(Chuon, 8)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hao: 
+|(Co, 6)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Nien: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player An: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phat: 
+|(Chuon, K)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Huy: 
+|(Chuon, 5)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player An: 
+|(Ro, 2)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hoang: 
+|(Chuon, 9)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Co, 5)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Chuong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Lan: 
+|(Bich, J)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Chuon, 7)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Ro, 5)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Co, 9)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vu: 
+|(Bich, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Number of Winners: 4
+Congrats player Phuc got , win 45
+Congrats player Huy got , win 45
+Congrats player Vinh got Flush, win 45
+Congrats player Phuc got , win 45
+Player Loc: 31613
+Player Truong: 613
+Player Phuc: 58
+Player Lan: 616158
+Player Phong: 3
+Player Nien: 58
+Player Quan: 58
+Player Hoang: 58
+Player Cuong: 58
+Player Loc: 58
+Player Phuc: 58
+Player Truong: 58
+Player Hao: 58
+Player Phuc: 58
+Player Loc: 58
+Player Quynh: 58
+Player Phuc: 58
+Player Loc: 58
+Player Phat: 58
+Player Chuong: 58
+Player Truong: 58
+Player Tuan: 58
+Player Chuong: 58
+Player Hoang: 58
+Player Thinh: 58
+Player Truong: 58
+Player Thinh: 58
+Player Vinh: 58
+Player An: 58
+Player Chuong: 58
+Player Chuong: 58
+Player Cuong: 58
+Player Vinh: 58
+Player Phuc: 58
+Player Hoang: 2148
+Player Tuan: 2158
+Player Cuong: 18
+Player Phong: 58
+Player Phuc: 63
+Player Cuong: 58
+Player Loc: 158
+Player Nien: 13
+Player Cuong: 8
+Player Quynh: 16158
+Player Phuc: 13
+Player Phat: 58
+Player Hao: 158
+Player Nien: 3158
+Player An: 3158
+Player Phat: 3
+Player Huy: 43
+Player An: 58
+Player Hoang: 613
+Player Vinh: 103
+Player Cuong: 58
+Player Chuong: 613
+Player Lan: 4294967294
+Player Vinh: 58
+Player Phuc: 103
+Player Vinh: 58
+Player Vu: 58
+Player Loc: 
+|(Co, 4)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Truong: 
+|(Ro, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Chuon, J)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Lan: 
+|(Co, 2)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phong: 
+|(Bich, 4)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Nien: 
+|(Bich, J)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Quan: 
+|(Co, K)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hoang: 
+|(Ro, 5)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Chuon, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Loc: 
+|(Ro, 8)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Co, 5)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Truong: 
+|(Co, 7)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hao: 
+|(Bich, 9)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Chuon, 7)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Loc: 
+|(Co, 9)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Quynh: 
+|(Chuon, K)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Chuon, 2)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Loc: 
+|(Co, 6)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phat: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Chuong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Truong: 
+|(Chuon, 10)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Tuan: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Chuong: 
+|(Ro, 7)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hoang: 
+|(Co, J)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Thinh: 
+|(Bich, 8)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Truong: 
+|(Bich, Q)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Thinh: 
+|(Bich, 5)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Co, Q)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player An: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Chuong: 
+|(Chuon, Q)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Chuong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Bich, 3)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Bich, 6)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Chuon, 9)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hoang: 
+|(Chuon, 8)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Tuan: 
+|(Co, 3)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Ro, 4)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Ro, 10)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Bich, 10)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Loc: 
+|(Ro, K)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Nien: 
+|(Ro, J)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Chuon, 3)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Quynh: 
+|(Bich, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Chuon, 6)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phat: 
+|(Ro, 6)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hao: 
+|(Ro, Q)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Nien: 
+|(Ro, 9)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player An: 
+|(Chuon, 5)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phat: 
+|(Ro, 3)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Huy: 
+|(Bich, K)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player An: 
+|(Chuon, 4)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Hoang: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Cuong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Chuong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Lan: 
+|(Bich, 7)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Co, 10)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phuc: 
+|(Ro, 2)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Bich, 2)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vu: 
+|(Co, 8)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Number of Winners: 4
+Congrats player Hoang got FullHouse, win 45
+Congrats player Phuc got , win 45
+Congrats player Thinh got , win 45
+Congrats player An got Flush, win 45
+Player Loc: 31610
+Player Truong: 610
+Player Phuc: 55
+Player Lan: 616155
+Player Phong: 0 (Kicked)
+Player Nien: 55
+Player Quan: 55
+Player Hoang: 100
+Player Cuong: 55
+Player Loc: 55
+Player Phuc: 100
+Player Truong: 55
+Player Hao: 55
+Player Phuc: 55
+Player Loc: 55
+Player Quynh: 55
+Player Phuc: 55
+Player Loc: 55
+Player Phat: 55
+Player Chuong: 55
+Player Truong: 55
+Player Tuan: 55
+Player Chuong: 55
+Player Hoang: 55
+Player Thinh: 55
+Player Truong: 55
+Player Thinh: 100
+Player Vinh: 55
+Player An: 55
+Player Chuong: 55
+Player Chuong: 55
+Player Cuong: 55
+Player Vinh: 55
+Player Phuc: 55
+Player Hoang: 2145
+Player Tuan: 2155
+Player Cuong: 15
+Player Phong: 55
+Player Phuc: 60
+Player Cuong: 55
+Player Loc: 155
+Player Nien: 10
+Player Cuong: 5
+Player Quynh: 16155
+Player Phuc: 10
+Player Phat: 55
+Player Hao: 155
+Player Nien: 3155
+Player An: 3200
+Player Phat: 0 (Kicked)
+Player Huy: 40
+Player An: 55
+Player Hoang: 610
+Player Vinh: 100
+Player Cuong: 55
+Player Chuong: 610
+Player Lan: 4294967291
+Player Vinh: 55
+Player Phuc: 100
+Player Vinh: 55
+Player Vu: 55
+Player Quan: 
+|(Bich, 7)||(Co, 2)||(Bich, 2)||(Co, 7)||(Ro, K)|
+Player Phat: 
+|(Bich, 6)||(Co, 5)||(Bich, J)||(Bich, 10)||(Bich, Q)|
+Player An: 
+|(Chuon, A)||(Chuon, 9)||(Ro, 3)||(Chuon, Q)||(Chuon, 3)|
+Number of Winners: 1
+Congrats player An got , win 9
+Player Quan: 31310
+Player Phat: 31310
+Player An: 3617
+Player Quan: 
+|(Co, 5)||(Co, 7)||(Chuon, A)||(Bich, 2)||(Bich, J)|
+Player Phat: 
+|(Chuon, Q)||(Chuon, 7)||(Ro, 9)||(Bich, 8)||(Bich, Q)|
+Player An: 
+|(Ro, J)||(Co, 2)||(Co, 4)||(Bich, A)||(Chuon, 10)|
+Number of Winners: 3
+Congrats player Quan got , win 3
+Congrats player Phat got , win 3
+Congrats player An got , win 3
+Player Quan: 31310
+Player Phat: 31310
+Player An: 3617
+Player Quan: 
+|(Chuon, 7)||(Chuon, 10)||(Ro, J)||(Bich, Q)||(Co, A)|
+Player Phat: 
+|(Bich, 9)||(Bich, A)||(Co, 2)||(Ro, 7)||(Ro, 4)|
+Player An: 
+|(Chuon, 8)||(Ro, 8)||(Chuon, 6)||(Ro, 2)||(Co, 9)|
+Number of Winners: 3
+Congrats player Quan got , win 3
+Congrats player Phat got , win 3
+Congrats player An got , win 3
+Player Quan: 31310
+Player Phat: 31310
+Player An: 3617
+Player Quan: 
+|(Chuon, 5)||(Chuon, 8)||(Chuon, 6)||(Co, Q)||(Bich, A)|
+Player Phat: 
+|(Ro, A)||(Ro, 6)||(Ro, 4)||(Bich, Q)||(Co, K)|
+Player An: 
+|(Bich, 10)||(Chuon, J)||(Chuon, 9)||(Bich, 2)||(Chuon, K)|
+Number of Winners: 3
+Congrats player Quan got , win 3
+Congrats player Phat got , win 3
+Congrats player An got , win 3
+Player Quan: 31310
+Player Phat: 31310
+Player An: 3617
+Player Quan: 
+|(Co, 2)||(Chuon, Q)||(Co, 5)||(Chuon, K)||(Ro, 8)|
+Player Phat: 
+|(Ro, 4)||(Bich, 10)||(Co, 8)||(Chuon, 2)||(Ro, K)|
+Player An: 
+|(Co, Q)||(Ro, Q)||(Co, J)||(Chuon, 4)||(Bich, 3)|
+Number of Winners: 1
+Congrats player An got , win 9
+Player Quan: 31307
+Player Phat: 31307
+Player An: 3623
+Player Quan: 
+|(Chuon, 6)||(Bich, 6)||(Bich, 7)||(Co, 5)||(Bich, 4)|
+Player Phat: 
+|(Co, 3)||(Co, 8)||(Co, 9)||(Co, 2)||(Co, 6)|
+Player An: 
+|(Chuon, 8)||(Bich, 3)||(Bich, J)||(Bich, 9)||(Chuon, 5)|
+Number of Winners: 1
+Congrats player Phat got , win 9
+Player Quan: 31304
+Player Phat: 31313
+Player An: 3620
+Player Huy: 
+|(Ro, 5)||(Ro, 4)||(Ro, A)||(Co, 3)||(Co, 8)|
+Player Hoang: 
+|(Chuon, Q)||(Chuon, 9)||(Bich, 5)||(Bich, 3)||(Co, J)|
+Player Phat: 
+|(Bich, 4)||(Co, 5)||(Bich, K)||(Chuon, 2)||(Ro, 2)|
+Number of Winners: 3
+Congrats player Huy got , win 616
+Congrats player Hoang got , win 616
+Congrats player Phat got , win 616
+Player Huy: 31616
+Player Hoang: 3161
+Player Phat: 3161
+Player Huy: 
+|(Co, A)||(Bich, 8)||(Bich, 5)||(Co, 6)||(Co, 8)|
+Player Hoang: 
+|(Bich, J)||(Bich, A)||(Chuon, 7)||(Co, 3)||(Bich, 4)|
+Player Phat: 
+|(Ro, 3)||(Bich, K)||(Chuon, A)||(Chuon, 6)||(Bich, Q)|
+Number of Winners: 3
+Congrats player Huy got , win 616
+Congrats player Hoang got , win 616
+Congrats player Phat got , win 616
+Player Huy: 31616
+Player Hoang: 3161
+Player Phat: 3161
+Player Huy: 
+|(Bich, 9)||(Chuon, J)||(Chuon, 10)||(Ro, 9)||(Ro, 6)|
+Player Hoang: 
+|(Bich, 6)||(Chuon, 8)||(Ro, A)||(Co, J)||(Chuon, 9)|
+Player Phat: 
+|(Co, 4)||(Ro, K)||(Bich, Q)||(Ro, Q)||(Chuon, 5)|
+Number of Winners: 3
+Congrats player Huy got , win 616
+Congrats player Hoang got , win 616
+Congrats player Phat got , win 616
+Player Huy: 31616
+Player Hoang: 3161
+Player Phat: 3161
+Player Cuong: 
+|(Ro, 10)||(Ro, 3)||(Chuon, 10)||(Co, K)||(Co, 8)|
+Player An: 
+|(Ro, K)||(Ro, 5)||(Bich, 4)||(Bich, 10)||(Bich, K)|
+Player Nien: 
+|(Bich, A)||(Chuon, 9)||(Chuon, 5)||(Bich, 7)||(Co, 7)|
+Number of Winners: 1
+Congrats player Cuong got Pair, win 9
+Player Cuong: 129
+Player An: 231
+Player Nien: 342
+Player Cuong: 
+|(Co, 10)||(Chuon, 4)||(Ro, 6)||(Chuon, 5)||(Ro, 3)|
+Player An: 
+|(Bich, 6)||(Chuon, J)||(Chuon, 3)||(Co, 2)||(Ro, 2)|
+Player Nien: 
+|(Ro, 10)||(Chuon, 9)||(Chuon, K)||(Co, K)||(Bich, 2)|
+Number of Winners: 1
+Congrats player An got , win 9
+Player Cuong: 126
+Player An: 237
+Player Nien: 339
+Player Vinh: 
+|(Co, 5)||(Chuon, 4)||(Bich, J)||(Chuon, 2)||(Ro, 9)|
+Player Hao: 
+|(Chuon, 7)||(Bich, 5)||(Chuon, K)||(Co, A)||(Co, 8)|
+Player Lan: 
+|(Bich, 2)||(Bich, Q)||(Chuon, J)||(Ro, 7)||(Chuon, 5)|
+Number of Winners: 3
+Congrats player Vinh got , win 2
+Congrats player Hao got , win 2
+Congrats player Lan got , win 2
+Player Vinh: 123
+Player Hao: 234
+Player Lan: 345
+Player Vinh: 
+|(Co, 7)||(Bich, 7)||(Chuon, 6)||(Chuon, 9)||(Bich, 8)|
+Player Hao: 
+|(Co, 5)||(Bich, 2)||(Bich, 6)||(Chuon, K)||(Co, 10)|
+Player Lan: 
+|(Chuon, A)||(Co, 9)||(Chuon, 7)||(Chuon, 10)||(Ro, 3)|
+Number of Winners: 3
+Congrats player Vinh got , win 2
+Congrats player Hao got , win 2
+Congrats player Lan got , win 2
+Player Vinh: 123
+Player Hao: 234
+Player Lan: 345
+Player Loc: 
+|(Bich, 9)||(Chuon, 2)||(Ro, 3)||(Bich, 4)||(Co, 3)|
+Player Phuc: 
+|(Chuon, 6)||(Ro, 2)||(Bich, Q)||(Co, Q)||(Bich, 3)|
+Number of Winners: 2
+Congrats player Loc got Pair, win 1
+Congrats player Phuc got Pair, win 1
+Player Loc: 234
+Player Phuc: 345
+Player Loc: 
+|(Ro, 3)||(Co, 4)||(Ro, J)||(Bich, 8)||(Chuon, 6)|
+Player Phuc: 
+|(Co, 2)||(Co, 7)||(Co, 9)||(Ro, 5)||(Ro, 4)|
+Number of Winners: 2
+Congrats player Loc got , win 1
+Congrats player Phuc got , win 1
+Player Loc: 234
+Player Phuc: 345
+Player Vu: 
+|(Co, 5)||(Bich, 6)||(Bich, A)||(Co, 9)||(Ro, J)|
+Player Truong: 
+|(Co, K)||(Bich, Q)||(Co, 2)||(Bich, 9)||(Bich, 8)|
+Number of Winners: 2
+Congrats player Vu got , win 1
+Congrats player Truong got , win 1
+Player Vu: 123
+Player Truong: 234
+Player Vu: 
+|(Chuon, 9)||(Ro, K)||(Bich, 4)||(Bich, 9)||(Co, A)|
+Player Truong: 
+|(Ro, 2)||(Chuon, 10)||(Ro, 9)||(Co, 5)||(Co, 10)|
+Number of Winners: 2
+Congrats player Vu got , win 1
+Congrats player Truong got , win 1
+Player Vu: 123
+Player Truong: 234
+Player Vu: 
+|(Bich, 3)||(Bich, Q)||(Chuon, 3)||(Chuon, 7)||(Bich, 10)|
+Player Truong: 
+|(Bich, 9)||(Ro, 9)||(Chuon, 9)||(Ro, 7)||(Chuon, 4)|
+Number of Winners: 1
+Congrats player Truong got Pair, win 2
+Player Vu: 122
+Player Truong: 235
+Player Phong: 
+|(Chuon, J)||(Co, Q)||(Ro, 6)||(Ro, A)||(Chuon, 9)|
+Player Quynh: 
+|(Co, 3)||(Chuon, 2)||(Bich, 8)||(Chuon, 10)||(Chuon, K)|
+Number of Winners: 2
+Congrats player Phong got , win 1
+Congrats player Quynh got , win 1
+Player Phong: 123
+Player Quynh: 234
+Player Phong: 
+|(Ro, Q)||(Bich, 2)||(Ro, 2)||(Bich, J)||(Chuon, J)|
+Player Quynh: 
+|(Chuon, 8)||(Bich, 3)||(Chuon, 10)||(Chuon, 5)||(Co, 2)|
+Number of Winners: 2
+Congrats player Phong got , win 1
+Congrats player Quynh got , win 1
+Player Phong: 123
+Player Quynh: 234
+Player Phong: 
+|(Chuon, K)||(Chuon, 4)||(Bich, 5)||(Ro, 10)||(Chuon, 5)|
+Player Quynh: 
+|(Bich, 7)||(Ro, 8)||(Chuon, Q)||(Ro, 4)||(Co, 5)|
+Number of Winners: 2
+Congrats player Phong got , win 1
+Congrats player Quynh got , win 1
+Player Phong: 123
+Player Quynh: 234
+Player Nien: 
+|(Co, 4)||(Ro, 9)||(Ro, K)||(Bich, A)||(Bich, 9)|
+Player Thinh: 
+|(Co, 7)||(Bich, J)||(Ro, 4)||(Ro, 8)||(Co, A)|
+Number of Winners: 2
+Congrats player Nien got , win 1
+Congrats player Thinh got , win 1
+Player Nien: 123
+Player Thinh: 234
+Player Nien: 
+|(Ro, 9)||(Bich, 3)||(Bich, 4)||(Co, 9)||(Ro, 8)|
+Player Thinh: 
+|(Co, 5)||(Chuon, J)||(Chuon, 4)||(Bich, J)||(Chuon, 2)|
+Number of Winners: 1
+Congrats player Nien got Pair, win 2
+Player Nien: 124
+Player Thinh: 233
+Player Nien: 
+|(Bich, K)||(Ro, 8)||(Chuon, A)||(Co, A)||(Co, 9)|
+Player Thinh: 
+|(Chuon, 6)||(Co, 10)||(Chuon, 9)||(Bich, Q)||(Bich, 5)|
+Number of Winners: 2
+Congrats player Nien got , win 1
+Congrats player Thinh got , win 1
+Player Nien: 124
+Player Thinh: 233
+Player Hao: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Number of Winners: 2
+Congrats player Hao got Flush, win 1
+Congrats player Phong got Flush, win 1
+Player Hao: 123
+Player Phong: 234
+Player Hao: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Number of Winners: 2
+Congrats player Hao got Flush, win 1
+Congrats player Phong got Flush, win 1
+Player Hao: 123
+Player Phong: 234
+Player Hao: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Phong: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Number of Winners: 2
+Congrats player Hao got Flush, win 1
+Congrats player Phong got Flush, win 1
+Player Hao: 123
+Player Phong: 234
+Player Loc: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Number of Winners: 2
+Congrats player Loc got Flush, win 1
+Congrats player Vinh got Flush, win 1
+Player Loc: 12
+Player Vinh: 234
+Player Loc: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Number of Winners: 2
+Congrats player Loc got Flush, win 1
+Congrats player Vinh got Flush, win 1
+Player Loc: 12
+Player Vinh: 234
+Player Loc: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Player Vinh: 
+|(Co, A)||(Co, A)||(Co, A)||(Co, A)||(Co, A)|
+Number of Winners: 2
+Congrats player Loc got Flush, win 1
+Congrats player Vinh got Flush, win 1
+Player Loc: 12
+Player Vinh: 234
+Player An: 
+|(Chuon, 5)||(Chuon, 10)||(Chuon, 3)||(Ro, 10)||(Co, 8)|
+Player Vinh: 
+|(Chuon, J)||(Ro, J)||(Chuon, 8)||(Chuon, 4)||(Co, 4)|
+Number of Winners: 1
+Congrats player Vinh got Pair, win 2
+Player An: 122
+Player Vinh: 235
+Player An: 
+|(Chuon, 5)||(Ro, Q)||(Chuon, A)||(Chuon, 10)||(Ro, 6)|
+Player Vinh: 
+|(Co, 4)||(Ro, J)||(Chuon, 6)||(Chuon, 8)||(Bich, 3)|
+Number of Winners: 2
+Congrats player An got , win 1
+Congrats player Vinh got , win 1
+Player An: 122
+Player Vinh: 235
+Player An: 
+|(Co, 7)||(Chuon, 10)||(Bich, A)||(Co, 5)||(Ro, Q)|
+Player Vinh: 
+|(Bich, 4)||(Bich, 9)||(Bich, Q)||(Bich, 3)||(Chuon, 7)|
+Number of Winners: 2
+Congrats player An got , win 1
+Congrats player Vinh got , win 1
+Player An: 122
+Player Vinh: 235
+Player Vu: 
+|(Co, J)||(Ro, 10)||(Ro, 4)||(Ro, 5)||(Bich, A)|
+Player Lan: 
+|(Bich, 2)||(Chuon, 9)||(Bich, 3)||(Co, 6)||(Bich, 5)|
+Number of Winners: 2
+Congrats player Vu got , win 1
+Congrats player Lan got , win 1
+Player Vu: 123
+Player Lan: 123
+Player Vu: 
+|(Bich, Q)||(Bich, J)||(Ro, 8)||(Ro, A)||(Bich, 5)|
+Player Lan: 
+|(Bich, 3)||(Chuon, A)||(Ro, 3)||(Bich, K)||(Chuon, K)|
+Number of Winners: 2
+Congrats player Vu got , win 1
+Congrats player Lan got , win 1
+Player Vu: 123
+Player Lan: 123
+Player Vu: 
+|(Bich, 2)||(Bich, Q)||(Ro, Q)||(Ro, A)||(Co, J)|
+Player Lan: 
+|(Co, 9)||(Chuon, 3)||(Ro, 10)||(Bich, 4)||(Bich, A)|
+Number of Winners: 2
+Congrats player Vu got , win 1
+Congrats player Lan got , win 1
+Player Vu: 123
+Player Lan: 123
